@@ -6,8 +6,38 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700;800&display=swap"
+        rel="stylesheet">
 </head>
 <body>
   <app-root></app-root>
+  <script>
+  window.difyChatbotConfig = {
+    token: "k9jGxL3gdjwG2K1A",
+    baseUrl: "http://localhost:8080",
+  };
+</script>
+<script
+  src="http://localhost:8080/embed.min.js"
+  id="k9jGxL3gdjwG2K1A"
+  defer
+></script>
+<style>
+  #dify-chatbot-bubble-button {
+    background-color: #fd9d1f !important;
+    position: fixed !important;
+    width: 65px !important;
+    height: 65px !important;
+  }
+  #dify-chatbot-bubble-window {
+    width: 30rem !important;
+    height: 40rem !important;
+    margin-bottom: 20px;
+    position: fixed !important;
+  }
+</style>
 </body>
 </html>

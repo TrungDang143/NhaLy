@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'assets/css/all.min.css';
+@import 'assets/css/bootstrap-icons.css';
+@import 'assets/lib/animate/animate.min.css';
+@import 'assets/lib/owlcarousel/assets/owl.carousel.min.css';
+@import 'assets/css/bootstrap.min.css';
+@import 'assets/css/style.css';
