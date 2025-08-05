@@ -123,6 +123,12 @@
 .btn-primary {
   background: linear-gradient(135deg, #b54405 0%, #8b3404 100%);
   border: none;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #8b3404 0%, #6b2803 100%);
+  color: white;
 }
 
 .btn-info {

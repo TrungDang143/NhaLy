@@ -238,6 +238,12 @@
 .btn-primary {
   background: linear-gradient(135deg, #b54405 0%, #8b3404 100%);
   border: none;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #8b3404 0%, #6b2803 100%);
+  color: white;
 }
 
 .btn-outline-info {
@@ -248,4 +254,5 @@
 .btn-outline-info:hover {
   background-color: #17a2b8;
   border-color: #17a2b8;
+  color: white;
 }

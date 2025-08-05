@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { ArticleService } from '../../services/article.service';
 import { King } from '../../models/article.model';
@@ -9,7 +10,7 @@ declare var bootstrap: any;
 @Component({
   selector: 'app-cac-vi-vua',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './cac-vi-vua.component.html',
   styleUrl: './cac-vi-vua.component.css'
 })

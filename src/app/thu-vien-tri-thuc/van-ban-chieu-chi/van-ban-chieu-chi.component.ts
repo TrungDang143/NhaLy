@@ -88,18 +88,7 @@ export class VanBanChieuChiComponent implements OnInit {
       .replace(/<p><br><\/p>/g, '<br>');
   }
 
-  downloadDocument(doc: Document): void {
-    // Create a downloadable text file
-    const blob = new Blob([doc.content], { type: 'text/plain;charset=utf-8' });
-    const url = window.URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `${doc.title}.txt`;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
-  }
+
 
   shareDocument(doc: Document): void {
     if (navigator.share) {

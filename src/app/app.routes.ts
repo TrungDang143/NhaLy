@@ -11,12 +11,14 @@ import { ThuVienTriThucComponent } from './thu-vien-tri-thuc/thu-vien-tri-thuc.c
 import { LoginComponent } from './admin/login/login.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { AuthGuard } from './guards/auth.guard';
+import { DetailViewComponent } from './detail-view/detail-view.component';
 
 export const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'dong-gop', component: DongGopComponent },
+           { path: 'about', component: AboutComponent },
+         { path: 'dong-gop', component: DongGopComponent },
+         { path: 'detail/:id', component: DetailViewComponent },
   
   // Admin routes
   { path: 'admin', component: LoginComponent },

@@ -23,8 +23,12 @@ export class ArticleService {
     return this.articles$;
   }
 
-  getArticleById(id: string): Article | undefined {
-    return this.articlesSubject.value.find(article => article.id === id);
+  getArticleById(id: string): Observable<Article | null> {
+    const article = this.articlesSubject.value.find(article => article.id === id);
+    return new Observable(observer => {
+      observer.next(article || null);
+      observer.complete();
+    });
   }
 
   getArticlesByCategory(category: string): Article[] {
@@ -103,6 +107,7 @@ export class ArticleService {
         <li>Thiết lập quan hệ ngoại giao với các nước láng giềng</li>
         </ul>`,
         summary: 'Tìm hiểu về cuộc đời và sự nghiệp của Lý Công Uẩn, vị hoàng đế sáng lập triều đại Lý.',
+        description: 'Lý Công Uẩn (974-1028) là vị hoàng đế sáng lập triều đại Lý tại Việt Nam. Ông sinh ra tại chùa Cổ Pháp và được thiền sư Vạn Hạnh nuôi dưỡng.',
         imageUrl: 'assets/img/service-1.jpg',
         category: 'kings',
         tags: ['Lý Công Uẩn', 'Hoàng đế', 'Sáng lập', 'Thăng Long'],
@@ -110,7 +115,11 @@ export class ArticleService {
         updatedDate: new Date('2024-01-15'),
         author: 'Nguyễn Ngọc Anh',
         featured: true,
-        sketchfabId: 'abc123def456'
+        date: '1009-1028',
+        location: 'Thăng Long, Hà Nội',
+        sketchfabId: 'abc123def456',
+        sketchfabUrl: 'https://sketchfab.com/models/abc123def456/embed',
+        vrArUrl: 'https://vr-experience.ly-dynasty.com/ly-cong-uan'
       },
       {
         id: '2',
@@ -129,6 +138,7 @@ export class ArticleService {
         <li>Các khu vườn và ao hồ</li>
         </ul>`,
         summary: 'Khám phá kiến trúc và lịch sử của Hoàng thành Thăng Long thời Lý.',
+        description: 'Hoàng thành Thăng Long được xây dựng từ năm 1010 dưới thời Lý Thái Tổ, trở thành trung tâm chính trị, văn hóa của triều đại Lý.',
         imageUrl: 'assets/img/service-3.jpg',
         category: 'maps',
         tags: ['Hoàng thành', 'Thăng Long', 'Kiến trúc', 'Lý Thái Tổ'],
@@ -136,7 +146,11 @@ export class ArticleService {
         updatedDate: new Date('2024-01-10'),
         author: 'Phạm Thị Thanh Hoa',
         featured: true,
-        sketchfabId: 'xyz789uvw012'
+        date: '1010',
+        location: 'Hoàng thành Thăng Long, Hà Nội',
+        sketchfabId: 'xyz789uvw012',
+        sketchfabUrl: 'https://sketchfab.com/models/xyz789uvw012/embed',
+        vrArUrl: 'https://vr-experience.ly-dynasty.com/hoang-thanh'
       },
       {
         id: '3',
@@ -155,13 +169,15 @@ export class ArticleService {
         <li>Đạo đức và phẩm hạnh</li>
         </ul>`,
         summary: 'Tìm hiểu về Văn Miếu - Quốc Tử Giám, cái nôi của nền giáo dục Việt Nam.',
+        description: 'Văn Miếu được xây dựng năm 1070 dưới thời Lý Thánh Tông để thờ Khổng Tử và các bậc hiền tài.',
         imageUrl: 'assets/img/service-6.jpg',
         category: 'culture',
         tags: ['Văn Miếu', 'Quốc Tử Giám', 'Giáo dục', 'Lý Thánh Tông'],
         createdDate: new Date('2024-01-08'),
         updatedDate: new Date('2024-01-08'),
         author: 'Lê Minh Cương',
-        featured: false
+        featured: false,
+        date: '1070'
       }
     ];
   }

@@ -3,6 +3,7 @@ export interface Article {
   title: string;
   content: string;
   summary: string;
+  description: string;
   imageUrl: string;
   category: 'kings' | 'events' | 'documents' | 'maps' | 'culture' | 'archaeology';
   tags: string[];
@@ -10,9 +11,13 @@ export interface Article {
   updatedDate: Date;
   author: string;
   featured: boolean;
+  location?: string;
+  date?: string; // Added for historical dates
   sketchfabId?: string; // For 3D models
+  sketchfabUrl?: string; // For 3D models iframe
   vrContent?: string; // VR content URL
   arContent?: string; // AR content URL
+  vrArUrl?: string; // Combined VR/AR URL
 }
 
 export interface King {

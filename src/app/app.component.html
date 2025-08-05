@@ -12,7 +12,7 @@
 >
   <div class="container py-3">
     <div class="d-flex align-items-center">
-      <a href="index.html">
+      <a routerLink="/home">
         <h2 class="text-white fw-bold m-0">TRIỀU LÝ ẢO CẢNH</h2>
       </a>
       <div class="ms-auto d-flex align-items-center">
@@ -52,7 +52,7 @@
 >
   <div class="container">
     <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
-      <a href="index.html" class="navbar-brand d-lg-none">
+      <a routerLink="/home" class="navbar-brand d-lg-none">
         <h1 class="fw-bold m-0">TRIỀU LÝ ẢO CẢNH</h1>
       </a>
       <button
@@ -70,7 +70,7 @@
           </li>
           <li class="nav-item dropdown">
             <a
-              href="/thu-vien-tri-thuc"
+              routerLink="/thu-vien-tri-thuc"
               class="nav-link dropdown-toggle"
               data-bs-toggle="dropdown"
               >Thư viện tri thức</a
@@ -145,10 +145,10 @@
       </div>
       <div class="col-lg-3 col-md-6">
         <h5 class="text-uppercase text-light mb-4">Danh mục</h5>
-        <a class="btn btn-link" href="">Trang chủ</a>
-        <a class="btn btn-link" href="">Thư viện tri thức</a>
-        <a class="btn btn-link" href="">Đóng góp</a>
-        <a class="btn btn-link" href="">Về chúng tôi</a>
+        <a class="btn btn-link" routerLink="/home">Trang chủ</a>
+        <a class="btn btn-link" routerLink="/thu-vien-tri-thuc">Thư viện tri thức</a>
+        <a class="btn btn-link" routerLink="/dong-gop">Đóng góp</a>
+        <a class="btn btn-link" routerLink="/about">Về chúng tôi</a>
       </div>
       
     </div>

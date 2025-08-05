@@ -159,10 +159,7 @@ export class BieuDoSoDoComponent implements OnInit {
     alert(`Chức năng xem mô hình 3D cho "${map.title}" sẽ được phát triển trong phiên bản tiếp theo`);
   }
 
-  downloadMap(map: MapData): void {
-    // Simulate download
-    alert(`Đang tải xuống bản đồ: ${map.title}`);
-  }
+
 
   openInteractiveMap(): void {
     alert('Chức năng bản đồ tương tác sẽ được phát triển trong phiên bản tiếp theo');

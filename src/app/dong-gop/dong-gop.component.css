@@ -58,6 +58,7 @@
 .btn-primary {
   background: linear-gradient(135deg, #b54405 0%, #8b3404 100%);
   border: none;
+  color: white;
   border-radius: 10px;
   padding: 12px 30px;
   font-weight: 600;
@@ -65,6 +66,8 @@
 }
 
 .btn-primary:hover {
+  background: linear-gradient(135deg, #8b3404 0%, #6b2803 100%);
+  color: white;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(181, 68, 5, 0.4);
 }

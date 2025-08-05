@@ -1,0 +1,267 @@
+<!-- Detail View Component -->
+<div class="detail-container">
+  <!-- Hero Section -->
+  <div class="hero-section" [style.background-image]="'url(' + (item?.imageUrl || 'assets/img/carousel-1.jpg') + ')'">
+    <div class="hero-overlay">
+      <div class="container">
+        <div class="row align-items-center min-vh-75">
+          <div class="col-lg-8">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a routerLink="/home" class="text-white">Trang chủ</a></li>
+                <li class="breadcrumb-item"><a routerLink="/thu-vien-tri-thuc" class="text-white">Thư viện tri thức</a></li>
+                <li class="breadcrumb-item active text-white" aria-current="page">{{ item?.title }}</li>
+              </ol>
+            </nav>
+            <h1 class="display-4 text-white fw-bold mb-4">{{ item?.title }}</h1>
+            <p class="lead text-white mb-4">{{ item?.description }}</p>
+            <div class="d-flex flex-wrap gap-3">
+              <span class="badge bg-primary fs-6">{{ item?.category | titlecase }}</span>
+              <span class="badge bg-success fs-6" *ngIf="item?.date">{{ item?.date }}</span>
+              <span class="badge bg-info fs-6" *ngIf="item?.author">Tác giả: {{ item?.author }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container py-5">
+    <div class="row">
+      <!-- Content Column -->
+      <div class="col-lg-8">
+        <!-- Article Content -->
+        <div class="content-section mb-5">
+          <div class="content-text" [innerHTML]="item?.content"></div>
+        </div>
+
+        <!-- 3D Model Section -->
+        <div class="model-section mb-5" *ngIf="item?.sketchfabUrl">
+          <h3 class="section-title">
+            <i class="fas fa-cube me-2"></i>Mô hình 3D
+          </h3>
+          <div class="model-container">
+            <iframe 
+              [src]="(item?.sketchfabUrl || '') | safe" 
+              frameborder="0" 
+              allowfullscreen 
+              mozallowfullscreen="true" 
+              webkitallowfullscreen="true"
+              class="sketchfab-iframe">
+            </iframe>
+          </div>
+          <div class="model-controls mt-3">
+            <button class="btn btn-outline-primary me-2" (click)="toggleFullscreen()">
+              <i class="fas fa-expand me-1"></i>Toàn màn hình
+            </button>
+            <button class="btn btn-outline-info me-2" (click)="rotateModel()">
+              <i class="fas fa-sync-alt me-1"></i>Xoay mô hình
+            </button>
+            <button class="btn btn-outline-success" (click)="resetModel()">
+              <i class="fas fa-home me-1"></i>Về vị trí gốc
+            </button>
+          </div>
+        </div>
+
+        <!-- VR/AR Section -->
+        <div class="vr-section mb-5" *ngIf="item?.vrArUrl">
+          <h3 class="section-title">
+            <i class="fas fa-vr-cardboard me-2"></i>Trải nghiệm VR/AR
+          </h3>
+          <div class="vr-container">
+            <div class="vr-placeholder">
+              <i class="fas fa-vr-cardboard fa-3x text-primary mb-3"></i>
+              <h4>Trải nghiệm thực tế ảo</h4>
+              <p class="text-muted">Sử dụng thiết bị VR để khám phá {{ item?.title }}</p>
+              <a [href]="item?.vrArUrl" target="_blank" class="btn btn-primary">
+                <i class="fas fa-play me-1"></i>Bắt đầu trải nghiệm
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Related Information -->
+        <div class="related-section mb-5">
+          <h3 class="section-title">
+            <i class="fas fa-link me-2"></i>Thông tin liên quan
+          </h3>
+          <div class="row">
+            <div class="col-md-6 mb-3" *ngFor="let related of relatedItems">
+              <div class="related-card" (click)="navigateToDetail(related.id)">
+                <div class="related-image">
+                  <img [src]="related.imageUrl || 'assets/img/carousel-2.jpg'" [alt]="related.title">
+                </div>
+                <div class="related-content">
+                  <h5>{{ related.title }}</h5>
+                  <p class="text-muted">{{ related.description }}</p>
+                  <span class="badge bg-secondary">{{ related.category }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="col-lg-4">
+        <!-- Quick Info -->
+        <div class="sidebar-card mb-4">
+          <h4 class="card-title">
+            <i class="fas fa-info-circle me-2"></i>Thông tin nhanh
+          </h4>
+          <div class="info-list">
+            <div class="info-item" *ngIf="item?.date">
+              <span class="info-label">Thời gian:</span>
+              <span class="info-value">{{ item?.date }}</span>
+            </div>
+            <div class="info-item" *ngIf="item?.author">
+              <span class="info-label">Tác giả:</span>
+              <span class="info-value">{{ item?.author }}</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Danh mục:</span>
+              <span class="info-value">{{ item?.category | titlecase }}</span>
+            </div>
+            <div class="info-item" *ngIf="item?.location">
+              <span class="info-label">Địa điểm:</span>
+              <span class="info-value">{{ item?.location }}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Share Section -->
+        <div class="sidebar-card mb-4">
+          <h4 class="card-title">
+            <i class="fas fa-share-alt me-2"></i>Chia sẻ
+          </h4>
+          <div class="share-buttons">
+            <button class="btn btn-outline-primary btn-sm me-2" (click)="shareOnFacebook()">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+            <button class="btn btn-outline-info btn-sm me-2" (click)="shareOnTwitter()">
+              <i class="fab fa-twitter"></i>
+            </button>
+            <button class="btn btn-outline-success btn-sm me-2" (click)="shareOnWhatsApp()">
+              <i class="fab fa-whatsapp"></i>
+            </button>
+            <button class="btn btn-outline-secondary btn-sm" (click)="copyLink()">
+              <i class="fas fa-link"></i>
+            </button>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Feedback Section -->
+  <div class="feedback-section py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="feedback-card">
+            <h3 class="text-center mb-4">
+              <i class="fas fa-comments me-2"></i>Góp ý và đánh giá
+            </h3>
+            
+            <!-- Rating -->
+            <div class="rating-section text-center mb-4">
+              <h5>Đánh giá bài viết này</h5>
+              <div class="stars">
+                <i 
+                  *ngFor="let star of [1,2,3,4,5]; let i = index" 
+                  class="fas fa-star star-icon" 
+                  [class.active]="i < rating"
+                  [class.hover]="i < hoverRating"
+                  (click)="setRating(i + 1)"
+                  (mouseenter)="setHoverRating(i + 1)"
+                  (mouseleave)="setHoverRating(0)">
+                </i>
+              </div>
+              <p class="text-muted mt-2">{{ ratingText }}</p>
+            </div>
+
+            <!-- Feedback Form -->
+            <form [formGroup]="feedbackForm" (ngSubmit)="submitFeedback()">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="name" class="form-label">Họ và tên *</label>
+                  <input 
+                    type="text" 
+                    class="form-control" 
+                    id="name" 
+                    formControlName="name"
+                    [class.is-invalid]="feedbackForm.get('name')?.invalid && feedbackForm.get('name')?.touched">
+                  <div class="invalid-feedback" *ngIf="feedbackForm.get('name')?.invalid && feedbackForm.get('name')?.touched">
+                    Vui lòng nhập họ và tên
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input 
+                    type="email" 
+                    class="form-control" 
+                    id="email" 
+                    formControlName="email"
+                    [class.is-invalid]="feedbackForm.get('email')?.invalid && feedbackForm.get('email')?.touched">
+                  <div class="invalid-feedback" *ngIf="feedbackForm.get('email')?.invalid && feedbackForm.get('email')?.touched">
+                    Email không hợp lệ
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="feedbackType" class="form-label">Loại góp ý</label>
+                <select class="form-select" id="feedbackType" formControlName="type">
+                  <option value="">Chọn loại góp ý</option>
+                  <option value="content">Nội dung bài viết</option>
+                  <option value="design">Giao diện</option>
+                  <option value="3d">Mô hình 3D</option>
+                  <option value="technical">Kỹ thuật</option>
+                  <option value="other">Khác</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="message" class="form-label">Nội dung góp ý *</label>
+                <textarea 
+                  class="form-control" 
+                  id="message" 
+                  rows="5" 
+                  formControlName="message"
+                  placeholder="Hãy chia sẻ ý kiến của bạn về bài viết này..."
+                  [class.is-invalid]="feedbackForm.get('message')?.invalid && feedbackForm.get('message')?.touched">
+                </textarea>
+                <div class="invalid-feedback" *ngIf="feedbackForm.get('message')?.invalid && feedbackForm.get('message')?.touched">
+                  Vui lòng nhập nội dung góp ý
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="anonymous" formControlName="anonymous">
+                  <label class="form-check-label" for="anonymous">
+                    Gửi ẩn danh
+                  </label>
+                </div>
+              </div>
+
+              <div class="text-center">
+                <button 
+                  type="submit" 
+                  class="btn btn-primary btn-lg px-5"
+                  [disabled]="feedbackForm.invalid || isSubmitting">
+                  <span *ngIf="isSubmitting" class="spinner-border spinner-border-sm me-2"></span>
+                  <i class="fas fa-paper-plane me-2" *ngIf="!isSubmitting"></i>
+                  {{ isSubmitting ? 'Đang gửi...' : 'Gửi góp ý' }}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
