@@ -1,0 +1,56 @@
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-header {
+  background: linear-gradient(135deg, #b54405 0%, #8b3404 100%);
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 2px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #b54405;
+  box-shadow: 0 0 0 0.2rem rgba(181, 68, 5, 0.25);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #b54405 0%, #8b3404 100%);
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(181, 68, 5, 0.4);
+}
+
+.btn-outline-primary {
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-weight: 500;
+}
+
+.alert-danger {
+  border-radius: 10px;
+  border: none;
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.spinner-border-sm {
+  width: 1rem;
+  height: 1rem;
+}
+
+body {
+  background: linear-gradient(135deg, #b54405 0%, #8b3404 100%);
+  min-height: 100vh;
+}

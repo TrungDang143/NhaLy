@@ -1,1 +1,237 @@
-<p>van-ban-chieu-chi works!</p>
+<!-- Documents Start -->
+<div class="container-fluid py-5">
+  <div class="container">
+    <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+      <h1 class="display-6 text-uppercase mb-4">
+        <i class="fas fa-scroll text-success me-3"></i>
+        Văn Bản, Chiếu Chỉ & Thơ Ca
+      </h1>
+      <p class="text-muted">
+        Khám phá kho tàng văn bản lịch sử, các chiếu chỉ hoàng gia và những tác phẩm thơ ca bất hủ của triều Lý
+      </p>
+    </div>
+
+    <!-- Filter Tabs -->
+    <div class="text-center mb-5">
+      <div class="btn-group document-filter" role="group">
+        <button type="button" class="btn" 
+                [class.btn-success]="selectedType === 'all'" 
+                [class.btn-outline-success]="selectedType !== 'all'"
+                (click)="filterDocuments('all')">
+          <i class="fas fa-list me-2"></i>Tất cả
+        </button>
+        <button type="button" class="btn" 
+                [class.btn-success]="selectedType === 'edict'" 
+                [class.btn-outline-success]="selectedType !== 'edict'"
+                (click)="filterDocuments('edict')">
+          <i class="fas fa-crown me-2"></i>Chiếu chỉ
+        </button>
+        <button type="button" class="btn" 
+                [class.btn-success]="selectedType === 'poem'" 
+                [class.btn-outline-success]="selectedType !== 'poem'"
+                (click)="filterDocuments('poem')">
+          <i class="fas fa-feather me-2"></i>Thơ ca
+        </button>
+        <button type="button" class="btn" 
+                [class.btn-success]="selectedType === 'letter'" 
+                [class.btn-outline-success]="selectedType !== 'letter'"
+                (click)="filterDocuments('letter')">
+          <i class="fas fa-envelope me-2"></i>Thư tín
+        </button>
+        <button type="button" class="btn" 
+                [class.btn-success]="selectedType === 'chronicle'" 
+                [class.btn-outline-success]="selectedType !== 'chronicle'"
+                (click)="filterDocuments('chronicle')">
+          <i class="fas fa-book me-2"></i>Biên niên
+        </button>
+      </div>
+    </div>
+
+    <!-- Documents Grid -->
+    <div class="row g-4">
+      <div class="col-lg-6" *ngFor="let document of filteredDocuments">
+        <div class="card h-100 shadow-sm border-0 document-card">
+          <div class="card-header bg-transparent border-0 pb-0">
+            <div class="d-flex justify-content-between align-items-start">
+              <div>
+                <h5 class="card-title mb-2">{{ document.title }}</h5>
+                <span class="badge" [ngClass]="getDocumentTypeBadgeClass(document.type)">
+                  <i [class]="getDocumentTypeIcon(document.type)" class="me-2"></i>
+                  {{ getDocumentTypeName(document.type) }}
+                </span>
+              </div>
+              <div class="text-end">
+                <div class="document-year" *ngIf="document.year">
+                  {{ document.year }}
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card-body pt-3">
+            <p class="card-text text-muted">{{ document.description }}</p>
+            
+            <div class="document-meta mb-3">
+              <div class="row" *ngIf="document.author">
+                <div class="col-sm-4">
+                  <small class="text-muted">Tác giả:</small>
+                </div>
+                <div class="col-sm-8">
+                  <strong>{{ document.author }}</strong>
+                </div>
+              </div>
+              <div class="row" *ngIf="document.year">
+                <div class="col-sm-4">
+                  <small class="text-muted">Năm:</small>
+                </div>
+                <div class="col-sm-8">
+                  <strong>{{ document.year }}</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- Content Preview -->
+            <div class="document-preview">
+              <h6 class="text-success mb-2">
+                <i class="fas fa-eye me-2"></i>
+                Nội dung:
+              </h6>
+              <div class="preview-text">
+                {{ document.content | slice:0:200 }}...
+              </div>
+            </div>
+          </div>
+          
+          <div class="card-footer bg-transparent border-0 pt-0">
+            <div class="d-flex gap-2">
+              <button class="btn btn-success btn-sm flex-fill" (click)="viewDocument(document)">
+                <i class="fas fa-book-open me-2"></i>
+                Đọc toàn văn
+              </button>
+              <button class="btn btn-outline-primary btn-sm" (click)="downloadDocument(document)">
+                <i class="fas fa-download me-2"></i>
+                Tải về
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- No results message -->
+    <div *ngIf="filteredDocuments.length === 0" class="text-center py-5">
+      <i class="fas fa-search fa-3x text-muted mb-3"></i>
+      <h4 class="text-muted">Không tìm thấy văn bản</h4>
+      <p class="text-muted">Thử thay đổi bộ lọc để xem thêm nội dung</p>
+    </div>
+
+    <!-- Featured Section -->
+    <div class="row mt-5">
+      <div class="col-12">
+        <div class="featured-section bg-gradient-success text-white p-5 rounded-3">
+          <div class="text-center mb-4">
+            <h3>
+              <i class="fas fa-star me-2"></i>
+              Văn Bản Nổi Bật
+            </h3>
+            <p class="lead mb-0">
+              "Nam quốc sơn hà" - Tuyên ngôn độc lập đầu tiên của dân tộc Việt Nam
+            </p>
+          </div>
+          
+          <div class="row align-items-center">
+            <div class="col-md-8">
+              <div class="poem-content">
+                <p class="h5 mb-3 font-italic">
+                  "Nam quốc sơn hà nam đế cư,<br>
+                  Tiệt nhiên định phận tại thiên thư.<br>
+                  Như hà nghịch lỗ lai xâm phạm,<br>
+                  Nhữ đẳng hành khan thủ bại hư."
+                </p>
+                <p class="mb-0">
+                  <strong>Dịch nghĩa:</strong> Sông núi nước Nam vua Nam ở, rành rành định phận ở sách trời. 
+                  Cớ sao lũ giặc đến xâm phạm, chúng bay sẽ bị đánh cho tan tác.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="poem-author">
+                <div class="author-circle bg-white text-success d-inline-flex align-items-center justify-content-center mb-3" 
+                     style="width: 100px; height: 100px; border-radius: 50%;">
+                  <i class="fas fa-user fa-2x"></i>
+                </div>
+                <h5>Lý Thường Kiệt</h5>
+                <p class="mb-0">Tác giả - Năm 1077</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Document Detail Modal -->
+<div class="modal fade" id="documentModal" tabindex="-1" *ngIf="selectedDocument">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">
+          <i [class]="getDocumentTypeIcon(selectedDocument.type)" class="text-success me-2"></i>
+          {{ selectedDocument.title }}
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="document-info bg-light p-3 rounded">
+              <h6 class="text-success mb-3">Thông tin văn bản</h6>
+              <div class="info-item mb-2">
+                <strong>Loại:</strong><br>
+                <span class="badge" [ngClass]="getDocumentTypeBadgeClass(selectedDocument.type)">
+                  {{ getDocumentTypeName(selectedDocument.type) }}
+                </span>
+              </div>
+              <div class="info-item mb-2" *ngIf="selectedDocument.author">
+                <strong>Tác giả:</strong><br>
+                {{ selectedDocument.author }}
+              </div>
+              <div class="info-item mb-2" *ngIf="selectedDocument.year">
+                <strong>Năm:</strong><br>
+                {{ selectedDocument.year }}
+              </div>
+              <div class="info-item">
+                <strong>Mô tả:</strong><br>
+                <small>{{ selectedDocument.description }}</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="document-content">
+              <h6 class="text-success mb-3">
+                <i class="fas fa-file-alt me-2"></i>
+                Nội dung văn bản
+              </h6>
+              <div class="content-text" [innerHTML]="formatDocumentContent(selectedDocument.content)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-success" (click)="downloadDocument(selectedDocument)">
+          <i class="fas fa-download me-2"></i>
+          Tải về
+        </button>
+        <button type="button" class="btn btn-outline-primary" (click)="shareDocument(selectedDocument)">
+          <i class="fas fa-share me-2"></i>
+          Chia sẻ
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Đóng
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Documents End -->

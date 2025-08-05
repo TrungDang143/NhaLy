@@ -1,1 +1,137 @@
-<p>thu-vien-tri-thuc works!</p>
+<!-- Knowledge Library Start -->
+<div class="container-fluid bg-light py-5">
+  <div class="container">
+    <!-- Header Section -->
+    <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+      <h1 class="display-5 text-uppercase mb-4">
+        <i class="fas fa-book-open text-primary me-3"></i>
+        Thư Viện Tri Thức
+      </h1>
+      <p class="lead text-muted">
+        Khám phá kho tàng tri thức phong phú về triều đại Lý - một trong những thời kỳ hoàng kim của lịch sử Việt Nam
+      </p>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-10">
+        <nav class="nav nav-pills nav-justified knowledge-nav">
+          <a class="nav-link" 
+             routerLink="/thu-vien-tri-thuc/cac-vi-vua" 
+             routerLinkActive="active">
+            <i class="fas fa-crown me-2"></i>
+            <span class="d-none d-md-inline">Các Vị Vua</span>
+            <span class="d-md-none">Vua</span>
+          </a>
+          <a class="nav-link" 
+             routerLink="/thu-vien-tri-thuc/su-kien-nhan-vat" 
+             routerLinkActive="active">
+            <i class="fas fa-users me-2"></i>
+            <span class="d-none d-md-inline">Sự Kiện & Nhân Vật</span>
+            <span class="d-md-none">Sự Kiện</span>
+          </a>
+          <a class="nav-link" 
+             routerLink="/thu-vien-tri-thuc/van-ban-chieu-chi" 
+             routerLinkActive="active">
+            <i class="fas fa-scroll me-2"></i>
+            <span class="d-none d-md-inline">Văn Bản & Thơ Ca</span>
+            <span class="d-md-none">Văn Bản</span>
+          </a>
+          <a class="nav-link" 
+             routerLink="/thu-vien-tri-thuc/bieu-do-so-do" 
+             routerLinkActive="active">
+            <i class="fas fa-map me-2"></i>
+            <span class="d-none d-md-inline">Bản Đồ & Sơ Đồ</span>
+            <span class="d-md-none">Bản Đồ</span>
+          </a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Content Area -->
+    <div class="row">
+      <div class="col-12">
+        <div class="knowledge-content bg-white rounded-3 shadow-sm p-4">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="row mt-5">
+      <div class="col-md-3 col-6 text-center mb-4">
+        <div class="stat-card bg-white rounded-3 shadow-sm p-4">
+          <i class="fas fa-crown fa-2x text-warning mb-3"></i>
+          <h4 class="fw-bold">9</h4>
+          <p class="text-muted mb-0">Vị Vua</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 text-center mb-4">
+        <div class="stat-card bg-white rounded-3 shadow-sm p-4">
+          <i class="fas fa-calendar-alt fa-2x text-info mb-3"></i>
+          <h4 class="fw-bold">216</h4>
+          <p class="text-muted mb-0">Năm Trị Vì</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 text-center mb-4">
+        <div class="stat-card bg-white rounded-3 shadow-sm p-4">
+          <i class="fas fa-scroll fa-2x text-success mb-3"></i>
+          <h4 class="fw-bold">150+</h4>
+          <p class="text-muted mb-0">Văn Bản</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 text-center mb-4">
+        <div class="stat-card bg-white rounded-3 shadow-sm p-4">
+          <i class="fas fa-landmark fa-2x text-primary mb-3"></i>
+          <h4 class="fw-bold">50+</h4>
+          <p class="text-muted mb-0">Di Tích</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured Content -->
+    <div class="row mt-5">
+      <div class="col-12">
+        <div class="bg-primary rounded-3 p-5 text-white text-center">
+          <h3 class="mb-3">
+            <i class="fas fa-cube me-2"></i>
+            Trải Nghiệm 3D & VR
+          </h3>
+          <p class="lead mb-4">
+            Khám phá lịch sử triều Lý qua công nghệ hiện đại với các mô hình 3D, thực tế ảo (VR) và thực tế tăng cường (AR)
+          </p>
+          <div class="row justify-content-center">
+            <div class="col-md-4 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-cube fa-2x me-3"></i>
+                <div class="text-start">
+                  <h6 class="mb-1">Mô hình 3D</h6>
+                  <small>Tương tác với các nhân vật và di tích</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-vr-cardboard fa-2x me-3"></i>
+                <div class="text-start">
+                  <h6 class="mb-1">Thực tế ảo (VR)</h6>
+                  <small>Đắm mình trong không gian lịch sử</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-mobile-alt fa-2x me-3"></i>
+                <div class="text-start">
+                  <h6 class="mb-1">Thực tế tăng cường (AR)</h6>
+                  <small>Mang lịch sử vào thế giới thực</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Knowledge Library End -->

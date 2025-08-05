@@ -1,1 +1,200 @@
-<p>cac-vi-vua works!</p>
+<!-- Kings List Start -->
+<div class="container-fluid py-5">
+  <div class="container">
+    <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+      <h1 class="display-6 text-uppercase mb-4">
+        <i class="fas fa-crown text-warning me-3"></i>
+        Các Vị Vua Triều Lý
+      </h1>
+      <p class="text-muted">
+        Khám phá cuộc đời và sự nghiệp của các vị vua đã cai trị triều đại Lý (1009-1225)
+      </p>
+    </div>
+
+    <!-- Filter buttons -->
+    <div class="text-center mb-5">
+      <div class="btn-group" role="group">
+        <button type="button" class="btn" 
+                [class.btn-primary]="selectedFilter === 'all'" 
+                [class.btn-outline-primary]="selectedFilter !== 'all'"
+                (click)="filterKings('all')">
+          Tất cả
+        </button>
+        <button type="button" class="btn" 
+                [class.btn-primary]="selectedFilter === 'early'" 
+                [class.btn-outline-primary]="selectedFilter !== 'early'"
+                (click)="filterKings('early')">
+          Thời kỳ đầu
+        </button>
+        <button type="button" class="btn" 
+                [class.btn-primary]="selectedFilter === 'golden'" 
+                [class.btn-outline-primary]="selectedFilter !== 'golden'"
+                (click)="filterKings('golden')">
+          Thời kỳ hoàng kim
+        </button>
+      </div>
+    </div>
+
+    <!-- Kings Grid -->
+    <div class="row g-4">
+      <div class="col-lg-6 col-xl-4" *ngFor="let king of filteredKings">
+        <div class="card h-100 shadow-sm border-0 king-card">
+          <div class="position-relative">
+            <img [src]="king.imageUrl" class="card-img-top" [alt]="king.name" 
+                 style="height: 300px; object-fit: cover;">
+            <div class="position-absolute top-0 end-0 m-3">
+              <span class="badge bg-warning text-dark fs-6">
+                {{ king.reignPeriod }}
+              </span>
+            </div>
+            <div class="position-absolute bottom-0 start-0 w-100 p-3 bg-gradient-overlay">
+              <h5 class="text-white mb-0">{{ king.name }}</h5>
+            </div>
+          </div>
+          
+          <div class="card-body">
+            <div class="row mb-3">
+              <div class="col-6">
+                <small class="text-muted">Năm sinh</small>
+                <div class="fw-bold">{{ king.birthYear || 'Không rõ' }}</div>
+              </div>
+              <div class="col-6">
+                <small class="text-muted">Năm mất</small>
+                <div class="fw-bold">{{ king.deathYear || 'Không rõ' }}</div>
+              </div>
+            </div>
+            
+            <p class="card-text text-muted">{{ king.biography | slice:0:150 }}...</p>
+            
+            <div class="mb-3">
+              <h6 class="text-primary">
+                <i class="fas fa-star me-2"></i>
+                Thành tựu nổi bật:
+              </h6>
+              <ul class="list-unstyled">
+                <li *ngFor="let achievement of king.achievements.slice(0, 2)" class="mb-1">
+                  <i class="fas fa-check text-success me-2"></i>
+                  <small>{{ achievement }}</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="card-footer bg-transparent border-0 pt-0">
+            <div class="d-flex gap-2">
+              <button class="btn btn-primary btn-sm flex-fill" (click)="viewKingDetail(king)">
+                <i class="fas fa-eye me-2"></i>
+                Chi tiết
+              </button>
+              <button class="btn btn-outline-success btn-sm" 
+                      *ngIf="king.sketchfabId" 
+                      (click)="view3DModel(king.sketchfabId)">
+                <i class="fas fa-cube me-2"></i>
+                3D
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- No results message -->
+    <div *ngIf="filteredKings.length === 0" class="text-center py-5">
+      <i class="fas fa-search fa-3x text-muted mb-3"></i>
+      <h4 class="text-muted">Không tìm thấy kết quả</h4>
+      <p class="text-muted">Thử thay đổi bộ lọc để xem thêm nội dung</p>
+    </div>
+  </div>
+</div>
+
+<!-- King Detail Modal -->
+<div class="modal fade" id="kingDetailModal" tabindex="-1" *ngIf="selectedKing">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">
+          <i class="fas fa-crown text-warning me-2"></i>
+          {{ selectedKing.name }}
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-4">
+            <img [src]="selectedKing.imageUrl" class="img-fluid rounded" [alt]="selectedKing.name">
+            <div class="mt-3">
+              <div class="d-flex justify-content-between mb-2">
+                <strong>Thời gian trị vì:</strong>
+                <span>{{ selectedKing.reignPeriod }}</span>
+              </div>
+              <div class="d-flex justify-content-between mb-2">
+                <strong>Năm sinh:</strong>
+                <span>{{ selectedKing.birthYear || 'Không rõ' }}</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <strong>Năm mất:</strong>
+                <span>{{ selectedKing.deathYear || 'Không rõ' }}</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <h6 class="text-primary mb-3">
+              <i class="fas fa-user me-2"></i>
+              Tiểu sử
+            </h6>
+            <p>{{ selectedKing.biography }}</p>
+            
+            <h6 class="text-primary mb-3 mt-4">
+              <i class="fas fa-trophy me-2"></i>
+              Thành tựu chính
+            </h6>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item border-0 px-0" *ngFor="let achievement of selectedKing.achievements">
+                <i class="fas fa-check text-success me-2"></i>
+                {{ achievement }}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-success" 
+                *ngIf="selectedKing.sketchfabId" 
+                (click)="view3DModel(selectedKing.sketchfabId)">
+          <i class="fas fa-cube me-2"></i>
+          Xem mô hình 3D
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Đóng
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 3D Model Viewer Modal -->
+<div class="modal fade" id="modelViewerModal" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">
+          <i class="fas fa-cube me-2"></i>
+          Mô hình 3D - {{ selectedKing?.name }}
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body p-0">
+        <div class="ratio ratio-16x9">
+          <iframe *ngIf="current3DModel" 
+                  [src]="current3DModel" 
+                  frameborder="0" 
+                  allowfullscreen 
+                  mozallowfullscreen="true" 
+                  webkitallowfullscreen="true">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Kings List End -->

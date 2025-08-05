@@ -1,0 +1,215 @@
+<!-- Admin Dashboard Start -->
+<div class="container-fluid">
+  <div class="row">
+    <!-- Sidebar -->
+    <nav class="col-md-3 col-lg-2 d-md-block bg-dark sidebar">
+      <div class="position-sticky pt-3">
+        <div class="text-center pb-3 border-bottom border-secondary">
+          <h5 class="text-white">
+            <i class="fas fa-crown text-warning me-2"></i>
+            Admin Panel
+          </h5>
+          <small class="text-muted">Triều Lý Ảo Cảnh</small>
+        </div>
+        
+        <ul class="nav flex-column mt-3">
+          <li class="nav-item">
+            <a class="nav-link text-white" [class.active]="activeTab === 'overview'" (click)="setActiveTab('overview')">
+              <i class="fas fa-tachometer-alt me-2"></i>Tổng quan
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" [class.active]="activeTab === 'articles'" (click)="setActiveTab('articles')">
+              <i class="fas fa-newspaper me-2"></i>Bài viết <span class="badge bg-primary ms-2">{{ articles.length }}</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" [class.active]="activeTab === 'kings'" (click)="setActiveTab('kings')">
+              <i class="fas fa-crown me-2"></i>Các vị vua <span class="badge bg-warning ms-2">{{ kings.length }}</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="mt-auto pt-3 border-top border-secondary">
+          <div class="nav-item">
+            <a routerLink="/home" class="nav-link text-white">
+              <i class="fas fa-home me-2"></i>Về trang chủ
+            </a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link text-white" (click)="logout()" style="cursor: pointer;">
+              <i class="fas fa-sign-out-alt me-2"></i>Đăng xuất
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">
+          <i class="fas fa-tachometer-alt me-2 text-primary"></i>Dashboard
+        </h1>
+      </div>
+
+      <!-- Overview Tab -->
+      <div *ngIf="activeTab === 'overview'" class="tab-content">
+        <div class="row mb-4">
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+              <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Tổng bài viết</div>
+                    <div class="h5 mb-0 font-weight-bold text-gray-800">{{ articles.length }}</div>
+                  </div>
+                  <div class="col-auto">
+                    <i class="fas fa-newspaper fa-2x text-gray-300"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+              <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                    <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Bài viết nổi bật</div>
+                    <div class="h5 mb-0 font-weight-bold text-gray-800">{{ getFeaturedArticlesCount() }}</div>
+                  </div>
+                  <div class="col-auto">
+                    <i class="fas fa-star fa-2x text-gray-300"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-warning shadow h-100 py-2">
+              <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                    <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Các vị vua</div>
+                    <div class="h5 mb-0 font-weight-bold text-gray-800">{{ kings.length }}</div>
+                  </div>
+                  <div class="col-auto">
+                    <i class="fas fa-crown fa-2x text-gray-300"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recent Articles -->
+        <div class="card shadow mb-4">
+          <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">
+              <i class="fas fa-newspaper me-2"></i>Bài viết gần đây
+            </h6>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Tiêu đề</th>
+                    <th>Danh mục</th>
+                    <th>Tác giả</th>
+                    <th>Ngày tạo</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let article of articles.slice(0, 5)">
+                    <td>{{ article.title }}</td>
+                    <td>
+                      <span class="badge" [ngClass]="getCategoryBadgeClass(article.category)">
+                        {{ getCategoryName(article.category) }}
+                      </span>
+                    </td>
+                    <td>{{ article.author }}</td>
+                    <td>{{ article.createdDate | date:'dd/MM/yyyy' }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Articles Tab -->
+      <div *ngIf="activeTab === 'articles'" class="tab-content">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h3><i class="fas fa-newspaper me-2"></i>Quản lý bài viết</h3>
+          <button class="btn btn-primary" (click)="openArticleModal()">
+            <i class="fas fa-plus me-2"></i>Thêm bài viết mới
+          </button>
+        </div>
+
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-hover">
+                <thead class="table-dark">
+                  <tr>
+                    <th>Tiêu đề</th>
+                    <th>Danh mục</th>
+                    <th>Tác giả</th>
+                    <th>Thao tác</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let article of articles">
+                    <td>
+                      <strong>{{ article.title }}</strong><br>
+                      <small class="text-muted">{{ article.summary }}</small>
+                    </td>
+                    <td>
+                      <span class="badge" [ngClass]="getCategoryBadgeClass(article.category)">
+                        {{ getCategoryName(article.category) }}
+                      </span>
+                    </td>
+                    <td>{{ article.author }}</td>
+                    <td>
+                      <button class="btn btn-sm btn-outline-primary me-1" (click)="editArticle(article)">
+                        <i class="fas fa-edit"></i>
+                      </button>
+                      <button class="btn btn-sm btn-outline-danger" (click)="deleteArticle(article.id)">
+                        <i class="fas fa-trash"></i>
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kings Tab -->
+      <div *ngIf="activeTab === 'kings'" class="tab-content">
+        <h3><i class="fas fa-crown me-2"></i>Các vị vua triều Lý</h3>
+        <div class="row">
+          <div class="col-lg-4 mb-4" *ngFor="let king of kings">
+            <div class="card shadow h-100">
+              <img [src]="king.imageUrl" class="card-img-top" [alt]="king.name" style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title">{{ king.name }}</h5>
+                <p class="card-text">
+                  <strong>Thời gian trị vì:</strong> {{ king.reignPeriod }}<br>
+                  <strong>Năm sinh - mất:</strong> {{ king.birthYear }} - {{ king.deathYear }}
+                </p>
+                <p class="card-text">{{ king.biography }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+<!-- Admin Dashboard End -->

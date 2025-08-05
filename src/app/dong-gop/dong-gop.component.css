@@ -1,0 +1,258 @@
+.contribution-card {
+  transition: all 0.3s ease;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e9ecef;
+}
+
+.contribution-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.contribution-icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.contribution-card:hover .contribution-icon {
+  transform: scale(1.1);
+}
+
+.card {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background: linear-gradient(135deg, #b54405 0%, #8b3404 100%) !important;
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.form-control,
+.form-select {
+  border-radius: 10px;
+  border: 2px solid #e9ecef;
+  padding: 12px 15px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #b54405;
+  box-shadow: 0 0 0 0.2rem rgba(181, 68, 5, 0.25);
+}
+
+.form-label {
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #b54405 0%, #8b3404 100%);
+  border: none;
+  border-radius: 10px;
+  padding: 12px 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(181, 68, 5, 0.4);
+}
+
+.btn-primary:disabled {
+  opacity: 0.6;
+  transform: none;
+  box-shadow: none;
+}
+
+.guidelines-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+  border: 1px solid #e9ecef;
+}
+
+.contact-info {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e9ecef;
+}
+
+.modal-content {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  border-bottom: 1px solid #e9ecef;
+}
+
+.form-check-input {
+  border-radius: 4px;
+  border: 2px solid #e9ecef;
+}
+
+.form-check-input:checked {
+  background-color: #b54405;
+  border-color: #b54405;
+}
+
+.form-text {
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+.invalid-feedback {
+  font-size: 0.875rem;
+}
+
+.spinner-border-sm {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* List Styles */
+.list-unstyled li {
+  padding: 0.25rem 0;
+}
+
+.list-unstyled i.fa-check {
+  color: #28a745;
+}
+
+/* Background Colors */
+.bg-primary {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%) !important;
+}
+
+.bg-success {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%) !important;
+}
+
+.bg-info {
+  background: linear-gradient(135deg, #17a2b8 0%, #138496 100%) !important;
+}
+
+.bg-warning {
+  background: linear-gradient(135deg, #ffc107 0%, #e0a800 100%) !important;
+}
+
+/* Text Colors */
+.text-primary {
+  color: #007bff !important;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-info {
+  color: #17a2b8 !important;
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contribution-card {
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+  }
+  
+  .contribution-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .contribution-icon i {
+    font-size: 1.5rem !important;
+  }
+  
+  .card-body {
+    padding: 2rem 1rem !important;
+  }
+  
+  .guidelines-section {
+    padding: 2rem 1rem !important;
+  }
+  
+  .contact-info {
+    padding: 1.5rem;
+  }
+  
+  .btn-lg {
+    padding: 10px 25px;
+    font-size: 1rem;
+  }
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contribution-card,
+.card {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Custom File Input */
+.form-control[type="file"] {
+  padding: 8px 12px;
+}
+
+.form-control[type="file"]::-webkit-file-upload-button {
+  background: #b54405;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-control[type="file"]::-webkit-file-upload-button:hover {
+  background: #8b3404;
+}
+
+/* Form Validation */
+.is-invalid {
+  border-color: #dc3545 !important;
+}
+
+.is-valid {
+  border-color: #28a745 !important;
+}
+
+/* Link Styles */
+a {
+  color: #b54405;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #8b3404;
+  text-decoration: underline;
+}

@@ -1,0 +1,114 @@
+.knowledge-nav {
+  background: white;
+  border-radius: 50px;
+  padding: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.knowledge-nav .nav-link {
+  border-radius: 40px;
+  padding: 15px 20px;
+  color: #6c757d;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: none;
+  margin: 0 5px;
+}
+
+.knowledge-nav .nav-link:hover {
+  background-color: rgba(181, 68, 5, 0.1);
+  color: #b54405;
+  transform: translateY(-2px);
+}
+
+.knowledge-nav .nav-link.active {
+  background: linear-gradient(135deg, #b54405 0%, #8b3404 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(181, 68, 5, 0.4);
+}
+
+.knowledge-content {
+  min-height: 500px;
+  border: none;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.stat-card {
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.stat-card h4 {
+  color: #2c3e50;
+  font-size: 2rem;
+}
+
+.bg-primary {
+  background: linear-gradient(135deg, #b54405 0%, #8b3404 100%) !important;
+}
+
+.lead {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .knowledge-nav {
+    border-radius: 15px;
+    padding: 5px;
+  }
+  
+  .knowledge-nav .nav-link {
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 2px;
+    font-size: 0.9rem;
+  }
+  
+  .knowledge-content {
+    padding: 20px 15px !important;
+  }
+  
+  .stat-card {
+    padding: 20px 15px !important;
+  }
+  
+  .stat-card h4 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Custom scrollbar for content area */
+.knowledge-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.knowledge-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.knowledge-content::-webkit-scrollbar-thumb {
+  background: #b54405;
+  border-radius: 10px;
+}
+
+.knowledge-content::-webkit-scrollbar-thumb:hover {
+  background: #8b3404;
+}
