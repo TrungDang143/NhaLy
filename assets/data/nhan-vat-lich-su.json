@@ -1,0 +1,166 @@
+{
+  "nhanVatLichSu": [
+    {
+      "ten": "Lý Công Uẩn",
+      "hieu": "Lý Thái Tổ",
+      "nam": "974-1028",
+      "viTri": "Vua sáng lập nhà Lý",
+      "moTa": "Vị vua đầu tiên của triều đại nhà Lý, có công dời đô về Thăng Long",
+      "thanhTuu": [
+        "Sáng lập triều đại nhà Lý",
+        "Dời đô từ Hoa Lư về Thăng Long",
+        "Xây dựng Hoàng Thành Thăng Long",
+        "Phát triển Phật giáo"
+      ],
+      "tamQuan": true
+    },
+    {
+      "ten": "Lý Phật Mã",
+      "hieu": "Lý Thái Tông",
+      "nam": "1000-1054",
+      "viTri": "Vua thứ hai nhà Lý",
+      "moTa": "Vị vua văn võ song toàn, ban hành bộ luật Hình Thư",
+      "thanhTuu": [
+        "Ban hành Hình Thư",
+        "Xây chùa Một Cột",
+        "Đánh Chiêm Thành",
+        "Dẹp loạn ba vương"
+      ],
+      "tamQuan": true
+    },
+    {
+      "ten": "Lý Nhật Tôn",
+      "hieu": "Lý Thánh Tông",
+      "nam": "1023-1072",
+      "viTri": "Vua thứ ba nhà Lý",
+      "moTa": "Vị vua có công đổi tên nước thành Đại Việt",
+      "thanhTuu": [
+        "Đổi quốc hiệu thành Đại Việt",
+        "Xây Văn Miếu",
+        "Mở rộng lãnh thổ",
+        "Phát triển Nho giáo"
+      ],
+      "tamQuan": true
+    },
+    {
+      "ten": "Lý Càn Đức",
+      "hieu": "Lý Nhân Tông",
+      "nam": "1066-1128",
+      "viTri": "Vua thứ tư nhà Lý",
+      "moTa": "Vị vua trị vì lâu nhất trong lịch sử phong kiến Việt Nam",
+      "thanhTuu": [
+        "Tổ chức khoa thi đầu tiên",
+        "Lập Quốc Tử Giám",
+        "Kháng chiến chống Tống",
+        "Phát triển giáo dục"
+      ],
+      "tamQuan": true
+    },
+    {
+      "ten": "Lý Thường Kiệt",
+      "hieu": "Thái úy",
+      "nam": "1019-1105",
+      "viTri": "Tướng quân, Thái úy",
+      "moTa": "Danh tướng lừng lẫy, chỉ huy kháng chiến chống Tống",
+      "thanhTuu": [
+        "Chỉ huy kháng chiến chống Tống",
+        "Đánh Tống năm 1075",
+        "Bảo vệ độc lập dân tộc",
+        "Tác giả bài thơ 'Nam quốc sơn hà'"
+      ],
+      "tamQuan": true
+    },
+    {
+      "ten": "Thiền sư Vạn Hạnh",
+      "hieu": "Thiền sư",
+      "nam": "938-1025",
+      "viTri": "Thiền sư, cố vấn triều đình",
+      "moTa": "Thiền sư có công lớn trong việc tôn Lý Công Uẩn lên ngôi",
+      "thanhTuu": [
+        "Tôn Lý Công Uẩn lên ngôi",
+        "Cố vấn cho vua Lý Thái Tổ",
+        "Phát triển Phật giáo",
+        "Để lại nhiều bài thơ Thiền"
+      ],
+      "tamQuan": true
+    },
+    {
+      "ten": "Đào Cam Mộc",
+      "hieu": "Đại thần",
+      "nam": "Thế kỷ 10-11",
+      "viTri": "Đại thần triều đình",
+      "moTa": "Đại thần có công tôn Lý Công Uẩn lên ngôi",
+      "thanhTuu": [
+        "Tôn Lý Công Uẩn lên ngôi",
+        "Phò tá vua Lý Thái Tổ",
+        "Củng cố triều đình"
+      ],
+      "tamQuan": false
+    },
+    {
+      "ten": "Lê Văn Thịnh",
+      "hieu": "Trạng nguyên",
+      "nam": "1038-1096",
+      "viTri": "Trạng nguyên đầu tiên",
+      "moTa": "Người đỗ đầu khoa thi Nho học đầu tiên năm 1075",
+      "thanhTuu": [
+        "Đỗ đầu khoa thi đầu tiên",
+        "Làm quan đến chức Thái sư",
+        "Đóng góp cho giáo dục Nho học"
+      ],
+      "tamQuan": true
+    },
+    {
+      "ten": "Mãn Giác",
+      "hieu": "Thiền sư",
+      "nam": "1052-1096",
+      "viTri": "Thiền sư",
+      "moTa": "Thiền sư nổi tiếng, tác giả bài thơ 'Cáo tật thị chúng'",
+      "thanhTuu": [
+        "Tác giả bài thơ 'Cáo tật thị chúng'",
+        "Phát triển Thiền tông",
+        "Để lại nhiều tác phẩm văn học"
+      ],
+      "tamQuan": false
+    },
+    {
+      "ten": "Không Lộ",
+      "hieu": "Thiền sư",
+      "nam": "1016-1094",
+      "viTri": "Thiền sư",
+      "moTa": "Thiền sư nổi tiếng, tác giả bài thơ 'Ngôn hoài'",
+      "thanhTuu": [
+        "Tác giả bài thơ 'Ngôn hoài'",
+        "Phát triển Thiền tông",
+        "Để lại nhiều tác phẩm văn học"
+      ],
+      "tamQuan": false
+    },
+    {
+      "ten": "Từ Đạo Hạnh",
+      "hieu": "Thiền sư",
+      "nam": "1072-1116",
+      "viTri": "Thiền sư",
+      "moTa": "Thiền sư nổi tiếng, tu hành tại chùa Thầy",
+      "thanhTuu": [
+        "Tu hành tại chùa Thầy",
+        "Phát triển Thiền tông",
+        "Để lại nhiều giai thoại"
+      ],
+      "tamQuan": false
+    },
+    {
+      "ten": "Lý Chiêu Hoàng",
+      "hieu": "Nữ hoàng",
+      "nam": "1218-1278",
+      "viTri": "Nữ hoàng cuối cùng nhà Lý",
+      "moTa": "Vị nữ hoàng cuối cùng của triều đại nhà Lý",
+      "thanhTuu": [
+        "Nữ hoàng đầu tiên Việt Nam",
+        "Nhường ngôi cho Trần Cảnh",
+        "Kết thúc triều đại nhà Lý"
+      ],
+      "tamQuan": true
+    }
+  ]
+} 

@@ -1,0 +1,112 @@
+{
+  "diTichLichSu": [
+    {
+      "ten": "Hoàng Thành Thăng Long",
+      "viTri": "Hà Nội",
+      "nam": 1010,
+      "moTa": "Kinh thành được xây dựng theo mô hình 'Tam trùng thành quách'",
+      "giaTri": "Di sản văn hóa thế giới",
+      "hinhAnh": "hoang-thanh.jpg",
+      "tamQuan": true
+    },
+    {
+      "ten": "Chùa Một Cột",
+      "viTri": "Hà Nội",
+      "nam": 1049,
+      "moTa": "Chùa Diên Hựu, được xây dựng theo giấc mơ của vua Lý Thái Tông",
+      "giaTri": "Biểu tượng văn hóa Việt Nam",
+      "hinhAnh": "chua-mot-cot.jpg",
+      "tamQuan": true
+    },
+    {
+      "ten": "Văn Miếu - Quốc Tử Giám",
+      "viTri": "Hà Nội",
+      "nam": "1070-1076",
+      "moTa": "Văn Miếu xây năm 1070, Quốc Tử Giám lập năm 1076",
+      "giaTri": "Trường đại học đầu tiên của Việt Nam",
+      "hinhAnh": "van-mieu.jpg",
+      "tamQuan": true
+    },
+    {
+      "ten": "Tháp Báo Thiên",
+      "viTri": "Hà Nội",
+      "nam": 1057,
+      "moTa": "Tháp chùa Sùng Khánh Báo Thiên, cao 12 tầng",
+      "giaTri": "Một trong 'An Nam tứ đại khí'",
+      "hinhAnh": "thap-bao-thien.jpg",
+      "tamQuan": false
+    },
+    {
+      "ten": "Chùa Dâu",
+      "viTri": "Bắc Ninh",
+      "nam": "Thời Lý",
+      "moTa": "Chùa cổ nhất Việt Nam, trung tâm Phật giáo quan trọng",
+      "giaTri": "Di tích lịch sử văn hóa quốc gia",
+      "hinhAnh": "chua-dau.jpg",
+      "tamQuan": false
+    },
+    {
+      "ten": "Chùa Phật Tích",
+      "viTri": "Bắc Ninh",
+      "nam": "Thời Lý",
+      "moTa": "Chùa nổi tiếng với tượng Phật A Di Đà bằng đá",
+      "giaTri": "Di tích lịch sử văn hóa quốc gia",
+      "hinhAnh": "chua-phat-tich.jpg",
+      "tamQuan": false
+    },
+    {
+      "ten": "Chùa Long Đọi",
+      "viTri": "Hà Nam",
+      "nam": "Thời Lý",
+      "moTa": "Chùa Sùng Thiện Diên Linh, có tháp cao 13 tầng",
+      "giaTri": "Di tích lịch sử văn hóa quốc gia",
+      "hinhAnh": "chua-long-doi.jpg",
+      "tamQuan": false
+    },
+    {
+      "ten": "Chùa Thầy",
+      "viTri": "Hà Nội",
+      "nam": "Thời Lý",
+      "moTa": "Chùa Thiên Phúc, nơi tu hành của thiền sư Từ Đạo Hạnh",
+      "giaTri": "Di tích lịch sử văn hóa quốc gia",
+      "hinhAnh": "chua-thay.jpg",
+      "tamQuan": false
+    },
+    {
+      "ten": "Đền Lý Bát Đế",
+      "viTri": "Bắc Ninh",
+      "nam": "Thời Lý",
+      "moTa": "Đền thờ 8 vị vua triều Lý tại quê hương Lý Thái Tổ",
+      "giaTri": "Di tích lịch sử văn hóa quốc gia",
+      "hinhAnh": "den-ly-bat-de.jpg",
+      "tamQuan": false
+    },
+    {
+      "ten": "Chùa Dạm",
+      "viTri": "Bắc Ninh",
+      "nam": "Thời Lý",
+      "moTa": "Chùa Đại Lãm, một trong những ngôi chùa lớn thời Lý",
+      "giaTri": "Di tích lịch sử văn hóa quốc gia",
+      "hinhAnh": "chua-dam.jpg",
+      "tamQuan": false
+    },
+    {
+      "ten": "Tháp Chương Sơn",
+      "viTri": "Nam Định",
+      "nam": "Thời Lý",
+      "moTa": "Tháp chùa Chương Sơn, kiến trúc độc đáo thời Lý",
+      "giaTri": "Di tích lịch sử văn hóa quốc gia",
+      "hinhAnh": "thap-chuong-son.jpg",
+      "tamQuan": false
+    },
+    {
+      "ten": "Chùa Bút Tháp",
+      "viTri": "Bắc Ninh",
+      "nam": "Thời Lý",
+      "moTa": "Chùa Ninh Phúc, nổi tiếng với tượng Phật nghìn tay nghìn mắt",
+      "giaTri": "Di tích lịch sử văn hóa quốc gia",
+      "hinhAnh": "chua-but-thap.jpg",
+      "tamQuan": false
+    }
+  ]
+} 

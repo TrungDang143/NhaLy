@@ -1,0 +1,158 @@
+{
+  "suKienLichSu": [
+    {
+      "nam": 1009,
+      "suKien": "Lý Công Uẩn lên ngôi",
+      "moTa": "Thiền sư Vạn Hạnh và Đào Cam Mộc tôn Lý Công Uẩn lên ngôi, lập nên nhà Lý",
+      "viVua": "Lý Thái Tổ",
+      "tamQuan": true
+    },
+    {
+      "nam": 1010,
+      "suKien": "Dời đô về Thăng Long",
+      "moTa": "Lý Thái Tổ ban Chiếu dời đô, chuyển kinh đô từ Hoa Lư về Thăng Long",
+      "viVua": "Lý Thái Tổ",
+      "tamQuan": true
+    },
+    {
+      "nam": 1012,
+      "suKien": "Đánh Nam Chiếu",
+      "moTa": "Đánh đuổi quân Nam Chiếu xâm lấn châu Vị Long",
+      "viVua": "Lý Thái Tổ",
+      "tamQuan": false
+    },
+    {
+      "nam": 1014,
+      "suKien": "Đánh tan 20 vạn quân Nam Chiếu",
+      "moTa": "Dẹp tan cuộc xâm lược lớn của Nam Chiếu tại châu Bình Lâm",
+      "viVua": "Lý Thái Tổ",
+      "tamQuan": false
+    },
+    {
+      "nam": 1028,
+      "suKien": "Lý Thái Tông lên ngôi",
+      "moTa": "Lý Phật Mã kế vị sau khi Lý Thái Tổ băng hà",
+      "viVua": "Lý Thái Tông",
+      "tamQuan": false
+    },
+    {
+      "nam": 1042,
+      "suKien": "Ban hành Hình Thư",
+      "moTa": "Ban hành bộ luật thành văn đầu tiên của Việt Nam",
+      "viVua": "Lý Thái Tông",
+      "tamQuan": true
+    },
+    {
+      "nam": 1044,
+      "suKien": "Đánh Chiêm Thành",
+      "moTa": "Cầm quân đánh thẳng vào kinh đô Chiêm Thành, chém chết vua Chiêm",
+      "viVua": "Lý Thái Tông",
+      "tamQuan": false
+    },
+    {
+      "nam": 1049,
+      "suKien": "Xây chùa Diên Hựu",
+      "moTa": "Xây dựng chùa Một Cột theo giấc mơ thấy Phật Bà Quan Âm",
+      "viVua": "Lý Thái Tông",
+      "tamQuan": false
+    },
+    {
+      "nam": 1054,
+      "suKien": "Đổi quốc hiệu thành Đại Việt",
+      "moTa": "Lý Thánh Tông đổi tên nước từ Đại Cồ Việt thành Đại Việt",
+      "viVua": "Lý Thánh Tông",
+      "tamQuan": true
+    },
+    {
+      "nam": 1070,
+      "suKien": "Xây Văn Miếu",
+      "moTa": "Xây dựng Văn Miếu tại Thăng Long để thờ Khổng Tử",
+      "viVua": "Lý Thánh Tông",
+      "tamQuan": true
+    },
+    {
+      "nam": 1069,
+      "suKien": "Chinh phạt Chiêm Thành",
+      "moTa": "Bắt vua Chế Củ, sáp nhập 3 châu Địa Lý, Ma Linh, Bố Chính",
+      "viVua": "Lý Thánh Tông",
+      "tamQuan": false
+    },
+    {
+      "nam": 1072,
+      "suKien": "Lý Nhân Tông lên ngôi",
+      "moTa": "Lý Càn Đức lên ngôi khi mới 7 tuổi",
+      "viVua": "Lý Nhân Tông",
+      "tamQuan": false
+    },
+    {
+      "nam": 1075,
+      "suKien": "Khoa thi đầu tiên",
+      "moTa": "Tổ chức khoa thi Nho học đầu tiên, Lê Văn Thịnh đỗ đầu",
+      "viVua": "Lý Nhân Tông",
+      "tamQuan": true
+    },
+    {
+      "nam": 1076,
+      "suKien": "Lập Quốc Tử Giám",
+      "moTa": "Thành lập Quốc Tử Giám - trường đại học đầu tiên của Việt Nam",
+      "viVua": "Lý Nhân Tông",
+      "tamQuan": true
+    },
+    {
+      "nam": "1075-1077",
+      "suKien": "Kháng chiến chống Tống",
+      "moTa": "Lý Thường Kiệt chỉ huy đánh Tống, bảo vệ độc lập dân tộc",
+      "viVua": "Lý Nhân Tông",
+      "tamQuan": true
+    },
+    {
+      "nam": 1108,
+      "suKien": "Xây đê Cơ Xá",
+      "moTa": "Xây dựng đê Cơ Xá trên sông Hồng",
+      "viVua": "Lý Nhân Tông",
+      "tamQuan": false
+    },
+    {
+      "nam": 1128,
+      "suKien": "Lý Thần Tông lên ngôi",
+      "moTa": "Lý Dương Hoán kế vị sau khi Lý Nhân Tông băng hà",
+      "viVua": "Lý Thần Tông",
+      "tamQuan": false
+    },
+    {
+      "nam": 1138,
+      "suKien": "Lý Anh Tông lên ngôi",
+      "moTa": "Lý Thiên Tộ kế vị khi mới 3 tuổi",
+      "viVua": "Lý Anh Tông",
+      "tamQuan": false
+    },
+    {
+      "nam": 1175,
+      "suKien": "Lý Cao Tông lên ngôi",
+      "moTa": "Lý Long Trát kế vị khi mới 3 tuổi",
+      "viVua": "Lý Cao Tông",
+      "tamQuan": false
+    },
+    {
+      "nam": 1210,
+      "suKien": "Lý Huệ Tông lên ngôi",
+      "moTa": "Lý Sảm kế vị",
+      "viVua": "Lý Huệ Tông",
+      "tamQuan": false
+    },
+    {
+      "nam": 1224,
+      "suKien": "Lý Chiêu Hoàng lên ngôi",
+      "moTa": "Lý Phật Kim (Chiêu Hoàng) lên ngôi khi mới 7 tuổi",
+      "viVua": "Lý Chiêu Hoàng",
+      "tamQuan": false
+    },
+    {
+      "nam": 1225,
+      "suKien": "Nhà Lý kết thúc",
+      "moTa": "Lý Chiêu Hoàng nhường ngôi cho Trần Cảnh, nhà Trần thành lập",
+      "viVua": "Lý Chiêu Hoàng",
+      "tamQuan": true
+    }
+  ]
+} 
