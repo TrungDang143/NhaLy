@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ArticleService } from '../../services/article.service';
 import { Article, HistoricalEvent, King } from '../../models/article.model';
+import { DataService } from '../../services/data.service';
 
 declare var bootstrap: any;
 
@@ -19,10 +20,20 @@ export class SuKienNhanVatComponent implements OnInit {
   selectedEvent: HistoricalEvent | null = null;
   selectedArticle: Article | null = null;
 
-  constructor(private articleService: ArticleService) {}
+  // Dữ liệu từ JSON
+  suKienList: any[] = [];
+  nhanVatList: any[] = [];
+  selectedSuKien: any = null;
+  selectedNhanVat: any = null;
+
+  constructor(
+    private articleService: ArticleService,
+    private dataService: DataService
+  ) {}
 
   ngOnInit(): void {
     this.loadData();
+    this.loadDataFromJson();
   }
 
   loadData(): void {
@@ -38,6 +49,34 @@ export class SuKienNhanVatComponent implements OnInit {
 
     this.articleService.getKings().subscribe(kings => {
       this.kings = kings;
+    });
+  }
+
+  loadDataFromJson(): void {
+    // Load sự kiện lịch sử
+    this.dataService.getSuKienLichSuData().subscribe({
+      next: (data) => {
+        if (data && data.suKienLichSu) {
+          this.suKienList = data.suKienLichSu;
+          console.log('Loaded su kien data:', this.suKienList);
+        }
+      },
+      error: (error) => {
+        console.error('Error loading su kien data:', error);
+      }
+    });
+
+    // Load nhân vật lịch sử
+    this.dataService.getNhanVatLichSuData().subscribe({
+      next: (data) => {
+        if (data && data.nhanVatLichSu) {
+          this.nhanVatList = data.nhanVatLichSu;
+          console.log('Loaded nhan vat data:', this.nhanVatList);
+        }
+      },
+      error: (error) => {
+        console.error('Error loading nhan vat data:', error);
+      }
     });
   }
 
@@ -95,5 +134,34 @@ export class SuKienNhanVatComponent implements OnInit {
   openTimeline(): void {
     // TODO: Implement timeline viewer
     alert('Chức năng dòng thời gian sẽ được phát triển trong phiên bản tiếp theo');
+  }
+
+  // Methods cho dữ liệu JSON
+  viewSuKienDetail(suKien: any): void {
+    this.selectedSuKien = suKien;
+    const modal = new bootstrap.Modal(document.getElementById('suKienDetailModal'));
+    modal.show();
+  }
+
+  viewNhanVatDetail(nhanVat: any): void {
+    this.selectedNhanVat = nhanVat;
+    const modal = new bootstrap.Modal(document.getElementById('nhanVatDetailModal'));
+    modal.show();
+  }
+
+  getSuKienByVua(viVua: string): any[] {
+    return this.suKienList.filter(suKien => suKien.viVua === viVua);
+  }
+
+  getNhanVatByViTri(viTri: string): any[] {
+    return this.nhanVatList.filter(nhanVat => nhanVat.viTri.includes(viTri));
+  }
+
+  getTamQuanSuKien(): any[] {
+    return this.suKienList.filter(suKien => suKien.tamQuan);
+  }
+
+  getTamQuanNhanVat(): any[] {
+    return this.nhanVatList.filter(nhanVat => nhanVat.tamQuan);
   }
 }

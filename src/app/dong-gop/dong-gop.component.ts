@@ -26,7 +26,7 @@ export class DongGopComponent implements OnInit {
       contributionType: ['', [Validators.required]],
       title: ['', [Validators.required]],
       content: ['', [Validators.required, Validators.minLength(10)]],
-      agreement: [false, [Validators.requiredTrue]]
+      // agreement: [false, [Validators.requiredTrue]]
     });
   }
 

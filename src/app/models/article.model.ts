@@ -30,6 +30,33 @@ export interface King {
   achievements: string[];
   imageUrl: string;
   sketchfabId?: string;
+  // Thêm các thuộc tính mới
+  tenThat?: string;
+  tuoiTho?: number;
+  noiSinh?: string;
+  nienHieu?: string[]; // Đổi từ niênHiệu thành nienHieu
+  thongTinChiTiet?: {
+    thanThe?: string;
+    hoangHau?: string;
+    conCai?: string;
+    kyLuc?: string[];
+    thanhTuuChiTiet?: {
+      doiDo?: string;
+      xayDung?: string;
+      moRong?: string;
+      phatGiao?: string;
+      quanSu?: string;
+      phapLuat?: string;
+      vanHoa?: string;
+      doiTenNuoc?: string;
+      nhoGiao?: string;
+      chinhSach?: string;
+      nongNghiep?: string;
+      quanDoi?: string;
+      doiNgoai?: string;
+      giaoDuc?: string;
+    };
+  };
 }
 
 export interface HistoricalEvent {
@@ -52,4 +79,43 @@ export interface Document {
   year?: number;
   description: string;
   imageUrl?: string;
+}
+
+// Interface cho dữ liệu vua từ JSON
+export interface VuaData {
+  id?: number;
+  ten: string;
+  tenThat?: string;
+  nienHieu?: string[]; // Đổi từ niênHiệu thành nienHieu
+  ngaySinh?: string;
+  ngayMat?: string;
+  thoiGianTriVi: string;
+  tuoiTho?: number;
+  noiSinh?: string;
+  thanThe: string;
+  thanhTuu: string[];
+  imageUrl?: string;
+  sketchfabId?: string;
+  thongTinChiTiet?: {
+    thanThe?: string;
+    hoangHau?: string;
+    conCai?: string;
+    kyLuc?: string[];
+    thanhTuuChiTiet?: {
+      doiDo?: string;
+      xayDung?: string;
+      moRong?: string;
+      phatGiao?: string;
+      quanSu?: string;
+      phapLuat?: string;
+      vanHoa?: string;
+      doiTenNuoc?: string;
+      nhoGiao?: string;
+      chinhSach?: string;
+      nongNghiep?: string;
+      quanDoi?: string;
+      doiNgoai?: string;
+      giaoDuc?: string;
+    };
+  };
 }

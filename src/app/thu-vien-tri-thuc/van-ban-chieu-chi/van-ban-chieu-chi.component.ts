@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ArticleService } from '../../services/article.service';
 import { Document } from '../../models/article.model';
+import { DataService } from '../../services/data.service';
 
 declare var bootstrap: any;
 
@@ -18,16 +19,38 @@ export class VanBanChieuChiComponent implements OnInit {
   selectedType = 'all';
   selectedDocument: Document | null = null;
 
-  constructor(private articleService: ArticleService) {}
+  // Dữ liệu từ JSON
+  diTichList: any[] = [];
+  selectedDiTich: any = null;
+
+  constructor(
+    private articleService: ArticleService,
+    private dataService: DataService
+  ) {}
 
   ngOnInit(): void {
     this.loadDocuments();
+    this.loadDataFromJson();
   }
 
   loadDocuments(): void {
     this.articleService.getDocuments().subscribe(documents => {
       this.documents = documents;
       this.filteredDocuments = documents;
+    });
+  }
+
+  loadDataFromJson(): void {
+    this.dataService.getDiTichLichSuData().subscribe({
+      next: (data) => {
+        if (data && data.diTichLichSu) {
+          this.diTichList = data.diTichLichSu;
+          console.log('Loaded di tich data:', this.diTichList);
+        }
+      },
+      error: (error) => {
+        console.error('Error loading di tich data:', error);
+      }
     });
   }
 
@@ -104,5 +127,29 @@ export class VanBanChieuChiComponent implements OnInit {
         alert('Đã sao chép link chia sẻ vào clipboard!');
       });
     }
+  }
+
+  // Methods cho dữ liệu di tích
+  viewDiTichDetail(diTich: any): void {
+    this.selectedDiTich = diTich;
+    const modal = new bootstrap.Modal(document.getElementById('diTichDetailModal'));
+    modal.show();
+  }
+
+  getDiTichByViTri(viTri: string): any[] {
+    return this.diTichList.filter(diTich => diTich.viTri === viTri);
+  }
+
+  getTamQuanDiTich(): any[] {
+    return this.diTichList.filter(diTich => diTich.tamQuan);
+  }
+
+  getDiTichByNam(nam: number): any[] {
+    return this.diTichList.filter(diTich => {
+      if (typeof diTich.nam === 'number') {
+        return diTich.nam === nam;
+      }
+      return false;
+    });
   }
 }

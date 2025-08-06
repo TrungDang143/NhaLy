@@ -1,59 +1,161 @@
-# NhaLy
+# NhaLy - Ứng dụng Thư viện Tri thức Triều đại Nhà Lý
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
+Ứng dụng web tương tác về triều đại nhà Lý (1009-1225) với dữ liệu phong phú từ các file JSON.
 
-## Development server
+## 🚀 Tính năng chính
 
-To start a local development server, run:
+### 📚 Thư viện Tri thức
+- **Các vị vua**: Thông tin chi tiết về 4 vị vua chính của triều Lý
+- **Sự kiện lịch sử**: 22 sự kiện quan trọng từ 1009-1225
+- **Nhân vật lịch sử**: Danh sách các nhân vật nổi bật
+- **Di tích lịch sử**: Thông tin về các di tích thời Lý
+- **Văn bản chiếu chỉ**: Các văn bản lịch sử quan trọng
 
+### 🗺️ Biểu đồ & Sơ đồ
+- Bản đồ lãnh thổ triều Lý
+- Sơ đồ kiến trúc Hoàng thành Thăng Long
+- Bản đồ trận đánh lịch sử
+- Mạng lưới giao thông thời Lý
+
+### 🎯 Dữ liệu JSON
+Ứng dụng sử dụng 4 file JSON chính:
+
+1. **`tri-dai-ly-data.json`** - Thông tin tổng quan về triều đại
+2. **`su-kien-lich-su.json`** - Các sự kiện lịch sử quan trọng
+3. **`nhan-vat-lich-su.json`** - Danh sách nhân vật lịch sử
+4. **`di-tich-lich-su.json`** - Thông tin di tích lịch sử
+
+## 🛠️ Cài đặt & Chạy
+
+### Yêu cầu hệ thống
+- Node.js (version 16+)
+- Angular CLI (version 19+)
+
+### Cài đặt
 ```bash
+npm install
+```
+
+### Chạy ứng dụng
+
+#### Local Development
+```bash
+npm run serve:local
+# hoặc
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+#### Production (với base href cho GitHub Pages)
 ```bash
-ng generate component component-name
+npm run serve:prod
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Build
 
+#### Development
 ```bash
-ng generate --help
+npm run build:dev
 ```
 
-## Building
-
-To build the project run:
-
+#### Production
 ```bash
-ng build
+npm run build:prod
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
+### Deploy lên GitHub Pages
 ```bash
-ng test
+npm run deploy
 ```
 
-## Running end-to-end tests
+## 📁 Cấu trúc dữ liệu
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
+### Triều đại Lý (`tri-dai-ly-data.json`)
+```json
+{
+  "triDaiLy": {
+    "thongTinChung": {
+      "ten": "Triều đại nhà Lý",
+      "thoiGianTonTai": "1009-1225",
+      "soNam": 216,
+      "soDoiVua": 9
+    },
+    "cacViVua": [
+      {
+        "ten": "Lý Thái Tổ",
+        "tenThat": "Lý Công Uẩn",
+        "thoiGianTriVi": "19 năm (1009-1028)",
+        "thanhTuu": [...]
+      }
+    ]
+  }
+}
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### Sự kiện lịch sử (`su-kien-lich-su.json`)
+```json
+{
+  "suKienLichSu": [
+    {
+      "nam": 1010,
+      "suKien": "Dời đô về Thăng Long",
+      "moTa": "Lý Thái Tổ ban Chiếu dời đô...",
+      "viVua": "Lý Thái Tổ",
+      "tamQuan": true
+    }
+  ]
+}
+```
 
-## Additional Resources
+## 🎨 Giao diện
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Ứng dụng sử dụng:
+- **Bootstrap 5** cho UI framework
+- **Angular 19** cho frontend framework
+- **Responsive design** cho mobile và desktop
+- **Modern UI/UX** với animations và transitions
+
+## 🔧 Cấu hình
+
+### Base Href
+- **Local development**: `/`
+- **GitHub Pages**: `/NhaLy/`
+
+### Environment
+- **Development**: `ng serve`
+- **Production**: `ng build --base-href=/NhaLy/`
+
+## 📊 Thống kê dữ liệu
+
+- **4 vị vua chính** với thông tin chi tiết
+- **22 sự kiện lịch sử** quan trọng
+- **12 nhân vật lịch sử** nổi bật
+- **12 di tích lịch sử** quan trọng
+- **5 bản đồ và sơ đồ** tương tác
+
+## 🌟 Tính năng nổi bật
+
+- ✅ **Dữ liệu phong phú** từ JSON files
+- ✅ **Giao diện responsive** 
+- ✅ **Tương tác 3D** (đang phát triển)
+- ✅ **Bản đồ tương tác** (đang phát triển)
+- ✅ **VR/AR support** (đang phát triển)
+- ✅ **Deploy tự động** lên GitHub Pages
+
+## 📝 Ghi chú
+
+- Ứng dụng sử dụng dữ liệu mock làm fallback khi không load được JSON
+- Các tính năng 3D, VR/AR đang trong giai đoạn phát triển
+- Dữ liệu được cập nhật từ các nguồn lịch sử đáng tin cậy
+
+## 🤝 Đóng góp
+
+Mọi đóng góp đều được chào đón! Vui lòng:
+1. Fork repository
+2. Tạo feature branch
+3. Commit changes
+4. Push to branch
+5. Tạo Pull Request
+
+## 📄 License
+
+MIT License - xem file LICENSE để biết thêm chi tiết.

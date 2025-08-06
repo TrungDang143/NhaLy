@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { Article, King, HistoricalEvent, Document } from '../models/article.model';
+import { DataService } from './data.service';
 
 @Injectable({
   providedIn: 'root'
@@ -16,7 +17,9 @@ export class ArticleService {
   events$ = this.eventsSubject.asObservable();
   documents$ = this.documentsSubject.asObservable();
 
-  constructor() { }
+  constructor(private dataService: DataService) { 
+    this.loadDataFromJson();
+  }
 
   // Articles methods
   getArticles(): Observable<Article[]> {
@@ -56,6 +59,103 @@ export class ArticleService {
   deleteArticle(id: string): void {
     const currentArticles = this.articlesSubject.value;
     this.articlesSubject.next(currentArticles.filter(article => article.id !== id));
+  }
+
+  // Load data from JSON files
+  private loadDataFromJson(): void {
+    this.dataService.loadAllData().subscribe({
+      next: (data) => {
+        if (data.triDaiLy) {
+          this.loadKingsFromData(data.triDaiLy);
+        }
+        if (data.suKienLichSu) {
+          this.loadEventsFromData(data.suKienLichSu);
+        }
+        if (data.nhanVatLichSu) {
+          this.loadArticlesFromData(data.nhanVatLichSu);
+        }
+        if (data.diTichLichSu) {
+          this.loadDocumentsFromData(data.diTichLichSu);
+        }
+      },
+      error: (error) => {
+        console.error('Error loading data from JSON:', error);
+        // Fallback to mock data if JSON loading fails
+        this.loadMockData();
+      }
+    });
+  }
+
+  private loadKingsFromData(data: any): void {
+    const kings: King[] = data.triDaiLy.cacViVua.map((vua: any, index: number) => ({
+      id: (index + 1).toString(),
+      name: vua.ten,
+      title: vua.tenThat,
+      reign: vua.thoiGianTriVi,
+      birthYear: vua.ngaySinh,
+      deathYear: vua.ngayMat,
+      achievements: vua.thanhTuu,
+      description: vua.thanThe,
+      imageUrl: `assets/img/service-${index + 1}.jpg`,
+      era: vua.niênHiệu.join(', '),
+      birthplace: vua.noiSinh,
+      age: vua.tuoiTho
+    }));
+    this.kingsSubject.next(kings);
+  }
+
+  private loadEventsFromData(data: any): void {
+    const events: HistoricalEvent[] = data.suKienLichSu.map((event: any, index: number) => ({
+      id: (index + 1).toString(),
+      title: event.suKien,
+      date: event.nam.toString(),
+      description: event.moTa,
+      significance: `Sự kiện quan trọng dưới thời ${event.viVua}`,
+      relatedKings: [event.viVua],
+      imageUrl: `assets/img/carousel-${(index % 4) + 1}.jpg`,
+      location: 'Thăng Long'
+    }));
+    this.eventsSubject.next(events);
+  }
+
+  private loadArticlesFromData(data: any): void {
+    const articles: Article[] = data.nhanVatLichSu.map((nhanVat: any, index: number) => ({
+      id: (index + 1).toString(),
+      title: `${nhanVat.ten} - ${nhanVat.hieu}`,
+      content: `<h2>${nhanVat.ten}</h2><p>${nhanVat.moTa}</p><h3>Thành tựu:</h3><ul>${nhanVat.thanhTuu.map((t: string) => `<li>${t}</li>`).join('')}</ul>`,
+      summary: nhanVat.moTa,
+      description: nhanVat.moTa,
+      imageUrl: `assets/img/service-${(index % 8) + 1}.jpg`,
+      category: 'kings' as any,
+      tags: [nhanVat.viTri, nhanVat.hieu],
+      createdDate: new Date(),
+      updatedDate: new Date(),
+      author: 'Admin',
+      featured: nhanVat.tamQuan
+    }));
+    this.articlesSubject.next(articles);
+  }
+
+  private loadDocumentsFromData(data: any): void {
+    const documents: Document[] = data.diTichLichSu.map((diTich: any, index: number) => ({
+      id: (index + 1).toString(),
+      title: diTich.ten,
+      type: 'historical_site' as any,
+      content: diTich.moTa,
+      author: 'Triều đại Lý',
+      year: typeof diTich.nam === 'number' ? diTich.nam : 1000,
+      description: diTich.giaTri,
+      imageUrl: `assets/img/service-${(index % 8) + 1}.jpg`
+    }));
+    this.documentsSubject.next(documents);
+  }
+
+  private loadMockData(): void {
+    // Fallback to original mock data if JSON loading fails
+    this.kingsSubject.next(this.getMockKings());
+    this.eventsSubject.next(this.getMockEvents());
+    this.articlesSubject.next(this.getMockArticles());
+    this.documentsSubject.next(this.getMockDocuments());
   }
 
   // Kings methods

@@ -259,3 +259,121 @@ a:hover {
   color: #8b3404;
   text-decoration: underline;
 }
+
+/* Required field indicator */
+.required-field::after {
+  content: " *";
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* For checkboxes and radio buttons */
+.form-check-label.required-field::after {
+  content: " *";
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* Custom Dropdown Styling */
+.form-select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23b54405' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m1 6 7 7 7-7'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.form-select:hover {
+  border-color: #b54405;
+  box-shadow: 0 0 0 0.1rem rgba(181, 68, 5, 0.15);
+}
+
+.form-select:focus {
+  border-color: #b54405;
+  box-shadow: 0 0 0 0.2rem rgba(181, 68, 5, 0.25);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23b54405' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m1 6 7 7 7-7'/%3e%3c/svg%3e");
+}
+
+/* Dropdown options styling */
+.form-select option {
+  padding: 12px 15px;
+  background-color: white;
+  color: #2c3e50;
+  font-weight: 500;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.form-select option:hover {
+  background-color: #f8f9fa;
+  color: #b54405;
+}
+
+.form-select option:checked {
+  background-color: #b54405;
+  color: white;
+  font-weight: 600;
+}
+
+.form-select option:first-child {
+  color: #000000;
+  font-style: italic;
+}
+
+/* Custom dropdown container */
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-container::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #b54405;
+  pointer-events: none;
+  transition: transform 0.3s ease;
+}
+
+.form-select:focus + .dropdown-container::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+/* Animation for dropdown */
+.form-select {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-select:focus {
+  transform: translateY(-1px);
+}
+
+/* Placeholder styling */
+.form-select:invalid {
+  color: #6c757d;
+}
+
+.form-select option[value=""] {
+  color: black;
+  font-style: italic;
+}
+
+/* Hover effect for the entire select container */
+.form-select-container {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.form-select-container:hover .form-select {
+  border-color: #b54405;
+  box-shadow: 0 0 0 0.1rem rgba(181, 68, 5, 0.15);
+}

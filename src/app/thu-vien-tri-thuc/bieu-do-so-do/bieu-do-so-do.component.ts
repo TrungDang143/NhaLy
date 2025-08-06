@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DataService } from '../../services/data.service';
 
 declare var bootstrap: any;
 
@@ -28,10 +29,16 @@ export class BieuDoSoDoComponent implements OnInit {
   selectedCategory = 'all';
   selectedMap: MapData | null = null;
 
-  constructor() {}
+  // Dữ liệu từ JSON
+  triDaiLyData: any = null;
+  suKienList: any[] = [];
+  diTichList: any[] = [];
+
+  constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
     this.loadMaps();
+    this.loadDataFromJson();
   }
 
   loadMaps(): void {
@@ -121,6 +128,47 @@ export class BieuDoSoDoComponent implements OnInit {
     this.filteredMaps = this.maps;
   }
 
+  loadDataFromJson(): void {
+    // Load dữ liệu tổng quan
+    this.dataService.getTriDaiLyData().subscribe({
+      next: (data) => {
+        if (data && data.triDaiLy) {
+          this.triDaiLyData = data.triDaiLy;
+          console.log('Loaded tri dai ly data:', this.triDaiLyData);
+        }
+      },
+      error: (error) => {
+        console.error('Error loading tri dai ly data:', error);
+      }
+    });
+
+    // Load sự kiện lịch sử
+    this.dataService.getSuKienLichSuData().subscribe({
+      next: (data) => {
+        if (data && data.suKienLichSu) {
+          this.suKienList = data.suKienLichSu;
+          console.log('Loaded su kien data:', this.suKienList);
+        }
+      },
+      error: (error) => {
+        console.error('Error loading su kien data:', error);
+      }
+    });
+
+    // Load di tích lịch sử
+    this.dataService.getDiTichLichSuData().subscribe({
+      next: (data) => {
+        if (data && data.diTichLichSu) {
+          this.diTichList = data.diTichLichSu;
+          console.log('Loaded di tich data:', this.diTichList);
+        }
+      },
+      error: (error) => {
+        console.error('Error loading di tich data:', error);
+      }
+    });
+  }
+
   filterMaps(category: string): void {
     this.selectedCategory = category;
     
@@ -192,5 +240,30 @@ export class BieuDoSoDoComponent implements OnInit {
 
   resetView(): void {
     alert('Chức năng đặt lại view sẽ được phát triển trong phiên bản tiếp theo');
+  }
+
+  // Methods cho dữ liệu JSON
+  getSuKienByNam(nam: number): any[] {
+    return this.suKienList.filter(suKien => suKien.nam === nam);
+  }
+
+  getDiTichByViTri(viTri: string): any[] {
+    return this.diTichList.filter(diTich => diTich.viTri === viTri);
+  }
+
+  getTamQuanSuKien(): any[] {
+    return this.suKienList.filter(suKien => suKien.tamQuan);
+  }
+
+  getTamQuanDiTich(): any[] {
+    return this.diTichList.filter(diTich => diTich.tamQuan);
+  }
+
+  getThongTinChung(): any {
+    return this.triDaiLyData ? this.triDaiLyData.thongTinChung : null;
+  }
+
+  getCacViVua(): any[] {
+    return this.triDaiLyData ? this.triDaiLyData.cacViVua : [];
   }
 }

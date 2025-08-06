@@ -24,8 +24,9 @@
 .btn-group .btn {
   border-radius: 25px;
   font-weight: 500;
-  padding: 8px 20px;
-  margin: 0 5px;
+  padding: 8px 16px;
+  margin: 0 3px;
+  font-size: 0.9rem;
 }
 
 .list-group-item {
@@ -64,6 +65,9 @@
   border: none;
   color: white;
   transition: all 0.3s ease;
+  border-radius: 25px;
+  font-weight: 500;
+  padding: 8px 20px;
 }
 
 .btn-primary:hover {
@@ -71,19 +75,39 @@
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(181, 68, 5, 0.4);
+  border-radius: 25px;
 }
 
-.btn-outline-success {
-  border-color: #28a745;
-  color: #28a745;
+/* Specific styling for detail buttons */
+.btn-sm {
+  border-radius: 20px !important;
+  font-size: 0.875rem;
+  padding: 6px 16px;
+  font-weight: 500;
+}
+
+/* Modal buttons */
+.modal-footer .btn {
+  border-radius: 25px;
+  font-weight: 500;
+  padding: 8px 20px;
   transition: all 0.3s ease;
 }
 
-.btn-outline-success:hover {
-  background-color: #28a745;
-  border-color: #28a745;
-  color: white;
+.modal-footer .btn:hover {
   transform: translateY(-2px);
+}
+
+.btn-secondary {
+  border-radius: 25px;
+  font-weight: 500;
+  padding: 8px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(108, 117, 125, 0.4);
 }
 
 .modal-content {
@@ -123,5 +147,172 @@
   .btn-group .btn {
     margin: 5px 0;
     border-radius: 25px;
+    width: 100%;
   }
 }
+
+@media (max-width: 576px) {
+  .btn-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .btn-group .btn {
+    margin: 0;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    padding: 8px 12px;
+  }
+}
+
+/* 3D Model Button Styling */
+.btn-outline-success {
+  border-color: #28a745;
+  color: #28a745;
+  transition: all 0.3s ease;
+  border-radius: 25px;
+  font-weight: 500;
+  padding: 8px 20px;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+  transform: translateY(-2px);
+  border-radius: 25px;
+}
+
+.btn-outline-success:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* 3D Modal Styling */
+#modelViewerModal .modal-header {
+  background: linear-gradient(135deg, #17a2b8 0%, #138496 100%);
+  color: white;
+  border-radius: 15px 15px 0 0;
+}
+
+#modelViewerModal .modal-content {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+#modelViewerModal .modal-body {
+  background: #000;
+}
+
+#modelViewerModal iframe {
+  border-radius: 0;
+  background: #000;
+}
+
+/* Loading state for 3D model */
+.ratio-16x9 {
+  background: linear-gradient(45deg, #f0f0f0 25%, transparent 25%), 
+              linear-gradient(-45deg, #f0f0f0 25%, transparent 25%), 
+              linear-gradient(45deg, transparent 75%, #f0f0f0 75%), 
+              linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+  0% { background-position: 0 0, 0 10px, 10px -10px, -10px 0px; }
+  100% { background-position: 20px 20px, 20px 30px, 30px 10px, 10px 20px; }
+}
+
+/* Modal Image Styling */
+.modal-body img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Square image container */
+.king-detail-image {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.king-detail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top; /* Cắt từ phần đầu của ảnh */
+  transition: transform 0.3s ease;
+}
+
+.king-detail-image:hover img {
+  transform: scale(1.05);
+}
+
+/* Responsive square images */
+@media (max-width: 768px) {
+  .king-detail-image {
+    height: 300px;
+  }
+  
+  .modal-body img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .king-detail-image {
+    height: 250px;
+  }
+  
+  .modal-body img {
+    height: 250px;
+  }
+}
+
+/* Custom smaller 3D modal */
+.model-3d-custom {
+  max-width: 800px !important;
+  width: 90%;
+}
+
+.model-3d-custom .modal-content {
+  max-height: 80vh;
+}
+
+.model-3d-custom .modal-body {
+  max-height: 60vh;
+  overflow: hidden;
+}
+
+.model-3d-custom .ratio-16x9 {
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+  .model-3d-custom {
+    max-width: 95% !important;
+    margin: 1rem auto;
+  }
+  
+  .model-3d-custom .ratio-16x9 {
+    height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .model-3d-custom .ratio-16x9 {
+    height: 250px;
+  }
+}
+

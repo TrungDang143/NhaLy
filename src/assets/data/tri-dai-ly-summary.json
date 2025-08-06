@@ -1,0 +1,52 @@
+{
+  "triDaiLy": {
+    "thongTinChung": {
+      "ten": "Triều đại nhà Lý",
+      "thoiGian": "1009-1225",
+      "soNam": 216,
+      "soDoiVua": 9,
+      "quocHieu": ["Đại Cồ Việt", "Đại Việt"],
+      "kinhDo": ["Hoa Lư", "Thăng Long"]
+    },
+    "cacViVua": [
+      {
+        "ten": "Lý Thái Tổ",
+        "triVi": "1009-1028",
+        "thanhTuu": ["Dời đô về Thăng Long", "Xây dựng Hoàng Thành", "Phát triển Phật giáo"]
+      },
+      {
+        "ten": "Lý Thái Tông", 
+        "triVi": "1028-1054",
+        "thanhTuu": ["Ban hành Hình Thư", "Xây chùa Một Cột", "Đánh Chiêm Thành"]
+      },
+      {
+        "ten": "Lý Thánh Tông",
+        "triVi": "1054-1072", 
+        "thanhTuu": ["Đổi tên nước thành Đại Việt", "Xây Văn Miếu", "Mở rộng lãnh thổ"]
+      },
+      {
+        "ten": "Lý Nhân Tông",
+        "triVi": "1072-1128",
+        "thanhTuu": ["Tổ chức khoa thi đầu tiên", "Lập Quốc Tử Giám", "Kháng chiến chống Tống"]
+      }
+    ],
+    "thanhTuuChinh": [
+      "Xây dựng nhà nước quân chủ tập quyền",
+      "Ban hành bộ luật Hình Thư",
+      "Dời đô về Thăng Long",
+      "Phát triển Phật giáo và Nho giáo",
+      "Kháng chiến chống Tống thắng lợi",
+      "Mở rộng lãnh thổ về phía Nam"
+    ],
+    "vanHoa": {
+      "tonGiao": ["Phật giáo (quốc giáo)", "Nho giáo", "Đạo giáo"],
+      "giaoDuc": ["Văn Miếu (1070)", "Quốc Tử Giám (1076)", "Khoa thi đầu tiên (1075)"],
+      "kienTruc": ["Hoàng Thành Thăng Long", "Chùa Một Cột", "Tháp Báo Thiên"]
+    },
+    "kinhTe": {
+      "nongNghiep": "Phát triển mạnh, nhiều năm bội thu",
+      "thuCong": ["Dệt lụa", "Gốm men ngọc", "Đúc đồng"],
+      "thuongNghiep": "Vân Đồn - thương cảng lớn"
+    }
+  }
+} 

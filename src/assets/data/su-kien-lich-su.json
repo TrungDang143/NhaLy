@@ -1,0 +1,246 @@
+{
+  "suKienLichSu": [
+    {
+      "id": 1,
+      "nam": 1009,
+      "ten": "Lý Công Uẩn lên ngôi",
+      "moTa": "Lý Công Uẩn được thiền sư Vạn Hạnh và Đào Cam Mộc tôn lên ngôi hoàng đế, lập nên triều đại nhà Lý",
+      "viVua": "Lý Thái Tổ",
+      "diaDiem": "Hoa Lư",
+      "tamQuan": true,
+      "loaiSuKien": "chinh_tri",
+      "chiTiet": "Sau khi Lê Long Đĩnh qua đời, các đại thần và giới tăng lữ đã đồng lòng tôn Lý Công Uẩn lên ngôi. Ông đặt niên hiệu là Thuận Thiên, truy phong tước vương cho cha mẹ và phong thưởng cho các công thần."
+    },
+    {
+      "id": 2,
+      "nam": 1010,
+      "ten": "Dời đô về Thăng Long",
+      "moTa": "Lý Thái Tổ ban Chiếu dời đô từ Hoa Lư về thành Đại La và đổi tên thành Thăng Long",
+      "viVua": "Lý Thái Tổ",
+      "diaDiem": "Thăng Long (Hà Nội)",
+      "tamQuan": true,
+      "loaiSuKien": "chinh_tri",
+      "chiTiet": "Tháng 7 năm Canh Tuất, Lý Thái Tổ ban 'Chiếu dời đô' phân tích lợi thế của Đại La so với Hoa Lư. Khi đoàn thuyền đến dưới chân thành, có hình ảnh rồng vàng bay lên, nhà vua đổi tên thành Thăng Long."
+    },
+    {
+      "id": 3,
+      "nam": 1012,
+      "ten": "Đánh quân Nam Chiếu",
+      "moTa": "Lý Thái Tổ sai quân đánh quân Nam Chiếu xâm nhập châu Vị Long",
+      "viVua": "Lý Thái Tổ",
+      "diaDiem": "Châu Vị Long (Cao Bằng)",
+      "tamQuan": false,
+      "loaiSuKien": "quan_su",
+      "chiTiet": "Cuối năm Nhâm Tý, nghe tin báo người Nam Chiếu xâm nhập châu Vị Long, vua sai quân đi đánh, bắt được rất nhiều người và hơn 1 vạn con ngựa."
+    },
+    {
+      "id": 4,
+      "nam": 1014,
+      "ten": "Đánh tan 20 vạn quân Nam Chiếu",
+      "moTa": "Dực Thánh vương đem quân đánh 20 vạn quân Nam Chiếu tại châu Bình Lâm",
+      "viVua": "Lý Thái Tổ",
+      "diaDiem": "Châu Bình Lâm (Cao Bằng)",
+      "tamQuan": true,
+      "loaiSuKien": "quan_su",
+      "chiTiet": "Tháng giêng năm Giáp Dần, 20 vạn quân Nam Chiếu tràn vào châu Bình Lâm. Vua sai Dực Thánh vương đem quân đi đánh, chém được hơn 1 vạn đầu, bắt sống được quân lính và ngựa không kể xiết."
+    },
+    {
+      "id": 5,
+      "nam": 1028,
+      "ten": "Lý Thái Tông lên ngôi",
+      "moTa": "Lý Phật Mã lên ngôi sau khi dẹp loạn ba vương",
+      "viVua": "Lý Thái Tông",
+      "diaDiem": "Thăng Long",
+      "tamQuan": false,
+      "loaiSuKien": "chinh_tri",
+      "chiTiet": "Sau khi Lý Thái Tổ qua đời, xảy ra loạn ba vương. Lý Thái Tông đã dẹp yên và lên ngôi hoàng đế, đặt niên hiệu là Thiên Thành."
+    },
+    {
+      "id": 6,
+      "nam": 1042,
+      "ten": "Ban hành Hình Thư",
+      "moTa": "Lý Thái Tông ban hành bộ luật Hình Thư - bộ luật thành văn đầu tiên của Việt Nam",
+      "viVua": "Lý Thái Tông",
+      "diaDiem": "Thăng Long",
+      "tamQuan": true,
+      "loaiSuKien": "phap_luat",
+      "chiTiet": "Vua sai các quan san định lại luật lệ cho phù hợp, chia thành môn loại, điều khoản rõ ràng. Bộ luật quy định việc bảo vệ nhà vua, cung điện, tài sản và nghiêm cấm mổ trâu bò."
+    },
+    {
+      "id": 7,
+      "nam": 1044,
+      "ten": "Đánh Chiêm Thành",
+      "moTa": "Lý Thái Tông cầm quân đánh thẳng vào kinh đô Chiêm Thành",
+      "viVua": "Lý Thái Tông",
+      "diaDiem": "Chiêm Thành",
+      "tamQuan": true,
+      "loaiSuKien": "quan_su",
+      "chiTiet": "Giặc Chiêm Thành quấy phá vùng biên, Lý Thái Tông cầm quân đánh thẳng vào kinh đô Chiêm Thành, chém chết vua Chiêm. Từ ấy, bờ cõi được yên ổn."
+    },
+    {
+      "id": 8,
+      "nam": 1049,
+      "ten": "Xây chùa Diên Hựu",
+      "moTa": "Lý Thái Tông cho xây chùa Diên Hựu (chùa Một Cột) theo giấc mơ thấy Phật Bà Quan Âm",
+      "viVua": "Lý Thái Tông",
+      "diaDiem": "Thăng Long",
+      "tamQuan": true,
+      "loaiSuKien": "van_hoa",
+      "chiTiet": "Theo truyền thuyết, vua mơ thấy Phật Bà Quan Âm tọa trên đài sen mời nhà vua lên cùng. Tỉnh giấc, vua kể với bề tôi và nhà sư Thiền Tuệ khuyên nên dựng chùa như trong giấc mơ."
+    },
+    {
+      "id": 9,
+      "nam": 1054,
+      "ten": "Đổi tên nước thành Đại Việt",
+      "moTa": "Lý Thánh Tông đổi quốc hiệu từ Đại Cồ Việt thành Đại Việt",
+      "viVua": "Lý Thánh Tông",
+      "diaDiem": "Thăng Long",
+      "tamQuan": true,
+      "loaiSuKien": "chinh_tri",
+      "chiTiet": "Sau khi lên ngôi, vua Lý Thánh Tông quyết định đổi tên nước từ Đại Cồ Việt thành Đại Việt, mở ra thời kỳ thịnh vượng cho đất nước. Quốc hiệu này tồn tại 346 năm."
+    },
+    {
+      "id": 10,
+      "nam": 1056,
+      "ten": "Ban Chiếu khuyến nông",
+      "moTa": "Lý Thánh Tông ban Chiếu khuyến nông và đích thân đi thăm hỏi việc đồng áng",
+      "viVua": "Lý Thánh Tông",
+      "diaDiem": "Cả nước",
+      "tamQuan": false,
+      "loaiSuKien": "kinh_te",
+      "chiTiet": "Vua ban Chiếu khuyến nông và đích thân đi tới các miền quê để khảo sát tình hình thực tế việc chăm sóc và gặt lúa của người dân trong nước."
+    },
+    {
+      "id": 11,
+      "nam": 1069,
+      "ten": "Đánh Chiêm Thành",
+      "moTa": "Lý Thánh Tông đánh Chiêm Thành, bắt được vua Chiêm Chế Củ",
+      "viVua": "Lý Thánh Tông",
+      "diaDiem": "Chiêm Thành",
+      "tamQuan": true,
+      "loaiSuKien": "quan_su",
+      "chiTiet": "Vua Lý Thánh Tông đánh Chiêm Thành, bắt được vua Chiêm là Chế Củ và sáp nhập ba châu Địa Lý, Ma Linh, Bố Chính (nay thuộc Quảng Bình, Quảng Trị) vào lãnh thổ Đại Việt."
+    },
+    {
+      "id": 12,
+      "nam": 1070,
+      "ten": "Xây dựng Văn Miếu",
+      "moTa": "Lý Thánh Tông cho xây dựng Văn Miếu tại Thăng Long để thờ Khổng Tử",
+      "viVua": "Lý Thánh Tông",
+      "diaDiem": "Thăng Long",
+      "tamQuan": true,
+      "loaiSuKien": "van_hoa",
+      "chiTiet": "Vua cho xây dựng Văn Miếu không chỉ để thờ Khổng Tử, Chu Công và các bậc hiền triết Nho gia mà còn là nơi để Hoàng thái tử đến học tập."
+    },
+    {
+      "id": 13,
+      "nam": 1072,
+      "ten": "Lý Nhân Tông lên ngôi",
+      "moTa": "Lý Càn Đức lên ngôi khi mới 7 tuổi, trở thành vị vua trẻ nhất",
+      "viVua": "Lý Nhân Tông",
+      "diaDiem": "Thăng Long",
+      "tamQuan": false,
+      "loaiSuKien": "chinh_tri",
+      "chiTiet": "Sau khi Lý Thánh Tông qua đời, thái tử Lý Càn Đức lên ngôi khi mới 7 tuổi, trở thành vị vua trẻ nhất và trị vì lâu nhất trong lịch sử phong kiến Việt Nam."
+    },
+    {
+      "id": 14,
+      "nam": 1075,
+      "ten": "Tổ chức khoa thi đầu tiên",
+      "moTa": "Lý Nhân Tông tổ chức khoa thi Nho học đầu tiên, Lê Văn Thịnh đỗ đầu",
+      "viVua": "Lý Nhân Tông",
+      "diaDiem": "Thăng Long",
+      "tamQuan": true,
+      "loaiSuKien": "giao_duc",
+      "chiTiet": "Vua cho mở khoa thi Minh kinh bác học và Nho học Tam trường để tuyển chọn người tài trong cả nước ra giúp việc quản lý. Lê Văn Thịnh đỗ đầu khoa thi này."
+    },
+    {
+      "id": 15,
+      "nam": 1075,
+      "ten": "Đánh Tống",
+      "moTa": "Lý Thường Kiệt đánh sang đất Tống, chiếm các châu Ung, Khâm, Liêm",
+      "viVua": "Lý Nhân Tông",
+      "diaDiem": "Đất Tống",
+      "tamQuan": true,
+      "loaiSuKien": "quan_su",
+      "chiTiet": "Nhận thấy ý đồ xâm lược của nhà Tống, Thái úy Lý Thường Kiệt đã chủ động thực hiện chiến lược 'tiên phát chế nhân', chỉ huy hơn 10 vạn quân thủy bộ bất ngờ tấn công sang đất Tống."
+    },
+    {
+      "id": 16,
+      "nam": 1076,
+      "ten": "Xây dựng Quốc Tử Giám",
+      "moTa": "Lý Nhân Tông cho lập Quốc Tử Giám - trường đại học đầu tiên của Việt Nam",
+      "viVua": "Lý Nhân Tông",
+      "diaDiem": "Thăng Long",
+      "tamQuan": true,
+      "loaiSuKien": "giao_duc",
+      "chiTiet": "Chỉ một năm sau khoa thi đầu tiên, vua cho thành lập Quốc Tử Giám ngay tại khu vực Văn Miếu. Đây được xem là trường đại học đầu tiên của Việt Nam."
+    },
+    {
+      "id": 17,
+      "nam": 1077,
+      "ten": "Đánh bại quân Tống",
+      "moTa": "Lý Thường Kiệt đánh bại quân Tống tại sông Như Nguyệt",
+      "viVua": "Lý Nhân Tông",
+      "diaDiem": "Sông Như Nguyệt (sông Cầu)",
+      "tamQuan": true,
+      "loaiSuKien": "quan_su",
+      "chiTiet": "Đầu năm 1077, đại quân Tống do Quách Quỳ và Triệu Tiết chỉ huy tiến vào Đại Việt. Lý Thường Kiệt đã cho xây dựng phòng tuyến kiên cố và tổ chức phòng ngự chủ động, chặn đứng bước tiến của quân giặc."
+    },
+    {
+      "id": 18,
+      "nam": 1128,
+      "ten": "Lý Thần Tông lên ngôi",
+      "moTa": "Lý Dương Hoán lên ngôi sau khi Lý Nhân Tông qua đời",
+      "viVua": "Lý Thần Tông",
+      "diaDiem": "Thăng Long",
+      "tamQuan": false,
+      "loaiSuKien": "chinh_tri",
+      "chiTiet": "Lý Dương Hoán là vua duy nhất nhà Lý được kế vị không phải do vua cha truyền lại. Ông trị vì được 10 năm thì qua đời khi mới 22 tuổi."
+    },
+    {
+      "id": 19,
+      "nam": 1138,
+      "ten": "Lý Anh Tông lên ngôi",
+      "moTa": "Lý Thiên Tộ lên ngôi khi mới 3 tuổi",
+      "viVua": "Lý Anh Tông",
+      "diaDiem": "Thăng Long",
+      "tamQuan": false,
+      "loaiSuKien": "chinh_tri",
+      "chiTiet": "Sau khi Lý Thần Tông qua đời, thái tử Thiên Tộ mới 3 tuổi đã lên ngôi, lấy hiệu là Anh Tông. Mẹ ông là Thái hậu họ Lê được tôn làm nhiếp chính."
+    },
+    {
+      "id": 20,
+      "nam": 1175,
+      "ten": "Lý Cao Tông lên ngôi",
+      "moTa": "Lý Long Trát lên ngôi khi mới 3 tuổi, bắt đầu thời kỳ suy tàn",
+      "viVua": "Lý Cao Tông",
+      "diaDiem": "Thăng Long",
+      "tamQuan": false,
+      "loaiSuKien": "chinh_tri",
+      "chiTiet": "Vua cha Anh Tông truất ngôi con cả là Long Xưởng và phong Lý Long Trát là hoàng thái tử. Khi lên ngôi, ông mới 3 tuổi, bắt đầu thời kỳ suy tàn của nhà Lý."
+    },
+    {
+      "id": 21,
+      "nam": 1210,
+      "ten": "Lý Huệ Tông lên ngôi",
+      "moTa": "Lý Sảm lên ngôi trong thời kỳ loạn lạc",
+      "viVua": "Lý Huệ Tông",
+      "diaDiem": "Thăng Long",
+      "tamQuan": false,
+      "loaiSuKien": "chinh_tri",
+      "chiTiet": "Lý Sảm lên ngôi trong thời kỳ loạn lạc. Ông được đánh giá là vị vua thăng trầm nhất, bệnh hiểm, điên loạn, không có con trai nối dõi."
+    },
+    {
+      "id": 22,
+      "nam": 1225,
+      "ten": "Nhà Lý kết thúc",
+      "moTa": "Lý Chiêu Hoàng nhường ngôi cho Trần Cảnh, nhà Trần thành lập",
+      "viVua": "Lý Chiêu Hoàng",
+      "diaDiem": "Thăng Long",
+      "tamQuan": true,
+      "loaiSuKien": "chinh_tri",
+      "chiTiet": "Dưới sức ép và sự đạo diễn của Trần Thủ Độ, Lý Chiêu Hoàng đã bị buộc phải làm lễ nhường ngôi cho chồng là Trần Cảnh. Nhà Lý chính thức kết thúc sau 216 năm tồn tại."
+    }
+  ]
+} 
