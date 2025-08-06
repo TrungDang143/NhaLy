@@ -1,112 +1,343 @@
 {
   "diTichLichSu": [
     {
-      "ten": "Hoàng Thành Thăng Long",
+      "id": 1,
+      "ten": "Hoàng thành Thăng Long",
+      "loaiDiTich": "kinh_do",
+      "namXayDung": 1010,
       "viTri": "Hà Nội",
-      "nam": 1010,
-      "moTa": "Kinh thành được xây dựng theo mô hình 'Tam trùng thành quách'",
-      "giaTri": "Di sản văn hóa thế giới",
-      "hinhAnh": "hoang-thanh.jpg",
-      "tamQuan": true
+      "moTa": "Kinh đô của nước Đại Việt, được Lý Thái Tổ xây dựng theo mô hình 'Tam trùng thành quách'",
+      "tamQuan": true,
+      "trangThai": "Di tích lịch sử quốc gia",
+      "chiTiet": "Hoàng thành Thăng Long được xây dựng theo mô hình 'Tam trùng thành quách' gồm: La thành (ngoài cùng), Hoàng thành (giữa), Tử Cấm thành (trong cùng). Đây là trung tâm chính trị, quân sự, văn hóa của Đại Việt trong suốt nhiều thế kỷ.",
+      "congTrinh": [
+        "Điện Càn Nguyên (sau đổi là Thiên An)",
+        "Điện Tuyên Đức",
+        "Điện Diên Phúc",
+        "Điện Văn Minh",
+        "Điện Quang Vũ"
+      ],
+      "giaTri": [
+        "Di sản văn hóa thế giới UNESCO",
+        "Trung tâm chính trị của Đại Việt",
+        "Kiến trúc cung đình tiêu biểu",
+        "Nơi diễn ra nhiều sự kiện lịch sử quan trọng"
+      ]
     },
     {
-      "ten": "Chùa Một Cột",
+      "id": 2,
+      "ten": "Chùa Diên Hựu (Chùa Một Cột)",
+      "loaiDiTich": "chua_thap",
+      "namXayDung": 1049,
       "viTri": "Hà Nội",
-      "nam": 1049,
-      "moTa": "Chùa Diên Hựu, được xây dựng theo giấc mơ của vua Lý Thái Tông",
-      "giaTri": "Biểu tượng văn hóa Việt Nam",
-      "hinhAnh": "chua-mot-cot.jpg",
-      "tamQuan": true
+      "moTa": "Ngôi chùa có kiến trúc độc đáo hình bông sen, được xây dựng theo giấc mơ của vua Lý Thái Tông",
+      "tamQuan": true,
+      "trangThai": "Di tích lịch sử quốc gia",
+      "chiTiet": "Theo truyền thuyết, vua Lý Thái Tông mơ thấy Phật Bà Quan Âm tọa trên đài sen mời nhà vua lên cùng. Tỉnh giấc, vua kể với bề tôi và nhà sư Thiền Tuệ khuyên nên dựng chùa như trong giấc mơ. Chùa có kiến trúc độc đáo hình bông sen nở trên mặt nước.",
+      "congTrinh": [
+        "Đài sen bằng gỗ",
+        "Tượng Phật Bà Quan Âm",
+        "Hồ nước hình vuông"
+      ],
+      "giaTri": [
+        "Biểu tượng văn hóa Thăng Long - Hà Nội",
+        "Kiến trúc Phật giáo độc đáo",
+        "Di tích lịch sử quan trọng",
+        "Điểm du lịch nổi tiếng"
+      ]
     },
     {
-      "ten": "Văn Miếu - Quốc Tử Giám",
-      "viTri": "Hà Nội",
-      "nam": "1070-1076",
-      "moTa": "Văn Miếu xây năm 1070, Quốc Tử Giám lập năm 1076",
-      "giaTri": "Trường đại học đầu tiên của Việt Nam",
-      "hinhAnh": "van-mieu.jpg",
-      "tamQuan": true
-    },
-    {
+      "id": 3,
       "ten": "Tháp Báo Thiên",
+      "loaiDiTich": "chua_thap",
+      "namXayDung": 1056,
       "viTri": "Hà Nội",
-      "nam": 1057,
-      "moTa": "Tháp chùa Sùng Khánh Báo Thiên, cao 12 tầng",
-      "giaTri": "Một trong 'An Nam tứ đại khí'",
-      "hinhAnh": "thap-bao-thien.jpg",
-      "tamQuan": false
+      "moTa": "Ngọn tháp Phật giáo cao lớn giữa kinh thành, một trong 'An Nam tứ đại khí'",
+      "tamQuan": true,
+      "trangThai": "Đã bị phá hủy",
+      "chiTiet": "Tháp Báo Thiên được vua Lý Thánh Tông cho xây dựng năm 1056. Đây là một trong bốn công trình nghệ thuật - kỹ thuật kỳ vĩ được gọi là 'An Nam tứ đại khí'. Tháp cao sừng sững giữa kinh thành, thể hiện sự hùng mạnh của Phật giáo thời Lý.",
+      "congTrinh": [
+        "Tháp cao nhiều tầng",
+        "Tượng Phật",
+        "Chuông đồng"
+      ],
+      "giaTri": [
+        "Một trong 'An Nam tứ đại khí'",
+        "Biểu tượng Phật giáo thời Lý",
+        "Công trình kiến trúc kỳ vĩ",
+        "Di tích lịch sử quan trọng"
+      ]
     },
     {
-      "ten": "Chùa Dâu",
-      "viTri": "Bắc Ninh",
-      "nam": "Thời Lý",
-      "moTa": "Chùa cổ nhất Việt Nam, trung tâm Phật giáo quan trọng",
-      "giaTri": "Di tích lịch sử văn hóa quốc gia",
-      "hinhAnh": "chua-dau.jpg",
-      "tamQuan": false
+      "id": 4,
+      "ten": "Văn Miếu - Quốc Tử Giám",
+      "loaiDiTich": "giao_duc",
+      "namXayDung": "1070-1076",
+      "viTri": "Hà Nội",
+      "moTa": "Trường đại học đầu tiên của Việt Nam, nơi thờ Khổng Tử và đào tạo nhân tài",
+      "tamQuan": true,
+      "trangThai": "Di tích lịch sử quốc gia",
+      "chiTiet": "Văn Miếu được xây dựng năm 1070 để thờ Khổng Tử và các bậc hiền triết Nho gia. Năm 1076, Quốc Tử Giám được thành lập ngay tại khu vực Văn Miếu, trở thành trường đại học đầu tiên của Việt Nam.",
+      "congTrinh": [
+        "Văn Miếu",
+        "Quốc Tử Giám",
+        "Khuê Văn Các",
+        "Bia tiến sĩ",
+        "Giếng Thiên Quang"
+      ],
+      "giaTri": [
+        "Trường đại học đầu tiên của Việt Nam",
+        "Trung tâm giáo dục Nho học",
+        "Di tích lịch sử văn hóa quan trọng",
+        "Điểm du lịch nổi tiếng"
+      ]
     },
     {
+      "id": 5,
       "ten": "Chùa Phật Tích",
+      "loaiDiTich": "chua_thap",
+      "namXayDung": "Thời Lý",
       "viTri": "Bắc Ninh",
-      "nam": "Thời Lý",
-      "moTa": "Chùa nổi tiếng với tượng Phật A Di Đà bằng đá",
-      "giaTri": "Di tích lịch sử văn hóa quốc gia",
-      "hinhAnh": "chua-phat-tich.jpg",
-      "tamQuan": false
+      "moTa": "Ngôi chùa nổi tiếng với tượng Phật A-di-đà bằng đá lớn, di vật điêu khắc quan trọng thời Lý",
+      "tamQuan": true,
+      "trangThai": "Di tích lịch sử quốc gia",
+      "chiTiet": "Chùa Phật Tích nổi tiếng với tượng Phật A-di-đà bằng đá lớn, cao 27m, được tạc vào thời Lý. Chùa còn lưu giữ nhiều di vật điêu khắc quan trọng như tượng Kim Cương, các bệ đá chạm khắc hình hoa sen tinh xảo.",
+      "congTrinh": [
+        "Tượng Phật A-di-đà",
+        "Tượng Kim Cương",
+        "Bệ đá chạm khắc",
+        "Tháp Phật Tích"
+      ],
+      "giaTri": [
+        "Di vật điêu khắc quan trọng thời Lý",
+        "Tượng Phật bằng đá lớn nhất",
+        "Di tích Phật giáo tiêu biểu",
+        "Công trình kiến trúc nghệ thuật"
+      ]
     },
     {
-      "ten": "Chùa Long Đọi",
+      "id": 6,
+      "ten": "Chùa Dạm (Đại Lãm Thần Quang Tự)",
+      "loaiDiTich": "chua_thap",
+      "namXayDung": 1086,
+      "viTri": "Bắc Ninh",
+      "moTa": "Ngôi chùa có quy mô lớn, kiến trúc độc đáo với cột đá chạm rồng khổng lồ",
+      "tamQuan": true,
+      "trangThai": "Di tích lịch sử quốc gia",
+      "chiTiet": "Chùa Dạm được vua Lý Nhân Tông cho xây dựng năm 1086. Chùa có quy mô lớn và kiến trúc độc đáo với cột đá chạm rồng khổng lồ. Đây là một trong những ngôi chùa lớn nhất thời Lý.",
+      "congTrinh": [
+        "Cột đá chạm rồng",
+        "Tượng Phật",
+        "Tháp chùa",
+        "Các công trình phụ"
+      ],
+      "giaTri": [
+        "Kiến trúc chùa tháp tiêu biểu thời Lý",
+        "Cột đá chạm khắc độc đáo",
+        "Di tích Phật giáo quan trọng",
+        "Công trình nghệ thuật"
+      ]
+    },
+    {
+      "id": 7,
+      "ten": "Chùa Long Đọi (Sùng Thiện Diên Linh Tự)",
+      "loaiDiTich": "chua_thap",
+      "namXayDung": 1121,
       "viTri": "Hà Nam",
-      "nam": "Thời Lý",
-      "moTa": "Chùa Sùng Thiện Diên Linh, có tháp cao 13 tầng",
-      "giaTri": "Di tích lịch sử văn hóa quốc gia",
-      "hinhAnh": "chua-long-doi.jpg",
-      "tamQuan": false
+      "moTa": "Ngôi chùa nổi tiếng với tấm bia Sùng Thiện Diên Linh ghi lại nhiều thông tin lịch sử, văn hóa thời Lý",
+      "tamQuan": true,
+      "trangThai": "Di tích lịch sử quốc gia",
+      "chiTiet": "Chùa Long Đọi được vua Lý Nhân Tông cho xây dựng năm 1121. Chùa nổi tiếng với tấm bia Sùng Thiện Diên Linh ghi lại nhiều thông tin lịch sử, văn hóa thời Lý, đặc biệt là về việc xây dựng chùa và các hoạt động Phật giáo.",
+      "congTrinh": [
+        "Bia Sùng Thiện Diên Linh",
+        "Tượng Phật",
+        "Tháp chùa",
+        "Các công trình phụ"
+      ],
+      "giaTri": [
+        "Bia đá ghi chép lịch sử quan trọng",
+        "Di tích Phật giáo tiêu biểu",
+        "Nguồn tư liệu lịch sử quý giá",
+        "Công trình kiến trúc nghệ thuật"
+      ]
     },
     {
+      "id": 8,
+      "ten": "Chùa Dâu",
+      "loaiDiTich": "chua_thap",
+      "namXayDung": "Thời Lý",
+      "viTri": "Bắc Ninh",
+      "moTa": "Trung tâm Phật giáo cổ xưa, một trong những ngôi chùa lâu đời nhất Việt Nam",
+      "tamQuan": false,
+      "trangThai": "Di tích lịch sử quốc gia",
+      "chiTiet": "Chùa Dâu là một trong những ngôi chùa lâu đời nhất Việt Nam, được coi là trung tâm Phật giáo cổ xưa. Chùa có lịch sử từ thời Bắc thuộc và được trùng tu nhiều lần dưới thời Lý.",
+      "congTrinh": [
+        "Tượng Phật",
+        "Tháp chùa",
+        "Các công trình phụ"
+      ],
+      "giaTri": [
+        "Trung tâm Phật giáo cổ xưa",
+        "Ngôi chùa lâu đời nhất",
+        "Di tích lịch sử quan trọng",
+        "Công trình kiến trúc cổ"
+      ]
+    },
+    {
+      "id": 9,
       "ten": "Chùa Thầy",
+      "loaiDiTich": "chua_thap",
+      "namXayDung": "Thời Lý",
       "viTri": "Hà Nội",
-      "nam": "Thời Lý",
-      "moTa": "Chùa Thiên Phúc, nơi tu hành của thiền sư Từ Đạo Hạnh",
-      "giaTri": "Di tích lịch sử văn hóa quốc gia",
-      "hinhAnh": "chua-thay.jpg",
-      "tamQuan": false
+      "moTa": "Ngôi chùa gắn liền với thiền sư Từ Đạo Hạnh, có cảnh quan đẹp và kiến trúc độc đáo",
+      "tamQuan": false,
+      "trangThai": "Di tích lịch sử quốc gia",
+      "chiTiet": "Chùa Thầy gắn liền với thiền sư Từ Đạo Hạnh, người tu hành tại đây. Chùa có cảnh quan đẹp với núi, hồ và kiến trúc độc đáo. Đây là một trong những ngôi chùa nổi tiếng thời Lý.",
+      "congTrinh": [
+        "Tượng thiền sư Từ Đạo Hạnh",
+        "Cầu Nhật Tiên",
+        "Hồ Long Trì",
+        "Các công trình phụ"
+      ],
+      "giaTri": [
+        "Gắn liền với thiền sư Từ Đạo Hạnh",
+        "Cảnh quan đẹp",
+        "Di tích Phật giáo quan trọng",
+        "Điểm du lịch nổi tiếng"
+      ]
     },
     {
-      "ten": "Đền Lý Bát Đế",
-      "viTri": "Bắc Ninh",
-      "nam": "Thời Lý",
-      "moTa": "Đền thờ 8 vị vua triều Lý tại quê hương Lý Thái Tổ",
-      "giaTri": "Di tích lịch sử văn hóa quốc gia",
-      "hinhAnh": "den-ly-bat-de.jpg",
-      "tamQuan": false
+      "id": 10,
+      "ten": "Chùa Bối Khê",
+      "loaiDiTich": "chua_thap",
+      "namXayDung": "Thời Lý",
+      "viTri": "Hà Nội",
+      "moTa": "Ngôi chùa có kiến trúc độc đáo, được xây dựng theo kiểu 'chùa trong hang'",
+      "tamQuan": false,
+      "trangThai": "Di tích lịch sử quốc gia",
+      "chiTiet": "Chùa Bối Khê có kiến trúc độc đáo, được xây dựng theo kiểu 'chùa trong hang'. Chùa có lịch sử từ thời Lý và được trùng tu nhiều lần. Đây là một trong những ngôi chùa có kiến trúc đặc biệt.",
+      "congTrinh": [
+        "Chùa trong hang",
+        "Tượng Phật",
+        "Các công trình phụ"
+      ],
+      "giaTri": [
+        "Kiến trúc độc đáo",
+        "Chùa trong hang hiếm có",
+        "Di tích Phật giáo quan trọng",
+        "Công trình kiến trúc đặc biệt"
+      ]
     },
     {
-      "ten": "Chùa Dạm",
-      "viTri": "Bắc Ninh",
-      "nam": "Thời Lý",
-      "moTa": "Chùa Đại Lãm, một trong những ngôi chùa lớn thời Lý",
-      "giaTri": "Di tích lịch sử văn hóa quốc gia",
-      "hinhAnh": "chua-dam.jpg",
-      "tamQuan": false
+      "id": 11,
+      "ten": "Chùa Bà Tấm",
+      "loaiDiTich": "chua_thap",
+      "namXayDung": "Thời Lý",
+      "viTri": "Hà Nội",
+      "moTa": "Ngôi chùa có lịch sử từ thời Lý, gắn liền với nhiều giai thoại dân gian",
+      "tamQuan": false,
+      "trangThai": "Di tích lịch sử quốc gia",
+      "chiTiet": "Chùa Bà Tấm có lịch sử từ thời Lý và gắn liền với nhiều giai thoại dân gian. Chùa được trùng tu nhiều lần và vẫn giữ được những nét kiến trúc cổ.",
+      "congTrinh": [
+        "Tượng Phật",
+        "Tháp chùa",
+        "Các công trình phụ"
+      ],
+      "giaTri": [
+        "Lịch sử lâu đời",
+        "Gắn liền với giai thoại dân gian",
+        "Di tích Phật giáo quan trọng",
+        "Công trình kiến trúc cổ"
+      ]
     },
     {
-      "ten": "Tháp Chương Sơn",
+      "id": 12,
+      "ten": "Chùa Phổ Minh",
+      "loaiDiTich": "chua_thap",
+      "namXayDung": "Thời Lý",
       "viTri": "Nam Định",
-      "nam": "Thời Lý",
-      "moTa": "Tháp chùa Chương Sơn, kiến trúc độc đáo thời Lý",
-      "giaTri": "Di tích lịch sử văn hóa quốc gia",
-      "hinhAnh": "thap-chuong-son.jpg",
-      "tamQuan": false
+      "moTa": "Ngôi chùa có lịch sử từ thời Lý, được trùng tu nhiều lần và vẫn giữ được nét cổ kính",
+      "tamQuan": false,
+      "trangThai": "Di tích lịch sử quốc gia",
+      "chiTiet": "Chùa Phổ Minh có lịch sử từ thời Lý và được trùng tu nhiều lần. Chùa vẫn giữ được những nét kiến trúc cổ kính và là một trong những ngôi chùa quan trọng của vùng đồng bằng Bắc Bộ.",
+      "congTrinh": [
+        "Tượng Phật",
+        "Tháp chùa",
+        "Các công trình phụ"
+      ],
+      "giaTri": [
+        "Lịch sử lâu đời",
+        "Kiến trúc cổ kính",
+        "Di tích Phật giáo quan trọng",
+        "Công trình kiến trúc cổ"
+      ]
     },
     {
-      "ten": "Chùa Bút Tháp",
-      "viTri": "Bắc Ninh",
-      "nam": "Thời Lý",
-      "moTa": "Chùa Ninh Phúc, nổi tiếng với tượng Phật nghìn tay nghìn mắt",
-      "giaTri": "Di tích lịch sử văn hóa quốc gia",
-      "hinhAnh": "chua-but-thap.jpg",
-      "tamQuan": false
+      "id": 13,
+      "ten": "Chùa Quỳnh Lâm",
+      "loaiDiTich": "chua_thap",
+      "namXayDung": "Thời Lý",
+      "viTri": "Quảng Ninh",
+      "moTa": "Ngôi chùa nổi tiếng với tượng Phật cao 6 trượng, một trong 'An Nam tứ đại khí'",
+      "tamQuan": true,
+      "trangThai": "Di tích lịch sử quốc gia",
+      "chiTiet": "Chùa Quỳnh Lâm nổi tiếng với tượng Phật cao 6 trượng, một trong bốn công trình nghệ thuật - kỹ thuật kỳ vĩ được gọi là 'An Nam tứ đại khí'. Chùa có lịch sử từ thời Lý và được trùng tu nhiều lần.",
+      "congTrinh": [
+        "Tượng Phật cao 6 trượng",
+        "Tháp chùa",
+        "Các công trình phụ"
+      ],
+      "giaTri": [
+        "Một trong 'An Nam tứ đại khí'",
+        "Tượng Phật lớn nhất",
+        "Di tích Phật giáo tiêu biểu",
+        "Công trình nghệ thuật kỳ vĩ"
+      ]
+    },
+    {
+      "id": 14,
+      "ten": "Chùa Yên Tử",
+      "loaiDiTich": "chua_thap",
+      "namXayDung": "Thời Lý",
+      "viTri": "Quảng Ninh",
+      "moTa": "Quần thể chùa trên núi Yên Tử, trung tâm Phật giáo Trúc Lâm",
+      "tamQuan": true,
+      "trangThai": "Di tích lịch sử quốc gia",
+      "chiTiet": "Chùa Yên Tử là quần thể chùa trên núi Yên Tử, trở thành trung tâm Phật giáo Trúc Lâm từ thời Trần. Tuy nhiên, lịch sử chùa bắt đầu từ thời Lý và có nhiều di tích quan trọng.",
+      "congTrinh": [
+        "Chùa Đồng",
+        "Chùa Hoa Yên",
+        "Chùa Bảo Sái",
+        "Các chùa khác"
+      ],
+      "giaTri": [
+        "Trung tâm Phật giáo Trúc Lâm",
+        "Quần thể chùa trên núi",
+        "Di tích Phật giáo quan trọng",
+        "Điểm du lịch nổi tiếng"
+      ]
+    },
+    {
+      "id": 15,
+      "ten": "Chùa Hương Lãng",
+      "loaiDiTich": "chua_thap",
+      "namXayDung": "Thời Lý",
+      "viTri": "Hưng Yên",
+      "moTa": "Ngôi chùa có lịch sử từ thời Lý, được trùng tu nhiều lần và vẫn giữ được nét cổ kính",
+      "tamQuan": false,
+      "trangThai": "Di tích lịch sử quốc gia",
+      "chiTiet": "Chùa Hương Lãng có lịch sử từ thời Lý và được trùng tu nhiều lần. Chùa vẫn giữ được những nét kiến trúc cổ kính và là một trong những ngôi chùa quan trọng của vùng đồng bằng Bắc Bộ.",
+      "congTrinh": [
+        "Tượng Phật",
+        "Tháp chùa",
+        "Các công trình phụ"
+      ],
+      "giaTri": [
+        "Lịch sử lâu đời",
+        "Kiến trúc cổ kính",
+        "Di tích Phật giáo quan trọng",
+        "Công trình kiến trúc cổ"
+      ]
     }
   ]
 } 

@@ -1,166 +1,370 @@
 {
   "nhanVatLichSu": [
     {
+      "id": 1,
       "ten": "Lý Công Uẩn",
-      "hieu": "Lý Thái Tổ",
-      "nam": "974-1028",
-      "viTri": "Vua sáng lập nhà Lý",
-      "moTa": "Vị vua đầu tiên của triều đại nhà Lý, có công dời đô về Thăng Long",
+      "tenKhac": "Lý Thái Tổ",
+      "namSinh": 974,
+      "namMat": 1028,
+      "tuoiTho": 54,
+      "viTri": "Hoàng đế sáng lập triều đại",
+      "noiSinh": "Châu Cổ Pháp, Từ Sơn, Bắc Ninh",
+      "thanThe": "Xuất thân từ chùa Cổ Pháp, được thiền sư Lý Khánh Văn nhận làm con nuôi. Từ nhỏ đã thông minh, vẻ ngoài tuấn tú khác thường. Trước khi lên ngôi, ông là võ quan cao cấp của nhà Tiền Lê.",
       "thanhTuu": [
         "Sáng lập triều đại nhà Lý",
         "Dời đô từ Hoa Lư về Thăng Long",
-        "Xây dựng Hoàng Thành Thăng Long",
-        "Phát triển Phật giáo"
+        "Xây dựng Hoàng thành Thăng Long",
+        "Ban hành Chiếu dời đô",
+        "Đánh đuổi quân Nam Chiếu",
+        "Phát triển Phật giáo",
+        "Thiết lập hệ thống hành chính"
       ],
-      "tamQuan": true
+      "suKienLon": [
+        "1009: Lên ngôi hoàng đế",
+        "1010: Dời đô về Thăng Long",
+        "1012: Đánh quân Nam Chiếu",
+        "1014: Đánh tan 20 vạn quân Nam Chiếu"
+      ],
+      "tamQuan": true,
+      "loaiNhanVat": "hoang_de",
+      "moTa": "Vị hoàng đế sáng lập triều đại Lý, có công lớn trong việc dời đô và xây dựng nền móng cho sự phát triển của Đại Việt."
     },
     {
+      "id": 2,
       "ten": "Lý Phật Mã",
-      "hieu": "Lý Thái Tông",
-      "nam": "1000-1054",
-      "viTri": "Vua thứ hai nhà Lý",
-      "moTa": "Vị vua văn võ song toàn, ban hành bộ luật Hình Thư",
+      "tenKhac": "Lý Thái Tông",
+      "namSinh": 1000,
+      "namMat": 1054,
+      "tuoiTho": 54,
+      "viTri": "Hoàng đế thứ hai",
+      "noiSinh": "Hoa Lư, Đại Cồ Việt",
+      "thanThe": "Con trưởng của Lý Thái Tổ, được đánh giá là bậc quân chủ văn võ song toàn, đánh đâu thắng đấy, lại là người có trái tim bao dung, nhân hậu.",
       "thanhTuu": [
-        "Ban hành Hình Thư",
-        "Xây chùa Một Cột",
-        "Đánh Chiêm Thành",
-        "Dẹp loạn ba vương"
+        "Ban hành bộ luật Hình Thư (1042)",
+        "Xây dựng chùa Diên Hựu (Một Cột) (1049)",
+        "Đánh Chiêm Thành (1044)",
+        "Dẹp loạn họ Nùng",
+        "Giảm thuế cho dân",
+        "Củng cố quyền lực nhà Lý"
       ],
-      "tamQuan": true
+      "suKienLon": [
+        "1028: Lên ngôi sau loạn ba vương",
+        "1042: Ban hành Hình Thư",
+        "1044: Đánh Chiêm Thành",
+        "1049: Xây chùa Diên Hựu"
+      ],
+      "tamQuan": true,
+      "loaiNhanVat": "hoang_de",
+      "moTa": "Vị hoàng đế kiệt xuất, có công lớn trong việc ban hành luật pháp và xây dựng văn hóa Phật giáo."
     },
     {
+      "id": 3,
       "ten": "Lý Nhật Tôn",
-      "hieu": "Lý Thánh Tông",
-      "nam": "1023-1072",
-      "viTri": "Vua thứ ba nhà Lý",
-      "moTa": "Vị vua có công đổi tên nước thành Đại Việt",
+      "tenKhac": "Lý Thánh Tông",
+      "namSinh": 1023,
+      "namMat": 1072,
+      "tuoiTho": 48,
+      "viTri": "Hoàng đế thứ ba",
+      "noiSinh": "Thăng Long",
+      "thanThe": "Con thứ 3 của Lý Thái Tông, mẹ là Linh Cảm hoàng hậu Mai Thị. Sớm tinh thông kinh truyện, rành âm luật, lại giỏi võ nghệ.",
       "thanhTuu": [
-        "Đổi quốc hiệu thành Đại Việt",
-        "Xây Văn Miếu",
-        "Mở rộng lãnh thổ",
-        "Phát triển Nho giáo"
+        "Đổi tên nước thành Đại Việt (1054)",
+        "Xây dựng Văn Miếu (1070)",
+        "Ban Chiếu khuyến nông (1056)",
+        "Đánh Chiêm Thành (1069)",
+        "Mở rộng lãnh thổ về phía Nam",
+        "Phát triển Nho họ"
       ],
-      "tamQuan": true
+      "suKienLon": [
+        "1054: Đổi tên nước thành Đại Việt",
+        "1056: Ban Chiếu khuyến nông",
+        "1069: Đánh Chiêm Thành",
+        "1070: Xây dựng Văn Miếu"
+      ],
+      "tamQuan": true,
+      "loaiNhanVat": "hoang_de",
+      "moTa": "Vị vua có công lớn trong việc đổi quốc hiệu và phát triển Nho học, mở rộng lãnh thổ."
     },
     {
+      "id": 4,
       "ten": "Lý Càn Đức",
-      "hieu": "Lý Nhân Tông",
-      "nam": "1066-1128",
-      "viTri": "Vua thứ tư nhà Lý",
-      "moTa": "Vị vua trị vì lâu nhất trong lịch sử phong kiến Việt Nam",
+      "tenKhac": "Lý Nhân Tông",
+      "namSinh": 1066,
+      "namMat": 1128,
+      "tuoiTho": 61,
+      "viTri": "Hoàng đế thứ tư",
+      "noiSinh": "Cung Động Tiên, Thăng Long",
+      "thanThe": "Con trưởng của Lý Thánh Tông, mẹ là Nguyên phi Ỷ Lan. Lên ngôi khi mới 7 tuổi, là vị vua trị vì lâu nhất trong lịch sử phong kiến Việt Nam.",
       "thanhTuu": [
-        "Tổ chức khoa thi đầu tiên",
-        "Lập Quốc Tử Giám",
-        "Kháng chiến chống Tống",
-        "Phát triển giáo dục"
+        "Tổ chức khoa thi Nho học đầu tiên (1075)",
+        "Xây dựng Quốc Tử Giám (1076)",
+        "Kháng chiến chống Tống thắng lợi (1075-1077)",
+        "Ban chiếu cầu lời nói thẳng (1076)",
+        "Phát triển giáo dục và văn hóa",
+        "Củng cố quốc phòng"
       ],
-      "tamQuan": true
+      "suKienLon": [
+        "1072: Lên ngôi khi 7 tuổi",
+        "1075: Tổ chức khoa thi đầu tiên",
+        "1075: Đánh Tống",
+        "1077: Đánh bại quân Tống",
+        "1076: Xây dựng Quốc Tử Giám"
+      ],
+      "tamQuan": true,
+      "loaiNhanVat": "hoang_de",
+      "moTa": "Vị vua trị vì lâu nhất, có nhiều thành tựu trong giáo dục và quốc phòng."
     },
     {
+      "id": 5,
+      "ten": "Lý Dương Hoán",
+      "tenKhac": "Lý Thần Tông",
+      "namSinh": 1116,
+      "namMat": 1138,
+      "tuoiTho": 22,
+      "viTri": "Hoàng đế thứ năm",
+      "noiSinh": "Thăng Long",
+      "thanThe": "Con trai của Sùng Hiền hầu và bà phu nhân họ Đỗ. Là vua duy nhất nhà Lý được kế vị không phải do vua cha truyền lại. Mắc bệnh kỳ lạ được sư Minh Không chữa khỏi.",
+      "thanhTuu": [
+        "Thực hiện chính sách ngụ binh ư nông",
+        "Mở rộng xây chùa, tô tượng",
+        "Duy trì quan hệ tốt với các nước láng giềng",
+        "Phát triển nông nghiệp"
+      ],
+      "suKienLon": [
+        "1128: Lên ngôi",
+        "1138: Qua đời sớm"
+      ],
+      "tamQuan": false,
+      "loaiNhanVat": "hoang_de",
+      "moTa": "Vị vua có thời gian trị vì ngắn nhưng có những đóng góp quan trọng trong chính sách quân sự."
+    },
+    {
+      "id": 6,
+      "ten": "Lý Thiên Tộ",
+      "tenKhac": "Lý Anh Tông",
+      "namSinh": 1136,
+      "namMat": 1175,
+      "tuoiTho": 39,
+      "viTri": "Hoàng đế thứ sáu",
+      "noiSinh": "Thăng Long",
+      "thanThe": "Con trưởng của Lý Thần Tông và mẹ Lê Thái Hậu. Lên ngôi khi mới 3 tuổi, mẹ làm nhiếp chính. Bị Đỗ Anh Vũ chuyên quyền.",
+      "thanhTuu": [
+        "Huy động lực lượng lớn trấn áp tội phạm",
+        "Đánh quân Chiêm Thành, Ngưu Hống",
+        "Ngăn Ai Lao xâm nhập biên cương",
+        "Đặt ra Xạ Đình cho quân võ luyện tập"
+      ],
+      "suKienLon": [
+        "1138: Lên ngôi khi 3 tuổi",
+        "1163: Trấn áp tội phạm",
+        "1175: Qua đời"
+      ],
+      "tamQuan": false,
+      "loaiNhanVat": "hoang_de",
+      "moTa": "Vị vua có thời gian trị vì dài nhưng bị ảnh hưởng bởi quyền thần."
+    },
+    {
+      "id": 7,
+      "ten": "Lý Long Trát",
+      "tenKhac": "Lý Cao Tông",
+      "namSinh": 1173,
+      "namMat": 1210,
+      "tuoiTho": 37,
+      "viTri": "Hoàng đế thứ bảy",
+      "noiSinh": "Thăng Long",
+      "thanThe": "Con trai thứ 6 của Lý Anh Tông, mẹ là Đỗ Thuỵ Châu. Lên ngôi khi mới 3 tuổi. Thời kỳ của ông đánh dấu sự suy tàn của nhà Lý.",
+      "thanhTuu": [
+        "Xây dựng nhiều cung điện, lầu gác",
+        "Xây dựng hơn 100 hành cung",
+        "Duy trì quyền lực trong thời loạn lạc"
+      ],
+      "suKienLon": [
+        "1175: Lên ngôi khi 3 tuổi",
+        "1197: Xây dựng hành cung",
+        "1208: Loạn Quách Bốc",
+        "1210: Qua đời"
+      ],
+      "tamQuan": false,
+      "loaiNhanVat": "hoang_de",
+      "moTa": "Vị vua bắt đầu thời kỳ suy tàn của nhà Lý, thích xây dựng cung điện."
+    },
+    {
+      "id": 8,
+      "ten": "Lý Sảm",
+      "tenKhac": "Lý Huệ Tông",
+      "namSinh": 1194,
+      "namMat": 1226,
+      "tuoiTho": 32,
+      "viTri": "Hoàng đế thứ tám",
+      "noiSinh": "Thăng Long",
+      "thanThe": "Con trưởng của Lý Cao Tông, mẹ là hoàng hậu họ Đàm. Được đánh giá là vị vua thăng trầm nhất, bệnh hiểm, điên loạn, không có con trai nối dõi.",
+      "thanhTuu": [
+        "Duy trì triều đình trong thời loạn lạc",
+        "Nhường ngôi cho con gái"
+      ],
+      "suKienLon": [
+        "1210: Lên ngôi",
+        "1212: Đánh phản loạn thất bại",
+        "1216: Mắc bệnh trúng phong",
+        "1224: Nhường ngôi",
+        "1226: Bị bức tử"
+      ],
+      "tamQuan": false,
+      "loaiNhanVat": "hoang_de",
+      "moTa": "Vị vua có cuộc đời bất hạnh, bệnh tật và bị bức tử."
+    },
+    {
+      "id": 9,
+      "ten": "Lý Phật Kim",
+      "tenKhac": "Lý Chiêu Hoàng",
+      "namSinh": 1218,
+      "namMat": 1278,
+      "tuoiTho": 61,
+      "viTri": "Nữ hoàng cuối cùng",
+      "noiSinh": "Thăng Long",
+      "thanThe": "Con gái của Lý Huệ Tông. Là nữ hoàng đầu tiên và duy nhất trong lịch sử phong kiến Việt Nam. Lên ngôi khi mới 6 tuổi.",
+      "thanhTuu": [
+        "Trở thành nữ hoàng đầu tiên Việt Nam",
+        "Nhường ngôi cho Trần Cảnh"
+      ],
+      "suKienLon": [
+        "1224: Lên ngôi nữ hoàng",
+        "1225: Nhường ngôi cho Trần Cảnh",
+        "1278: Qua đời"
+      ],
+      "tamQuan": true,
+      "loaiNhanVat": "nu_hoang",
+      "moTa": "Nữ hoàng đầu tiên và cuối cùng của nhà Lý, có cuộc đời lắm nỗi truân chuyên."
+    },
+    {
+      "id": 10,
+      "ten": "Thiền sư Vạn Hạnh",
+      "namSinh": "Không rõ",
+      "namMat": "Không rõ",
+      "viTri": "Thiền sư, cố vấn chính trị",
+      "noiSinh": "Châu Cổ Pháp",
+      "thanThe": "Thiền sư nổi tiếng thời Lý, có công lớn trong việc tôn Lý Công Uẩn lên ngôi. Ông là người có học vấn uyên thâm và tầm nhìn chính trị sâu sắc.",
+      "thanhTuu": [
+        "Tôn Lý Công Uẩn lên ngôi",
+        "Cố vấn chính trị cho vua",
+        "Phát triển Phật giáo",
+        "Đào tạo nhiều đệ tử xuất sắc"
+      ],
+      "suKienLon": [
+        "1009: Tôn Lý Công Uẩn lên ngôi",
+        "Cố vấn cho Lý Thái Tổ"
+      ],
+      "tamQuan": true,
+      "loaiNhanVat": "tu_si",
+      "moTa": "Thiền sư có công lớn trong việc sáng lập triều đại Lý, là cố vấn chính trị quan trọng."
+    },
+    {
+      "id": 11,
       "ten": "Lý Thường Kiệt",
-      "hieu": "Thái úy",
-      "nam": "1019-1105",
-      "viTri": "Tướng quân, Thái úy",
-      "moTa": "Danh tướng lừng lẫy, chỉ huy kháng chiến chống Tống",
+      "namSinh": "Không rõ",
+      "namMat": "Không rõ",
+      "viTri": "Thái úy, tướng quân",
+      "noiSinh": "Thăng Long",
+      "thanThe": "Tướng quân kiệt xuất thời Lý, giữ chức Thái úy dưới thời Lý Nhân Tông. Ông là người có tài năng quân sự và chính trị xuất chúng.",
       "thanhTuu": [
         "Chỉ huy kháng chiến chống Tống",
-        "Đánh Tống năm 1075",
+        "Đánh sang đất Tống (1075)",
+        "Đánh bại quân Tống tại sông Như Nguyệt (1077)",
         "Bảo vệ độc lập dân tộc",
-        "Tác giả bài thơ 'Nam quốc sơn hà'"
+        "Soạn bài thơ 'Nam quốc sơn hà'"
       ],
-      "tamQuan": true
+      "suKienLon": [
+        "1075: Đánh sang đất Tống",
+        "1077: Đánh bại quân Tống"
+      ],
+      "tamQuan": true,
+      "loaiNhanVat": "tuong_quan",
+      "moTa": "Tướng quân kiệt xuất, có công lớn trong việc bảo vệ độc lập dân tộc."
     },
     {
-      "ten": "Thiền sư Vạn Hạnh",
-      "hieu": "Thiền sư",
-      "nam": "938-1025",
-      "viTri": "Thiền sư, cố vấn triều đình",
-      "moTa": "Thiền sư có công lớn trong việc tôn Lý Công Uẩn lên ngôi",
-      "thanhTuu": [
-        "Tôn Lý Công Uẩn lên ngôi",
-        "Cố vấn cho vua Lý Thái Tổ",
-        "Phát triển Phật giáo",
-        "Để lại nhiều bài thơ Thiền"
-      ],
-      "tamQuan": true
-    },
-    {
-      "ten": "Đào Cam Mộc",
-      "hieu": "Đại thần",
-      "nam": "Thế kỷ 10-11",
-      "viTri": "Đại thần triều đình",
-      "moTa": "Đại thần có công tôn Lý Công Uẩn lên ngôi",
-      "thanhTuu": [
-        "Tôn Lý Công Uẩn lên ngôi",
-        "Phò tá vua Lý Thái Tổ",
-        "Củng cố triều đình"
-      ],
-      "tamQuan": false
-    },
-    {
+      "id": 12,
       "ten": "Lê Văn Thịnh",
-      "hieu": "Trạng nguyên",
-      "nam": "1038-1096",
-      "viTri": "Trạng nguyên đầu tiên",
-      "moTa": "Người đỗ đầu khoa thi Nho học đầu tiên năm 1075",
+      "namSinh": "Không rõ",
+      "namMat": "Không rõ",
+      "viTri": "Trạng nguyên, quan lại",
+      "noiSinh": "Bắc Ninh",
+      "thanThe": "Người đỗ đầu khoa thi Nho học đầu tiên năm 1075, trở thành trạng nguyên đầu tiên của Việt Nam. Ông là người có học vấn uyên thâm.",
       "thanhTuu": [
-        "Đỗ đầu khoa thi đầu tiên",
-        "Làm quan đến chức Thái sư",
-        "Đóng góp cho giáo dục Nho học"
+        "Đỗ đầu khoa thi đầu tiên (1075)",
+        "Trở thành trạng nguyên đầu tiên",
+        "Phục vụ triều đình nhà Lý",
+        "Đóng góp cho sự phát triển Nho học"
       ],
-      "tamQuan": true
+      "suKienLon": [
+        "1075: Đỗ đầu khoa thi"
+      ],
+      "tamQuan": true,
+      "loaiNhanVat": "quan_lai",
+      "moTa": "Trạng nguyên đầu tiên của Việt Nam, có công lớn trong việc phát triển Nho học."
     },
     {
+      "id": 13,
+      "ten": "Ỷ Lan",
+      "namSinh": "Không rõ",
+      "namMat": "Không rõ",
+      "viTri": "Nguyên phi, mẹ vua",
+      "noiSinh": "Thăng Long",
+      "thanThe": "Nguyên phi của Lý Thánh Tông, mẹ của Lý Nhân Tông. Bà là người có tài năng chính trị và được vua rất yêu quý.",
+      "thanhTuu": [
+        "Sinh ra Lý Nhân Tông",
+        "Được vua Lý Thánh Tông yêu quý",
+        "Có ảnh hưởng chính trị lớn",
+        "Được phong làm Nguyên phi"
+      ],
+      "suKienLon": [
+        "Sinh Lý Nhân Tông (1066)"
+      ],
+      "tamQuan": false,
+      "loaiNhanVat": "hoang_phi",
+      "moTa": "Nguyên phi nổi tiếng, mẹ của vị vua trị vì lâu nhất nhà Lý."
+    },
+    {
+      "id": 14,
+      "ten": "Trần Thủ Độ",
+      "namSinh": "Không rõ",
+      "namMat": "Không rõ",
+      "viTri": "Quyền thần, chính trị gia",
+      "noiSinh": "Thăng Long",
+      "thanThe": "Quyền thần có thế lực lớn cuối thời Lý, là người đạo diễn việc chuyển giao quyền lực từ nhà Lý sang nhà Trần.",
+      "thanhTuu": [
+        "Nắm quyền lực lớn cuối thời Lý",
+        "Đạo diễn việc chuyển giao quyền lực",
+        "Sắp xếp hôn nhân Lý Chiêu Hoàng - Trần Cảnh",
+        "Thành lập nhà Trần"
+      ],
+      "suKienLon": [
+        "1224: Buộc Lý Huệ Tông nhường ngôi",
+        "1225: Đạo diễn việc chuyển giao quyền lực"
+      ],
+      "tamQuan": true,
+      "loaiNhanVat": "quyen_than",
+      "moTa": "Quyền thần có tài năng chính trị, là người đạo diễn việc chuyển giao quyền lực."
+    },
+    {
+      "id": 15,
       "ten": "Mãn Giác",
-      "hieu": "Thiền sư",
-      "nam": "1052-1096",
-      "viTri": "Thiền sư",
-      "moTa": "Thiền sư nổi tiếng, tác giả bài thơ 'Cáo tật thị chúng'",
+      "namSinh": "Không rõ",
+      "namMat": "Không rõ",
+      "viTri": "Thiền sư, nhà thơ",
+      "noiSinh": "Thăng Long",
+      "thanThe": "Thiền sư nổi tiếng thời Lý, tác giả bài thơ 'Cáo tật thị chúng' nổi tiếng. Ông là một trong những nhà thơ Thiền tiêu biểu.",
       "thanhTuu": [
-        "Tác giả bài thơ 'Cáo tật thị chúng'",
-        "Phát triển Thiền tông",
-        "Để lại nhiều tác phẩm văn học"
+        "Sáng tác bài thơ 'Cáo tật thị chúng'",
+        "Phát triển văn học Thiền",
+        "Đào tạo nhiều đệ tử",
+        "Đóng góp cho văn hóa Phật giáo"
       ],
-      "tamQuan": false
-    },
-    {
-      "ten": "Không Lộ",
-      "hieu": "Thiền sư",
-      "nam": "1016-1094",
-      "viTri": "Thiền sư",
-      "moTa": "Thiền sư nổi tiếng, tác giả bài thơ 'Ngôn hoài'",
-      "thanhTuu": [
-        "Tác giả bài thơ 'Ngôn hoài'",
-        "Phát triển Thiền tông",
-        "Để lại nhiều tác phẩm văn học"
+      "suKienLon": [
+        "Sáng tác thơ Thiền"
       ],
-      "tamQuan": false
-    },
-    {
-      "ten": "Từ Đạo Hạnh",
-      "hieu": "Thiền sư",
-      "nam": "1072-1116",
-      "viTri": "Thiền sư",
-      "moTa": "Thiền sư nổi tiếng, tu hành tại chùa Thầy",
-      "thanhTuu": [
-        "Tu hành tại chùa Thầy",
-        "Phát triển Thiền tông",
-        "Để lại nhiều giai thoại"
-      ],
-      "tamQuan": false
-    },
-    {
-      "ten": "Lý Chiêu Hoàng",
-      "hieu": "Nữ hoàng",
-      "nam": "1218-1278",
-      "viTri": "Nữ hoàng cuối cùng nhà Lý",
-      "moTa": "Vị nữ hoàng cuối cùng của triều đại nhà Lý",
-      "thanhTuu": [
-        "Nữ hoàng đầu tiên Việt Nam",
-        "Nhường ngôi cho Trần Cảnh",
-        "Kết thúc triều đại nhà Lý"
-      ],
-      "tamQuan": true
+      "tamQuan": false,
+      "loaiNhanVat": "tu_si",
+      "moTa": "Thiền sư, nhà thơ nổi tiếng, có đóng góp lớn cho văn học Thiền thời Lý."
     }
   ]
 } 

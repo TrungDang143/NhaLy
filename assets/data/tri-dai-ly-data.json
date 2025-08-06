@@ -6,7 +6,7 @@
       "thoiGianTonTai": "1009-1225",
       "soNam": 216,
       "soDoiVua": 9,
-      "quocHieu": ["Đại Cồ Việt (1009-1054)", "Đại Việt (1054-1225)"],
+      "quocHieu": ["Đại Cồ Việt", "Đại Việt"],
       "kinhDo": ["Hoa Lư (1009-1010)", "Thăng Long (1010-1225)"],
       "moTa": "Triều đại nhà Lý là một trong những vương triều quan trọng bậc nhất trong lịch sử Việt Nam, đánh dấu một giai đoạn phát triển rực rỡ và đặt nền móng vững chắc cho nền độc lập, tự chủ của quốc gia Đại Việt."
     },
@@ -14,63 +14,69 @@
       {
         "ten": "Lý Thái Tổ",
         "tenThat": "Lý Công Uẩn",
-        "niênHiệu": ["Thuận Thiên (1010-1028)"],
+        "niênHiệu": ["Thuận Thiên"],
         "ngaySinh": "12/02/974",
         "ngayMat": "31/03/1028",
         "thoiGianTriVi": "19 năm (1009-1028)",
         "tuoiTho": 54,
-        "noiSinh": "Từ Sơn, Bắc Ninh",
-        "thanThe": "Xuất thân từ châu Cổ Pháp, được thiền sư Vạn Hạnh và Đào Cam Mộc tôn lên ngôi",
+        "noiSinh": "Châu Cổ Pháp, Từ Sơn, Bắc Ninh",
+        "thanThe": "Vị hoàng đế sáng lập triều đại Lý, sinh tại chùa Cổ Pháp, được thiền sư Vạn Hạnh nuôi dưỡng và giáo dục. Xuất thân từ quân đội nhà Tiền Lê, giữ chức Tả thân vệ điện tiền chỉ huy sứ.",
         "thanhTuu": [
-          "Dời đô từ Hoa Lư về Thăng Long",
-          "Xây dựng Hoàng Thành Thăng Long",
-          "Mở rộng bờ cõi về phía Nam",
+          "Sáng lập triều đại Lý",
+          "Dời đô từ Hoa Lư về Thăng Long (1010)",
+          "Xây dựng Hoàng thành Thăng Long",
+          "Ban hành Chiếu dời đô",
+          "Đánh đuổi quân Nam Chiếu",
           "Phát triển Phật giáo",
-          "Ban hành chính sách khuyến nông"
+          "Thiết lập hệ thống hành chính"
         ],
         "suKienLon": [
           {
+            "nam": 1009,
+            "suKien": "Lên ngôi hoàng đế",
+            "moTa": "Được tôn lên ngôi sau khi Lê Long Đĩnh qua đời"
+          },
+          {
             "nam": 1010,
             "suKien": "Dời đô về Thăng Long",
-            "moTa": "Ban Chiếu dời đô, chuyển kinh đô từ Hoa Lư về thành Đại La và đổi tên thành Thăng Long"
+            "moTa": "Ban Chiếu dời đô từ Hoa Lư về thành Đại La, đổi tên thành Thăng Long"
           },
           {
             "nam": 1012,
-            "suKien": "Đánh Nam Chiếu",
-            "moTa": "Đánh đuổi quân Nam Chiếu xâm lấn châu Vị Long"
+            "suKien": "Đánh quân Nam Chiếu",
+            "moTa": "Sai quân đánh quân Nam Chiếu xâm nhập châu Vị Long"
           },
           {
             "nam": 1014,
             "suKien": "Đánh tan 20 vạn quân Nam Chiếu",
-            "moTa": "Dẹp tan cuộc xâm lược lớn của Nam Chiếu tại châu Bình Lâm"
+            "moTa": "Dực Thánh vương đem quân đánh, chém được hơn 1 vạn đầu"
           }
         ]
       },
       {
         "ten": "Lý Thái Tông",
         "tenThat": "Lý Phật Mã",
-        "niênHiệu": [
-          "Thiên Thành (1028-1033)",
-          "Thông Thụy (1034-1038)",
-          "Càn Phù Hữu Đạo (1039-1041)",
-          "Minh Đạo (1042-1043)",
-          "Thiên Cảm Thánh Vũ (1044-1048)",
-          "Sùng Hưng Đại Bảo (1049-1054)"
-        ],
+        "niênHiệu": ["Thiên Thành", "Thông Thụy", "Càn Phù Hữu Đạo", "Minh Đạo", "Thiên Cảm Thánh Vũ", "Sùng Hưng Đại Bảo"],
         "ngaySinh": "29/07/1000",
         "ngayMat": "03/11/1054",
         "thoiGianTriVi": "26 năm (1028-1054)",
         "tuoiTho": 54,
-        "noiSinh": "Hoa Lư",
-        "thanThe": "Con trưởng của Lý Thái Tổ, được mô tả là bậc quân chủ văn võ song toàn",
+        "noiSinh": "Hoa Lư, Đại Cồ Việt",
+        "thanThe": "Con trưởng của Lý Thái Tổ, được đánh giá là bậc quân chủ văn võ song toàn, đánh đâu thắng đấy, lại là người có trái tim bao dung, nhân hậu.",
         "thanhTuu": [
-          "Ban hành bộ luật Hình Thư",
-          "Xây dựng chùa Một Cột",
-          "Dẹp loạn ba vương",
-          "Đánh Chiêm Thành",
-          "Giảm thuế cho dân"
+          "Ban hành bộ luật Hình Thư (1042)",
+          "Xây dựng chùa Diên Hựu (Một Cột) (1049)",
+          "Đánh Chiêm Thành (1044)",
+          "Dẹp loạn họ Nùng",
+          "Giảm thuế cho dân",
+          "Củng cố quyền lực nhà Lý"
         ],
         "suKienLon": [
+          {
+            "nam": 1028,
+            "suKien": "Lên ngôi sau loạn ba vương",
+            "moTa": "Dẹp loạn ba vương và lên ngôi hoàng đế"
+          },
           {
             "nam": 1042,
             "suKien": "Ban hành Hình Thư",
@@ -91,85 +97,262 @@
       {
         "ten": "Lý Thánh Tông",
         "tenThat": "Lý Nhật Tôn",
-        "niênHiệu": [
-          "Long Thụy Thái Bình (1054-1058)",
-          "Thiên Thánh Gia Khánh (1059-1065)",
-          "Long Chương Thiên Tự (1066-1068)",
-          "Thiên Thống Bảo Tượng (1068-1069)",
-          "Thần Vũ (1069-1072)"
-        ],
+        "niênHiệu": ["Long Thụy Thái Bình", "Thiên Thánh Gia Khánh", "Long Chương Thiên Tự", "Thiên Thống Bảo Tượng", "Thần Vũ"],
         "ngaySinh": "30/03/1023",
         "ngayMat": "01/02/1072",
         "thoiGianTriVi": "17 năm (1054-1072)",
         "tuoiTho": 48,
-        "noiSinh": "Hoa Lư",
-        "thanThe": "Con thứ 3 của Lý Thái Tông, được lập làm Hoàng thái tử từ năm 1028",
+        "noiSinh": "Thăng Long",
+        "thanThe": "Con thứ 3 của Lý Thái Tông, mẹ là Linh Cảm hoàng hậu Mai Thị. Sớm tinh thông kinh truyện, rành âm luật, lại giỏi võ nghệ.",
         "thanhTuu": [
-          "Đổi tên nước thành Đại Việt",
-          "Thành lập Văn Miếu",
-          "Phát triển Nho giáo",
+          "Đổi tên nước thành Đại Việt (1054)",
+          "Xây dựng Văn Miếu (1070)",
+          "Ban Chiếu khuyến nông (1056)",
+          "Đánh Chiêm Thành (1069)",
           "Mở rộng lãnh thổ về phía Nam",
-          "Ban hành chính sách khoan hòa"
+          "Phát triển Nho họ"
         ],
         "suKienLon": [
           {
             "nam": 1054,
-            "suKien": "Đổi quốc hiệu",
-            "moTa": "Đổi tên nước từ Đại Cồ Việt thành Đại Việt"
+            "suKien": "Đổi tên nước thành Đại Việt",
+            "moTa": "Đổi quốc hiệu từ Đại Cồ Việt thành Đại Việt"
           },
           {
-            "nam": 1070,
-            "suKien": "Xây Văn Miếu",
-            "moTa": "Xây dựng Văn Miếu tại Thăng Long để thờ Khổng Tử"
+            "nam": 1056,
+            "suKien": "Ban Chiếu khuyến nông",
+            "moTa": "Ban hành chiếu khuyến nông và đích thân đi thăm hỏi việc đồng áng"
           },
           {
             "nam": 1069,
             "suKien": "Đánh Chiêm Thành",
-            "moTa": "Chinh phạt Chiêm Thành, bắt vua Chế Củ, sáp nhập 3 châu Địa Lý, Ma Linh, Bố Chính"
+            "moTa": "Đánh Chiêm Thành, bắt được vua Chiêm Chế Củ, sáp nhập ba châu Địa Lý, Ma Linh, Bố Chính"
+          },
+          {
+            "nam": 1070,
+            "suKien": "Xây dựng Văn Miếu",
+            "moTa": "Xây dựng Văn Miếu để thờ Khổng Tử và các bậc hiền tài"
           }
         ]
       },
       {
         "ten": "Lý Nhân Tông",
         "tenThat": "Lý Càn Đức",
-        "niênHiệu": [
-          "Thái Ninh (1072-1076)",
-          "Anh Vũ Chiêu Thắng (1076-1084)",
-          "Quảng Hựu (1085-1092)",
-          "Hội Phong (1092-1100)",
-          "Long Phù (1101-1109)",
-          "Hội Tường Đại Khánh (1110-1119)",
-          "Thiên Phù Duệ Vũ (1120-1126)",
-          "Thiên Phù Khánh Thọ (1127-1127)"
-        ],
+        "niênHiệu": ["Thái Ninh", "Anh Vũ Chiêu Thắng", "Quảng Hựu", "Hội Phong", "Long Phù", "Hội Tường Đại Khánh", "Thiên Phù Duệ Vũ", "Thiên Phù Khánh Thọ"],
         "ngaySinh": "22/02/1066",
         "ngayMat": "15/01/1128",
         "thoiGianTriVi": "56 năm (1072-1128)",
         "tuoiTho": 61,
         "noiSinh": "Cung Động Tiên, Thăng Long",
-        "thanThe": "Lên ngôi khi mới 7 tuổi, là vị vua trị vì lâu nhất trong lịch sử phong kiến Việt Nam",
+        "thanThe": "Con trưởng của Lý Thánh Tông, mẹ là Nguyên phi Ỷ Lan. Lên ngôi khi mới 7 tuổi, là vị vua trị vì lâu nhất trong lịch sử phong kiến Việt Nam.",
         "thanhTuu": [
-          "Tổ chức khoa thi đầu tiên",
-          "Thành lập Quốc Tử Giám",
-          "Kháng chiến chống Tống thắng lợi",
-          "Phát triển giáo dục Nho học",
-          "Xây dựng hệ thống đê điều"
+          "Tổ chức khoa thi Nho học đầu tiên (1075)",
+          "Xây dựng Quốc Tử Giám (1076)",
+          "Kháng chiến chống Tống thắng lợi (1075-1077)",
+          "Ban chiếu cầu lời nói thẳng (1076)",
+          "Phát triển giáo dục và văn hóa",
+          "Củng cố quốc phòng"
         ],
         "suKienLon": [
           {
+            "nam": 1072,
+            "suKien": "Lên ngôi khi 7 tuổi",
+            "moTa": "Lên ngôi hoàng đế khi mới 7 tuổi, là vị vua trẻ nhất"
+          },
+          {
             "nam": 1075,
-            "suKien": "Khoa thi đầu tiên",
+            "suKien": "Tổ chức khoa thi đầu tiên",
             "moTa": "Tổ chức khoa thi Nho học đầu tiên, Lê Văn Thịnh đỗ đầu"
           },
           {
-            "nam": 1076,
-            "suKien": "Lập Quốc Tử Giám",
-            "moTa": "Thành lập Quốc Tử Giám - trường đại học đầu tiên của Việt Nam"
+            "nam": 1075,
+            "suKien": "Đánh Tống",
+            "moTa": "Lý Thường Kiệt đánh sang đất Tống, chiếm các châu Ung, Khâm, Liêm"
           },
           {
-            "nam": "1075-1077",
-            "suKien": "Kháng chiến chống Tống",
-            "moTa": "Lý Thường Kiệt chỉ huy đánh Tống, bảo vệ độc lập dân tộc"
+            "nam": 1077,
+            "suKien": "Đánh bại quân Tống",
+            "moTa": "Đánh bại quân Tống tại sông Như Nguyệt, bảo vệ độc lập"
+          },
+          {
+            "nam": 1076,
+            "suKien": "Xây dựng Quốc Tử Giám",
+            "moTa": "Thành lập Quốc Tử Giám, trường đại học đầu tiên của Việt Nam"
+          }
+        ]
+      },
+      {
+        "ten": "Lý Thần Tông",
+        "tenThat": "Lý Dương Hoán",
+        "niênHiệu": ["Thiên Thuận", "Thiên Chương Bảo Tự"],
+        "ngaySinh": "1116",
+        "ngayMat": "31/10/1138",
+        "thoiGianTriVi": "10 năm (1128-1138)",
+        "tuoiTho": 22,
+        "noiSinh": "Thăng Long",
+        "thanThe": "Con trai của Sùng Hiền hầu và bà phu nhân họ Đỗ. Là vua duy nhất nhà Lý được kế vị không phải do vua cha truyền lại. Mắc bệnh kỳ lạ được sư Minh Không chữa khỏi.",
+        "thanhTuu": [
+          "Thực hiện chính sách ngụ binh ư nông",
+          "Mở rộng xây chùa, tô tượng",
+          "Duy trì quan hệ tốt với các nước láng giềng",
+          "Phát triển nông nghiệp"
+        ],
+        "suKienLon": [
+          {
+            "nam": 1128,
+            "suKien": "Lên ngôi",
+            "moTa": "Lên ngôi sau khi Lý Nhân Tông qua đời"
+          },
+          {
+            "nam": 1138,
+            "suKien": "Qua đời sớm",
+            "moTa": "Qua đời khi mới 22 tuổi, để lại nhiều tiếc nuối"
+          }
+        ]
+      },
+      {
+        "ten": "Lý Anh Tông",
+        "tenThat": "Lý Thiên Tộ",
+        "niênHiệu": ["Thiệu Minh", "Đại Định", "Chính Long Bảo Ứng", "Thiên Cảm Chí Bảo"],
+        "ngaySinh": "04/1136",
+        "ngayMat": "14/08/1175",
+        "thoiGianTriVi": "37 năm (1138-1175)",
+        "tuoiTho": 39,
+        "noiSinh": "Thăng Long",
+        "thanThe": "Con trưởng của Lý Thần Tông và mẹ Lê Thái Hậu. Lên ngôi khi mới 3 tuổi, mẹ làm nhiếp chính. Bị Đỗ Anh Vũ chuyên quyền.",
+        "thanhTuu": [
+          "Huy động lực lượng lớn trấn áp tội phạm",
+          "Đánh quân Chiêm Thành, Ngưu Hống",
+          "Ngăn Ai Lao xâm nhập biên cương",
+          "Đặt ra Xạ Đình cho quân võ luyện tập"
+        ],
+        "suKienLon": [
+          {
+            "nam": 1138,
+            "suKien": "Lên ngôi khi 3 tuổi",
+            "moTa": "Lên ngôi khi mới 3 tuổi, mẹ làm nhiếp chính"
+          },
+          {
+            "nam": 1163,
+            "suKien": "Trấn áp tội phạm",
+            "moTa": "Sai Phí Công Tín đem 10 vạn quân đi đánh dẹp các đảng cướp"
+          },
+          {
+            "nam": 1175,
+            "suKien": "Qua đời",
+            "moTa": "Qua đời, truyền ngôi cho con thứ 6 là Lý Long Trát"
+          }
+        ]
+      },
+      {
+        "ten": "Lý Cao Tông",
+        "tenThat": "Lý Long Trát",
+        "niênHiệu": ["Trinh Phù", "Thiên Tư Gia Thụy", "Thiên Gia Bảo Hựu", "Trị Bình Long Ứng"],
+        "ngaySinh": "06/07/1173",
+        "ngayMat": "15/11/1210",
+        "thoiGianTriVi": "35 năm (1175-1210)",
+        "tuoiTho": 37,
+        "noiSinh": "Thăng Long",
+        "thanThe": "Con trai thứ 6 của Lý Anh Tông, mẹ là Đỗ Thuỵ Châu. Lên ngôi khi mới 3 tuổi. Thời kỳ của ông đánh dấu sự suy tàn của nhà Lý.",
+        "thanhTuu": [
+          "Xây dựng nhiều cung điện, lầu gác",
+          "Xây dựng hơn 100 hành cung",
+          "Duy trì quyền lực trong thời loạn lạc"
+        ],
+        "suKienLon": [
+          {
+            "nam": 1175,
+            "suKien": "Lên ngôi khi 3 tuổi",
+            "moTa": "Lên ngôi khi mới 3 tuổi, bắt đầu thời kỳ suy tàn"
+          },
+          {
+            "nam": 1197,
+            "suKien": "Xây dựng hành cung",
+            "moTa": "Xây cung Nghênh Thiềm và hành cung hơn 100 nơi"
+          },
+          {
+            "nam": 1208,
+            "suKien": "Loạn Quách Bốc",
+            "moTa": "Có loạn Quách Bốc, vua chạy lên vùng Tam Nông"
+          },
+          {
+            "nam": 1210,
+            "suKien": "Qua đời",
+            "moTa": "Qua đời ở cung Thánh Thọ, thọ 38 tuổi"
+          }
+        ]
+      },
+      {
+        "ten": "Lý Huệ Tông",
+        "tenThat": "Lý Sảm",
+        "niênHiệu": ["Kiến Gia"],
+        "ngaySinh": "07/1194",
+        "ngayMat": "03/09/1226",
+        "thoiGianTriVi": "14 năm (1210-1224)",
+        "tuoiTho": 32,
+        "noiSinh": "Thăng Long",
+        "thanThe": "Con trưởng của Lý Cao Tông, mẹ là hoàng hậu họ Đàm. Được đánh giá là vị vua thăng trầm nhất, bệnh hiểm, điên loạn, không có con trai nối dõi.",
+        "thanhTuu": [
+          "Duy trì triều đình trong thời loạn lạc",
+          "Nhường ngôi cho con gái"
+        ],
+        "suKienLon": [
+          {
+            "nam": 1210,
+            "suKien": "Lên ngôi",
+            "moTa": "Lên ngôi trong thời kỳ loạn lạc"
+          },
+          {
+            "nam": 1212,
+            "suKien": "Đánh phản loạn thất bại",
+            "moTa": "Tự dẫn quân đánh phản loạn ở ngoại thành Thăng Long bị đại bại"
+          },
+          {
+            "nam": 1216,
+            "suKien": "Mắc bệnh trúng phong",
+            "moTa": "Mắc bệnh trúng phong, không thầy thuốc nào chữa được"
+          },
+          {
+            "nam": 1224,
+            "suKien": "Nhường ngôi",
+            "moTa": "Nhường ngôi cho con gái là Lý Chiêu Hoàng"
+          },
+          {
+            "nam": 1226,
+            "suKien": "Bị bức tử",
+            "moTa": "Bị bức tử, thọ 33 tuổi"
+          }
+        ]
+      },
+      {
+        "ten": "Lý Chiêu Hoàng",
+        "tenThat": "Lý Phật Kim",
+        "niênHiệu": ["Thiên Chương Hữu Đạo"],
+        "ngaySinh": "09/1218",
+        "ngayMat": "03/1278",
+        "thoiGianTriVi": "1 năm (1224-1225)",
+        "tuoiTho": 61,
+        "noiSinh": "Thăng Long",
+        "thanThe": "Con gái của Lý Huệ Tông. Là nữ hoàng đầu tiên và duy nhất trong lịch sử phong kiến Việt Nam. Lên ngôi khi mới 6 tuổi.",
+        "thanhTuu": [
+          "Trở thành nữ hoàng đầu tiên Việt Nam",
+          "Nhường ngôi cho Trần Cảnh"
+        ],
+        "suKienLon": [
+          {
+            "nam": 1224,
+            "suKien": "Lên ngôi nữ hoàng",
+            "moTa": "Lên ngôi khi mới 6 tuổi, trở thành nữ hoàng đầu tiên"
+          },
+          {
+            "nam": 1225,
+            "suKien": "Nhường ngôi cho Trần Cảnh",
+            "moTa": "Nhường ngôi cho Trần Cảnh, kết thúc triều Lý"
+          },
+          {
+            "nam": 1278,
+            "suKien": "Qua đời",
+            "moTa": "Qua đời ở Cổ Pháp, thọ 61 tuổi"
           }
         ]
       }
@@ -177,64 +360,57 @@
     "chinhTri": {
       "boMayNhaNuoc": {
         "trungUong": [
-          "Vua - nắm quyền lực tối cao",
-          "Sảnh - cơ quan giúp việc trực tiếp cho hoàng đế",
-          "Hàn lâm viện - soạn thảo văn kiện triều đình",
-          "Khu mật viện - tham mưu việc cơ mật",
+          "Vua nắm quyền lực tối cao",
+          "Sảnh: Thượng thư sảnh, Trung thư sảnh",
+          "Hàn lâm viện: Soạn thảo văn kiện triều đình",
+          "Khu mật viện: Tham mưu cơ mật",
           "6 Bộ: Lại, Hộ, Lễ, Binh, Hình, Công",
-          "Quốc Tử Giám - cơ quan giáo dục cao cấp"
+          "Quốc Tử Giám: Cơ quan giáo dục cao cấp"
         ],
         "diaPhuong": [
           "Phủ, Lộ (đồng bằng)",
           "Châu, Trại (miền núi)",
-          "Huyện, Hương, Giáp, Phường",
+          "Huyện, Hương, Giáp, Phường, Sách, Động",
           "Thôn, Xã (đơn vị cơ sở)"
         ]
       },
       "phapLuat": {
-        "hinhThu": {
-          "nam": 1042,
-          "moTa": "Bộ luật thành văn đầu tiên của Việt Nam",
-          "noiDung": [
-            "Bảo vệ nhà vua và cung điện",
-            "Bảo vệ tài sản công và tư",
-            "Nghiêm cấm giết trâu bò",
-            "Xử phạt nghiêm khắc tội phạm"
-          ]
-        }
+        "hinhThu": "Bộ luật thành văn đầu tiên ban hành năm 1042",
+        "noiDung": [
+          "Bảo vệ nhà vua và cung điện",
+          "Bảo vệ tài sản công và tư",
+          "Nghiêm cấm mổ trâu bò",
+          "Xử phạt nghiêm khắc tội phạm"
+        ]
       }
     },
     "quanSu": {
       "toChuc": {
-        "camQuan": {
-          "moTa": "Lực lượng chủ lực của triều đình",
-          "nhiemVu": "Bảo vệ vua, hoàng cung và kinh đô",
-          "soLuong": "Từ 20.000 đến 32.000 người",
-          "dacDiem": "Được thích ba chữ 'Thiên Tử Quân' lên trán"
-        },
-        "diaPhuong": {
-          "moTa": "Lực lượng đồn trú tại các địa phương",
-          "nhiemVu": "Canh phòng, giữ gìn an ninh địa phương"
-        }
+        "camQuan": "Lực lượng chủ lực, đóng ở kinh thành",
+        "diaPhuong": "Lộ quân/Sương quân đồn trú các địa phương",
+        "binhChung": ["Bộ binh", "Thủy binh", "Kỵ binh", "Tượng binh"],
+        "vuKhi": ["Giáo mác", "Đao kiếm", "Cung nỏ", "Máy bắn đá"]
       },
       "chinhSach": {
-        "nguBinhUNong": {
-          "moTa": "Chính sách quân sự độc đáo",
-          "noiDung": "Quân lính thời bình về quê làm ruộng, có chiến tranh thì huy động trở lại"
-        }
+        "nguBinhUNong": "Quân lính thay phiên về quê làm ruộng",
+        "tuyenQuan": "Đăng ký hộ tịch từ 18 tuổi",
+        "luyenTap": "Xây dựng trường bắn (xạ đình)"
       },
       "chienTranh": [
         {
-          "ten": "Kháng chiến chống Tống (1075-1077)",
-          "moTa": "Cuộc chiến bảo vệ Tổ quốc quy mô lớn",
-          "tuongLinh": "Lý Thường Kiệt",
-          "ketQua": "Thắng lợi, bảo vệ độc lập dân tộc"
+          "nam": "1075-1077",
+          "ten": "Kháng chiến chống Tống",
+          "moTa": "Lý Thường Kiệt đánh sang đất Tống, sau đó đánh bại quân Tống tại sông Như Nguyệt"
         },
         {
+          "nam": "1020, 1044, 1069, 1104",
           "ten": "Chinh phạt Chiêm Thành",
-          "moTa": "Nhiều lần đánh Chiêm Thành",
-          "nam": [1020, 1044, 1069, 1104],
-          "ketQua": "Mở rộng lãnh thổ về phía Nam"
+          "moTa": "Nhiều lần đánh Chiêm Thành, mở rộng lãnh thổ về phía Nam"
+        },
+        {
+          "nam": "1012, 1014",
+          "ten": "Đánh quân Nam Chiếu",
+          "moTa": "Đánh tan 20 vạn quân Nam Chiếu xâm lược"
         }
       ]
     },
@@ -242,134 +418,147 @@
       "nongNghiep": {
         "chinhSach": [
           "Khuyến nông",
-          "Xây dựng đê điều",
-          "Bảo vệ trâu bò",
+          "Phát triển thủy lợi",
+          "Bảo vệ sức kéo trâu bò",
           "Miễn giảm thuế khi thiên tai"
         ],
-        "thanhTuu": "Nhiều năm mùa màng bội thu, đảm bảo an ninh lương thực"
+        "ruongDat": [
+          "Ruộng công: quốc khố điền, đồn điền, tịch điền",
+          "Ruộng tư nhân",
+          "Ruộng chùa"
+        ]
       },
-      "thuCongNghiep": {
-        "ngheDệt": "Phát triển mạnh, lụa Đại Việt có chất lượng cao",
-        "ngheGom": "Gốm men ngọc nổi tiếng, gạch ngói trang trí phong phú",
-        "ngheDucDong": "Đúc chuông, tượng Phật, tiền đồng",
-        "khaiThacVang": "Đãi vàng lộ thiên ở vùng trung du, miền núi"
-      },
+      "thuCongNghiep": [
+        "Nghề dệt: tơ lụa, gấm vóc",
+        "Nghề gốm: gạch, ngói, đồ sứ men ngọc",
+        "Nghề đúc đồng: chuông, tượng, tiền",
+        "Khai thác vàng"
+      ],
       "thuongNghiep": {
-        "noiThuong": "Hệ thống chợ làng, chợ huyện phát triển",
+        "noiThuong": "Chợ làng, chợ huyện phát triển",
         "ngoaiThuong": {
           "doiTac": ["Trung Quốc", "Chiêm Thành", "Java", "Thái Lan"],
-          "trungTam": "Vân Đồn - thương cảng lớn nhất",
-          "hangXuatKhau": ["Trầm hương", "Ngà voi", "Sừng tê giác", "Hương liệu"],
-          "hangNhapKhau": ["Giấy", "Bút", "Tơ lụa", "Gấm vóc"]
+          "trungTam": "Vân Đồn (Quảng Ninh)",
+          "hangHoa": {
+            "xuatKhau": ["Trầm hương", "Ngà voi", "Sừng tê giác", "Hương liệu"],
+            "nhapKhau": ["Giấy", "Bút", "Tơ lụa", "Gấm vóc"]
+          }
         }
       }
     },
     "vanHoa": {
       "tonGiao": {
         "phatGiao": {
-          "viTri": "Quốc giáo",
-          "anhHuong": "Sâu sắc vào đời sống xã hội",
+          "viThe": "Quốc giáo",
           "chuaThap": [
-            "Chùa Một Cột",
+            "Chùa Diên Hựu (Một Cột)",
             "Tháp Báo Thiên",
-            "Chùa Dâu",
             "Chùa Phật Tích",
+            "Chùa Dạm",
             "Chùa Long Đọi"
-          ]
+          ],
+          "anhHuong": "Thẩm thấu sâu vào đời sống xã hội"
         },
         "nhoGiao": {
-          "phatTrien": "Từ thời Lý Thánh Tông",
           "vanMieu": "Xây dựng năm 1070",
-          "quocTuGiam": "Thành lập năm 1076"
+          "quocTuGiam": "Thành lập năm 1076",
+          "khoaThi": "Tổ chức khoa thi đầu tiên năm 1075"
         },
         "tamGiao": "Phật - Nho - Đạo dung hòa"
       },
-      "giaoDuc": {
-        "vanMieu": {
-          "nam": 1070,
-          "moTa": "Nơi thờ Khổng Tử và dạy học"
-        },
-        "khoaThi": {
-          "nam": 1075,
-          "moTa": "Khoa thi Nho học đầu tiên"
-        },
-        "quocTuGiam": {
-          "nam": 1076,
-          "moTa": "Trường đại học đầu tiên của Việt Nam"
-        }
-      },
       "vanHoc": {
-        "dacDiem": "Chủ yếu viết bằng chữ Hán, ảnh hưởng sâu sắc của Phật giáo",
-        "theLoai": ["Thơ Thiền", "Chiếu", "Biểu", "Văn bia", "Truyện ký"],
+        "theLoai": ["Thơ Thiền", "Chiếu", "Biểu", "Văn bia"],
         "tacPham": [
-          "Thiên đô chiếu - Lý Công Uẩn",
-          "Nam quốc sơn hà - Lý Thường Kiệt",
-          "Cáo tật thị chúng - Mãn Giác",
+          "Thiên đô chiếu (Lý Công Uẩn)",
+          "Nam quốc sơn hà (Lý Thường Kiệt)",
+          "Các bài thơ Thiền",
           "Thiền uyển tập anh"
         ]
       },
       "kienTruc": {
-        "hoangThanh": {
-          "moTa": "Tam trùng thành quách",
-          "cauTruc": [
-            "La thành (ngoài cùng)",
-            "Hoàng thành (giữa)",
-            "Tử Cấm thành (trong cùng)"
-          ]
-        },
-        "chuaThap": "Kiến trúc Phật giáo phát triển rực rỡ",
-        "dienCung": "Xây dựng nhiều cung điện, thành quách"
+        "dacDiem": [
+          "Quy mô hoành tráng",
+          "Trang trí tinh xảo",
+          "Kết hợp gỗ, đá, gạch"
+        ],
+        "congTrinh": [
+          "Hoàng thành Thăng Long",
+          "Chùa Một Cột",
+          "Văn Miếu - Quốc Tử Giám",
+          "Chùa Phật Tích",
+          "Chùa Dạm"
+        ]
       }
     },
     "suKienLon": [
       {
         "nam": 1009,
         "suKien": "Lý Công Uẩn lên ngôi",
-        "moTa": "Thiền sư Vạn Hạnh và Đào Cam Mộc tôn Lý Công Uẩn lên ngôi, lập nên nhà Lý"
+        "moTa": "Thành lập triều đại nhà Lý"
       },
       {
         "nam": 1010,
         "suKien": "Dời đô về Thăng Long",
-        "moTa": "Lý Thái Tổ ban Chiếu dời đô, chuyển kinh đô từ Hoa Lư về Thăng Long"
+        "moTa": "Quyết định lịch sử dời đô từ Hoa Lư về Thăng Long"
+      },
+      {
+        "nam": 1042,
+        "suKien": "Ban hành Hình Thư",
+        "moTa": "Bộ luật thành văn đầu tiên của Việt Nam"
       },
       {
         "nam": 1054,
-        "suKien": "Đổi quốc hiệu thành Đại Việt",
-        "moTa": "Lý Thánh Tông đổi tên nước từ Đại Cồ Việt thành Đại Việt"
+        "suKien": "Đổi tên nước thành Đại Việt",
+        "moTa": "Đổi quốc hiệu từ Đại Cồ Việt thành Đại Việt"
       },
       {
-        "nam": "1075-1077",
-        "suKien": "Kháng chiến chống Tống",
-        "moTa": "Lý Thường Kiệt chỉ huy đánh Tống, bảo vệ độc lập dân tộc"
+        "nam": 1070,
+        "suKien": "Xây dựng Văn Miếu",
+        "moTa": "Xây dựng Văn Miếu để thờ Khổng Tử"
+      },
+      {
+        "nam": 1075,
+        "suKien": "Tổ chức khoa thi đầu tiên",
+        "moTa": "Khoa thi Nho học đầu tiên, Lê Văn Thịnh đỗ đầu"
+      },
+      {
+        "nam": 1076,
+        "suKien": "Thành lập Quốc Tử Giám",
+        "moTa": "Trường đại học đầu tiên của Việt Nam"
+      },
+      {
+        "nam": 1075,
+        "suKien": "Đánh Tống",
+        "moTa": "Lý Thường Kiệt đánh sang đất Tống"
+      },
+      {
+        "nam": 1077,
+        "suKien": "Đánh bại quân Tống",
+        "moTa": "Đánh bại quân Tống tại sông Như Nguyệt"
       },
       {
         "nam": 1225,
         "suKien": "Nhà Lý kết thúc",
-        "moTa": "Lý Chiêu Hoàng nhường ngôi cho Trần Cảnh, nhà Trần thành lập"
+        "moTa": "Lý Chiêu Hoàng nhường ngôi cho Trần Cảnh"
       }
     ],
     "diSan": {
-      "chinhTri": [
-        "Nhà nước quân chủ tập quyền",
-        "Hệ thống luật pháp thành văn",
-        "Bộ máy hành chính quy củ"
-      ],
-      "kinhTe": [
-        "Chính sách ngụ binh ư nông",
-        "Hệ thống đê điều",
-        "Thương cảng Vân Đồn"
-      ],
-      "vanHoa": [
-        "Văn Miếu - Quốc Tử Giám",
-        "Kiến trúc Phật giáo",
-        "Văn học Thiền tông"
-      ],
-      "diaDanh": [
-        "Thăng Long - Hà Nội",
+      "kienTruc": [
+        "Hoàng thành Thăng Long",
         "Chùa Một Cột",
-        "Văn Miếu",
-        "Tháp Báo Thiên"
-      ]
+        "Văn Miếu - Quốc Tử Giám",
+        "Chùa Phật Tích",
+        "Chùa Dạm"
+      ],
+      "vanHoc": [
+        "Thiên đô chiếu",
+        "Nam quốc sơn hà",
+        "Các bài thơ Thiền",
+        "Thiền uyển tập anh"
+      ],
+      "phapLuat": "Hình Thư - bộ luật thành văn đầu tiên",
+      "giaoDuc": "Hệ thống giáo dục Nho học",
+      "quanSu": "Chính sách ngụ binh ư nông"
     }
   }
 } 
