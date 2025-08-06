@@ -12,139 +12,107 @@
     },
     "cacViVua": [
       {
+        "id": 1,
         "ten": "Lý Thái Tổ",
         "tenThat": "Lý Công Uẩn",
-        "niênHiệu": ["Thuận Thiên"],
+        "nienHieu": ["Thuận Thiên (順天)"],
         "ngaySinh": "12/02/974",
         "ngayMat": "31/03/1028",
-        "thoiGianTriVi": "19 năm (1009-1028)",
+        "thoiGianTriVi": "19 năm (21/11/1009 - 31/3/1028)",
         "tuoiTho": 54,
-        "noiSinh": "Châu Cổ Pháp, Từ Sơn, Bắc Ninh",
-        "thanThe": "Vị hoàng đế sáng lập triều đại Lý, sinh tại chùa Cổ Pháp, được thiền sư Vạn Hạnh nuôi dưỡng và giáo dục. Xuất thân từ quân đội nhà Tiền Lê, giữ chức Tả thân vệ điện tiền chỉ huy sứ.",
+        "noiSinh": "Từ Sơn, lộ Bắc Giang, Đại Cồ Việt",
+        "thanThe": "Lý Thái Tổ chính là vị vua sáng lập nên nhà Lý trong lịch sử Việt Nam, trị vì từ năm 1009 đến khi qua đời vào năm 1028. Khởi đầu từ quyết định dời đô sáng suốt, mang tính chiến lược của vị vua khai mở triều Lý, cùng tầm nhìn chiến lược trong việc lựa đất đóng đô giữ nguyên giá trị trong hầu hết chiều dài 1000 năm đã đưa Lý Thái Tổ thành vị vua chói sáng nhất trong số các vị vua tài giỏi của lịch sử phong kiến Việt Nam.",
         "thanhTuu": [
-          "Sáng lập triều đại Lý",
-          "Dời đô từ Hoa Lư về Thăng Long (1010)",
-          "Xây dựng Hoàng thành Thăng Long",
-          "Ban hành Chiếu dời đô",
+          "Dời đô từ Hoa Lư về Thăng Long (Hà Nội ngày nay)",
+          "Xây dựng Hoàng Thành Thăng Long vĩ đại",
+          "Vị vua duy nhất mang quân mở rộng bờ cõi",
+          "Mở ra thời kỳ phát triển phật giáo Việt Nam",
           "Đánh đuổi quân Nam Chiếu",
-          "Phát triển Phật giáo",
-          "Thiết lập hệ thống hành chính"
+          "Thiết lập hệ thống hành chính",
+          "Lập 9 hoàng hậu - nhiều nhất trong lịch sử"
         ],
-        "suKienLon": [
-          {
-            "nam": 1009,
-            "suKien": "Lên ngôi hoàng đế",
-            "moTa": "Được tôn lên ngôi sau khi Lê Long Đĩnh qua đời"
-          },
-          {
-            "nam": 1010,
-            "suKien": "Dời đô về Thăng Long",
-            "moTa": "Ban Chiếu dời đô từ Hoa Lư về thành Đại La, đổi tên thành Thăng Long"
-          },
-          {
-            "nam": 1012,
-            "suKien": "Đánh quân Nam Chiếu",
-            "moTa": "Sai quân đánh quân Nam Chiếu xâm nhập châu Vị Long"
-          },
-          {
-            "nam": 1014,
-            "suKien": "Đánh tan 20 vạn quân Nam Chiếu",
-            "moTa": "Dực Thánh vương đem quân đánh, chém được hơn 1 vạn đầu"
+        "thongTinChiTiet": {
+          "thanThe": "Vua Lý Thái Tổ có tên thật là Lý Công Uẩn sinh năm 974, là người làng Cổ Pháp (nay thuộc Đình Bảng, Từ Sơn, Bắc Ninh, nơi vẫn còn lưu giữ ngôi đền Lý Bát Đế nổi tiếng thờ 8 vị vua triều Lý). Theo truyền thuyết, Lý Công Uẩn mồ côi cả cha lẫn mẹ, được thiền sư Lý Khánh Văn nhận làm con nuôi. Từ nhỏ Lý Công Uẩn đã rất thông minh, vẻ ngoài tuấn tú khác thường. Khi theo nhà sư Vạn Hạnh ở chùa Lục Tổ học, ông được nhà sư rất yêu mến và tiên đoán ắt có thể trở thành bậc minh chủ thiên hạ.",
+          "hoangHau": "Lý Thái Tổ là vị vua có nhiều hoàng hậu nhất trong lịch sử phong kiến của Việt Nam. Sách Đại Việt sử ký toàn thư viết: 'Lập 6 hoàng hậu, duy có đích phu nhân gọi là hoàng hậu Lập Giáo, quy chế xe kiệu và y phục khác hẳn với các cung khác'. Đến tháng 3 năm Bính Thìn (1016) Lý Thái Tổ lại lập thêm 3 hoàng hậu nữa. Như vậy tổng cộng là 9 hoàng hậu.",
+          "thanhTuuChiTiet": {
+            "doiDo": "Sự kiện nổi bật nhất không chỉ trong giai đoạn nhà Lý mà còn đối với cả lịch sử Việt Nam đó là công cuộc thiên đô từ Hoa Lư (Ninh Bình) ra Thăng Long (Hà Nội ngày nay) của Lý Thái Tổ. Tháng 7 mùa thu năm 1010, nhà vua công bố thiên đô chiếu (Chiếu Dời Đô) để dời đô từ Hoa Lư (Ninh Bình) về thành Đại La. Đánh giá việc dời đô ra Thăng Long là một bước ngoặt rất lớn. Sự kiện này đánh dấu sự trưởng thành của dân tộc Đại Việt.",
+            "xayDung": "Ngay sau khi dời đô, Lý Thái Tổ đã gấp rút cho xây dựng Kinh thành Thăng Long, đến đầu năm 1011 thì hoàn thành. Khi mới xây dựng, Kinh Thành Thăng Long được xây dựng theo mô hình 'Tam trùng thành quách' gồm: vòng ngoài cùng gọi là La thành hay Kinh thành, bao quanh toàn bộ kinh đô và men theo nước của 3 con sông: sông Hồng, sông Tô Lịch và sông Kim Ngưu.",
+            "moRong": "Lý Thái Tổ là vị vua duy nhất trong lịch sử cho quân giao chiến với quân nước Nam Chiếu (một quốc gia cổ nay thuộc vùng Vân Nam, Trung Quốc). Cuối năm Nhâm Tý (1012) ông nghe tin báo người Nam Chiếu xâm nhập châu Vị Long (nay thuộc Cao Bằng) bèn sai quân đi đánh, bắt được rất nhiều người và hơn 1 vạn con ngựa.",
+            "phatGiao": "Lý Thái Tổ khi lên ngôi rất coi trọng việc xây dựng chùa chiền, lấy Phật giáo làm quốc giáo. Vì ông vốn xuất thân Phật Giáo. Năm 1010, sau khi dời đô về Thăng Long, việc đầu tiên Lý Công Uẩn làm chính là xuất 2 vạn quan để xây chùa tại phủ Thiên Đức (Cổ Pháp)."
           }
-        ]
+        }
       },
       {
+        "id": 2,
         "ten": "Lý Thái Tông",
         "tenThat": "Lý Phật Mã",
-        "niênHiệu": ["Thiên Thành", "Thông Thụy", "Càn Phù Hữu Đạo", "Minh Đạo", "Thiên Cảm Thánh Vũ", "Sùng Hưng Đại Bảo"],
+        "nienHieu": ["Thiên Thành (1028 - 1033)", "Thông Thụy (1034 - 1038)", "Càn Phù Hữu Đạo (1039 - 1041)", "Minh Đạo (1042 - 1043)", "Thiên Cảm Thánh Vũ (1044 - 1048)", "Sùng Hưng Đại Bảo (1049 - 1054)"],
         "ngaySinh": "29/07/1000",
         "ngayMat": "03/11/1054",
-        "thoiGianTriVi": "26 năm (1028-1054)",
+        "thoiGianTriVi": "26 năm (1 tháng 4 năm 1028 – 3 tháng 11 năm 1054)",
         "tuoiTho": 54,
         "noiSinh": "Hoa Lư, Đại Cồ Việt",
-        "thanThe": "Con trưởng của Lý Thái Tổ, được đánh giá là bậc quân chủ văn võ song toàn, đánh đâu thắng đấy, lại là người có trái tim bao dung, nhân hậu.",
+        "thanThe": "Vua Lý Thái Tông được biết đến như một bậc hào kiệt sinh ra đã được định sẵn là một Hoàng đế bách chiến bách thắng, một định mệnh khó khăn, sắt máu nhưng đầy vinh quang. Được sử sách ghi nhận là bậc quân chủ văn võ song toàn, đánh đâu thắng đấy, lại là người có trái tim bao dung, nhân hậu. Thời đại của Lý Thái Tông được xem là khởi đầu sự thịnh vượng của Nhà Lý.",
         "thanhTuu": [
-          "Ban hành bộ luật Hình Thư (1042)",
-          "Xây dựng chùa Diên Hựu (Một Cột) (1049)",
-          "Đánh Chiêm Thành (1044)",
+          "Đánh đuổi giặc ngoại bách chiến bách thắng",
+          "Ban hành bộ luật Hình Thư - bộ luật thành văn đầu tiên của Việt Nam",
+          "Xây dựng chùa một cột - biểu tượng của sự phồn thịnh Đại Việt",
           "Dẹp loạn họ Nùng",
+          "Đánh Chiêm Thành (1044)",
           "Giảm thuế cho dân",
           "Củng cố quyền lực nhà Lý"
         ],
-        "suKienLon": [
-          {
-            "nam": 1028,
-            "suKien": "Lên ngôi sau loạn ba vương",
-            "moTa": "Dẹp loạn ba vương và lên ngôi hoàng đế"
-          },
-          {
-            "nam": 1042,
-            "suKien": "Ban hành Hình Thư",
-            "moTa": "Ban hành bộ luật thành văn đầu tiên của Việt Nam"
-          },
-          {
-            "nam": 1044,
-            "suKien": "Đánh Chiêm Thành",
-            "moTa": "Cầm quân đánh thẳng vào kinh đô Chiêm Thành, chém chết vua Chiêm"
-          },
-          {
-            "nam": 1049,
-            "suKien": "Xây chùa Diên Hựu",
-            "moTa": "Xây dựng chùa Một Cột theo giấc mơ thấy Phật Bà Quan Âm"
+        "thongTinChiTiet": {
+          "thanThe": "Lý Thái Tông (29 tháng 7 năm 1000 – 3 tháng 11 năm 1054) là vị hoàng đế thứ hai của triều đại nhà Lý trong lịch sử Việt Nam, cai trị trong 26 năm (1028–1054). Thái Tông Hoàng đế tên thật là Lý Phật Mã, còn có tên khác là Lý Đức Chính, là con trưởng của Lý Thái Tổ (Lý Công Uẩn).",
+          "conCai": "Những người con của Lý Thái Tông gồm: Khai Hoàng Vương Nhật Tôn, là hoàng thái tử, sau là Lý Thánh Tông, Công chúa Trường Ninh, Công chúa Hồng Phúc, Phùng Càn Vương, Công chúa Bình Dương.",
+          "thanhTuuChiTiet": {
+            "quanSu": "Hoàng đế Thái Tông được mô tả uy dũng hơn người, bách chiến bách thắng, trải qua loạn ba vương mà lên ngôi, công danh rạng rỡ triều Lý. Ông củng cố quyền lực cho nhà Lý, bên trong dùng chính sách hòa thân, gả công chúa cho các quan Châu mục, bên cạnh đó còn dẹp loạn đảng làm phản như Loạn họ Nùng; bên ngoài khi giặc Chiêm Thành quấy phá hay giặc cỏ nổi loạn đều bị Lý Thái Tông cầm quân dẹp yên.",
+            "phapLuat": "Trong các vị vua nhà Lý, Vua Lý Thái Tông được xem là vị vua anh minh có nhiều đóng góp to lớn. Năm 1044, ông cho giảm một nửa tiền thuế cho dân. Năm 1042 nhà vua ban ra bộ luật Hình Thư, là bộ luật thành văn đầu tiên của đất nước.",
+            "vanHoa": "Năm 1049, vua Lý Thái Tông cho xây chùa Diên Hựu (là chùa một cột ngày nay). Theo truyền thuyết dân gian, trong một giấc mơ vua Lý Thái Tông đã mơ thấy Phật Bà Quan Âm tọa trên đài sen, sau đó Phật Bà mời nhà vua lên cùng. Tỉnh giấc vua liền kể với bề tôi và nhà sư Thiền Tuệ đã khuyên vua nên dựng chùa như trong giấc mơ."
           }
-        ]
+        }
       },
       {
+        "id": 3,
         "ten": "Lý Thánh Tông",
         "tenThat": "Lý Nhật Tôn",
-        "niênHiệu": ["Long Thụy Thái Bình", "Thiên Thánh Gia Khánh", "Long Chương Thiên Tự", "Thiên Thống Bảo Tượng", "Thần Vũ"],
+        "nienHieu": ["Long Thụy Thái Bình (龍瑞太平): 1054-1058", "Thiên Thánh Gia Khánh (彰聖嘉慶): 1059-1065", "Long Chương Thiên Tự (龍彰天嗣): 1066-1068", "Thiên Thống Bảo Tượng (天貺寶象): 1068-1069", "Thần Vũ (神武): 1069-1072"],
         "ngaySinh": "30/03/1023",
         "ngayMat": "01/02/1072",
-        "thoiGianTriVi": "17 năm (1054-1072)",
+        "thoiGianTriVi": "17 năm 90 ngày, từ 3 tháng 11 năm 1054 – 1 tháng 2 năm 1072",
         "tuoiTho": 48,
         "noiSinh": "Thăng Long",
-        "thanThe": "Con thứ 3 của Lý Thái Tông, mẹ là Linh Cảm hoàng hậu Mai Thị. Sớm tinh thông kinh truyện, rành âm luật, lại giỏi võ nghệ.",
+        "thanThe": "Lý Thánh Tông là vị vua thứ ba của triều đại nhà lý. Ông tên thật là Lý Nhật Tôn, là con thứ 3 của Lý Thái Tông, mẹ là Linh Cảm hoàng hậu Mai Thị. Năm 1028, ông được vua cha Lý Thái Tông lập làm Hoàng thái tử. Thái tử Nhật Tôn sớm tinh thông kinh truyện, rành âm luật, lại giỏi võ nghệ. Ông tỏ ra là người thông minh xuất chúng.",
         "thanhTuu": [
-          "Đổi tên nước thành Đại Việt (1054)",
-          "Xây dựng Văn Miếu (1070)",
-          "Ban Chiếu khuyến nông (1056)",
-          "Đánh Chiêm Thành (1069)",
-          "Mở rộng lãnh thổ về phía Nam",
-          "Phát triển Nho họ"
+          "Đổi tên nước thành Đại Việt",
+          "Phát triển nho giáo và thành lập hệ thống trường đại học Văn Miếu",
+          "Chính sách cai trị khoa hòa và nhân từ",
+          "Đề cao phát triển nông nghiệp",
+          "Xây dựng quân đội Đại Việt Hùng mạnh",
+          "Mở rộng lãnh thổ về phía Nam"
         ],
-        "suKienLon": [
-          {
-            "nam": 1054,
-            "suKien": "Đổi tên nước thành Đại Việt",
-            "moTa": "Đổi quốc hiệu từ Đại Cồ Việt thành Đại Việt"
-          },
-          {
-            "nam": 1056,
-            "suKien": "Ban Chiếu khuyến nông",
-            "moTa": "Ban hành chiếu khuyến nông và đích thân đi thăm hỏi việc đồng áng"
-          },
-          {
-            "nam": 1069,
-            "suKien": "Đánh Chiêm Thành",
-            "moTa": "Đánh Chiêm Thành, bắt được vua Chiêm Chế Củ, sáp nhập ba châu Địa Lý, Ma Linh, Bố Chính"
-          },
-          {
-            "nam": 1070,
-            "suKien": "Xây dựng Văn Miếu",
-            "moTa": "Xây dựng Văn Miếu để thờ Khổng Tử và các bậc hiền tài"
+        "thongTinChiTiet": {
+          "thanThe": "Tháng 8 năm Quý Dậu (1033), ông được vua cha phong tước hiệu Khai Hoàng Vương, cho ở cung Long Đức để học tập. Cũng giống như vua cha, ông sớm được tiếp xúc với dân chúng nên hiểu được nỗi khổ của dân và thông thạo nhiều việc.",
+          "thanhTuuChiTiet": {
+            "doiTenNuoc": "Sau khi lên ngôi vào năm 1054, vua Lý Thánh Tông quyết định đổi tên nước từ Đại Cồ Việt trở thành Đại Việt và mở ra thời kỳ thịnh vượng cho đất nước. Quốc hiệu này đã được sử dụng và kéo dài trong 346 năm cho tới khi Hồ Quý Ly quyết định đổi tên nước thành Đại Ngu vào năm 1400.",
+            "nhoGiao": "Vua Lý Thánh Tông chính là vị vua có công lớn trong việc thành lập Trường Đại học Văn Miếu tại Thăng Long (Hà Nội ngày nay). Nhà vua cho xây dựng hệ thống trường học Văn Miếu, đắp tượng Khổng Tử, mở mang Nho học và khởi xướng việc áp dụng cai trị đất nước của các vị vua của nước Đại Việt ở các vương triều sau.",
+            "chinhSach": "Về việc cai trị, vua Lý Thánh tông được miêu tả là một vị vua nhân từ và có các chính sách cai trị hết sức khoan hòa. Ông thực hiện chủ trương giảm mức phạt cũng như các hình phạt ở trong nước. Cùng với đó chính là việc đốt hết tất cả các vật dụng tra tấn, hành hình ngay sau khi lên ngôi. Vua Lý Thánh Tông đã ban hành việc giảm tô thuế một nửa cho người dân.",
+            "nongNghiep": "Phát triển nông nghiệp là một trong những vấn đề mà vua Lý Thánh Tông rất coi trọng. Năm 1056, vua Lý Thánh Tông đã ban Chiếu khuyến nông và đích thân đi tới các miền quê để khảo sát và xem xét tình hình thực tế việc chăm sóc và gặt lúa người dân trong nước.",
+            "quanDoi": "Vua Lý Thánh Tông còn xây dựng quân đội Đại Việt hùng mạnh, thực hiện chính sách đối ngoại cứng rắn với Đại Tống và mở đất về ba châu Địa Lý, Ma Linh, Bố Chính (nay là một phần thuộc Quảng Bình và Quảng Trị, Bắc Trung Bộ Việt Nam) sau thắng lợi trong cuộc chiến tranh Việt - Chiêm (1069)."
           }
-        ]
+        }
       },
       {
+        "id": 4,
         "ten": "Lý Nhân Tông",
         "tenThat": "Lý Càn Đức",
-        "niênHiệu": ["Thái Ninh", "Anh Vũ Chiêu Thắng", "Quảng Hựu", "Hội Phong", "Long Phù", "Hội Tường Đại Khánh", "Thiên Phù Duệ Vũ", "Thiên Phù Khánh Thọ"],
+        "nienHieu": ["Thái Ninh (1072-1076)", "Anh Vũ Chiêu Thắng (1076-1084)", "Quảng Hựu (1085-1092)", "Hội Phong (1092-1100)", "Long Phù (1101-1109)", "Hội Tường Đại Khánh (1110-1119)", "Thiên Phù Duệ Vũ (1120-1126)", "Thiên Phù Khánh Thọ (1127-1127)"],
         "ngaySinh": "22/02/1066",
         "ngayMat": "15/01/1128",
-        "thoiGianTriVi": "56 năm (1072-1128)",
+        "thoiGianTriVi": "56 năm (1072 – 1128)",
         "tuoiTho": 61,
         "noiSinh": "Cung Động Tiên, Thăng Long",
-        "thanThe": "Con trưởng của Lý Thánh Tông, mẹ là Nguyên phi Ỷ Lan. Lên ngôi khi mới 7 tuổi, là vị vua trị vì lâu nhất trong lịch sử phong kiến Việt Nam.",
+        "thanThe": "Trong số 9 vị vua triều đại nhà Lý, vua Lý Nhân Tông được biết đến trong lịch sử như là một vị vua nắm giữ nhiều cái nhất trong số các đế vương nước Việt. Lý Nhân Tông lên ngôi khi mới 7 tuổi, ông trị vì Đại Việt từ năm 1072 đến năm 1128, tổng cộng gần 56 năm, cũng là vị vua có thời gian trị vì lâu nhất trong lịch sử phong kiến Việt Nam.",
         "thanhTuu": [
           "Tổ chức khoa thi Nho học đầu tiên (1075)",
           "Xây dựng Quốc Tử Giám (1076)",
@@ -153,208 +121,175 @@
           "Phát triển giáo dục và văn hóa",
           "Củng cố quốc phòng"
         ],
-        "suKienLon": [
-          {
-            "nam": 1072,
-            "suKien": "Lên ngôi khi 7 tuổi",
-            "moTa": "Lên ngôi hoàng đế khi mới 7 tuổi, là vị vua trẻ nhất"
-          },
-          {
-            "nam": 1075,
-            "suKien": "Tổ chức khoa thi đầu tiên",
-            "moTa": "Tổ chức khoa thi Nho học đầu tiên, Lê Văn Thịnh đỗ đầu"
-          },
-          {
-            "nam": 1075,
-            "suKien": "Đánh Tống",
-            "moTa": "Lý Thường Kiệt đánh sang đất Tống, chiếm các châu Ung, Khâm, Liêm"
-          },
-          {
-            "nam": 1077,
-            "suKien": "Đánh bại quân Tống",
-            "moTa": "Đánh bại quân Tống tại sông Như Nguyệt, bảo vệ độc lập"
-          },
-          {
-            "nam": 1076,
-            "suKien": "Xây dựng Quốc Tử Giám",
-            "moTa": "Thành lập Quốc Tử Giám, trường đại học đầu tiên của Việt Nam"
+        "thongTinChiTiet": {
+          "thanThe": "Lý Nhân Tông có tên thật là Lý Càn Đức, vua là con trưởng của Lý Thánh Tông, mẹ là Nguyên phi Ỷ Lan (Lê Thị Khiết), theo sử sách mô tả là vị vua có hình dáng, dung mạo rất khác người: 'Trán cao, mắt rồng, tay dài quá gối, sáng suốt thần võ' (Đại Việt sử ký toàn thư); 'vua có xương trán nổi lên như mặt trời, ấy là dáng mặt của bậc thiên tử' (Đại Việt sử lược).",
+          "kyLuc": [
+            "Lý Nhân Tông được phong làm Thái tử sớm nhất: Đối với Lý Càn Đức (sau là Lý Nhân Tông), đây là người được phong làm thái tử sớm nhất, ông sinh giờ Hợi đêm ngày 25 tháng giêng năm Bính Ngọ (1066), vua cha Lý Thánh Tông rất đỗi vui mừng, ngay sáng hôm sau đã lập làm thái tử, đổi niên hiệu, đại xá thiên hạ.",
+            "Lý Nhân Tông là vị vua trị vì lâu nhất trong lịch sử Việt Nam: Ông lên ngôi tháng giêng năm Nhâm Tý (1072) mới 7 tuổi, làm vua đến tháng 12 năm Đinh Mùi (1127) thì mất, ở ngôi 55 năm.",
+            "Là vị vua đặt nhiều niên hiệu nhất: Trong thời gian trị vì của mình, Lý Nhân Tông đã đặt tổng cộng 8 niên hiệu và là vị vua đặt nhiều niên hiệu nhất.",
+            "Sắc lập Hoàng hậu sớm nhất: Lý Nhân Tông là vị vua sắc lập Hoàng hậu sớm nhất trong lịch sử. Tháng giêng năm Nhâm Tý (1072), sau khi vua cha là Lý Thánh Tông băng hà, ông được quần thần tôn lên ngôi hoàng đế khi đó mới 6 tuổi và điều đặc biệt lý thú là một trong những việc mà Lý Nhân Tông làm ngay sau khi lên ngôi đó là lấy vợ.",
+            "Cuộc ra quân Bắc phạt lớn nhất: Từ thế kỷ thứ X nước ta bước vào thời kỳ độc lập tự chủ lâu dài nhưng luôn bị đe dọa bởi nguy cơ xâm lược từ phương bắc, không chỉ cảnh giác đề phòng mà nhiều lần ông cha chúng ta đã chủ động ra quân Bắc phạt không phải để chiếm đất, giành dân mà để răn đe, làm nhụt tham vọng của giặc và đề cao sức mạnh của mình. Trong các trận ra quân ấy, cuộc Bắc phạt dưới thời Lý Nhân Tông là lớn nhất và nổi tiếng nhất trong lịch sử Việt Nam.",
+            "Lý Nhân Tông là vị vua sớm nhất trong lịch sử cho ban chiếu cầu lời nói thẳng: Tờ chiếu này được vua công bố vào tháng 4 năm Bính Thìn (1076)"
+          ],
+          "thanhTuuChiTiet": {
+            "doiNgoai": "Đối ngoại, năm 1075, đế quốc Tống dòm ngó Đại Việt, Nhân Tông sai Lý Thường Kiệt đi đánh, liên tiếp phá tan quân Tống ở 3 châu Ung, Khâm, Liêm (đất Tống) và sông Như Nguyệt (đất Việt). Sau năm 1077, giữa Việt và Tống không còn cuộc chiến lớn nào. Trong khi đó các nước Chiêm Thành, Chân Lạp thần phục Đại Việt, thường gửi sứ sang cống.",
+            "giaoDuc": "Đây là giai đoạn gặp nhiều thử thách của nhà họ Lý, sau khi đánh đuổi được quân nhà Tống, vua Lý Nhân Tông tiếp tục cai trị và mở khoa thi tuyển chọn ra 10 người có năng lực để chiêu mộ vào trong các đại thần. Thời Nhân Tông còn nổi bật với việc tổ chức khoa thi Nho học đầu tiên của Đại Việt (1075) và xây dựng Văn Miếu – Quốc Tử Giám (1076).",
+            "nongNghiep": "Ngoài ra, ông cũng rất quan tâm đến củng cố phát triển nông nghiệp, cấm nạn giết trâu. Thời kỳ hưng thịnh này nhà vua cho mở nhiều cuộc hội họp như đua thuyền, múa rối nước."
           }
-        ]
+        }
       },
       {
+        "id": 5,
         "ten": "Lý Thần Tông",
         "tenThat": "Lý Dương Hoán",
-        "niênHiệu": ["Thiên Thuận", "Thiên Chương Bảo Tự"],
+        "nienHieu": ["Thiên Thuận (1128-1132)", "Thiên Chương Bảo Tự (1133-1137)"],
         "ngaySinh": "1116",
         "ngayMat": "31/10/1138",
-        "thoiGianTriVi": "10 năm (1128-1138)",
+        "thoiGianTriVi": "10 năm (15/01/1128 - 31/10/1138)",
         "tuoiTho": 22,
         "noiSinh": "Thăng Long",
-        "thanThe": "Con trai của Sùng Hiền hầu và bà phu nhân họ Đỗ. Là vua duy nhất nhà Lý được kế vị không phải do vua cha truyền lại. Mắc bệnh kỳ lạ được sư Minh Không chữa khỏi.",
+        "thanThe": "Lý Thần Tông tên thật là Lý Dương Hoán, lên ngôi tháng 12, năm Đinh Mùi (tức 15/1/1128). Ông là vị vua thứ năm của triều đại nhà Lý nước Đại Việt, trị vì từ năm 1128 đến khi qua đời năm 1138, tổng cộng là 10 năm. Lý Thần Tông là vua duy nhất nhà Lý được kế vị ngai vàng không phải do vua cha truyền lại.",
         "thanhTuu": [
           "Thực hiện chính sách ngụ binh ư nông",
-          "Mở rộng xây chùa, tô tượng",
+          "Mở rộng xây dựng chùa chiền",
           "Duy trì quan hệ tốt với các nước láng giềng",
-          "Phát triển nông nghiệp"
+          "Kế thừa di sản tư tưởng nhân văn quân sự",
+          "Tô tượng, khánh thành bảo tháp"
         ],
-        "suKienLon": [
-          {
-            "nam": 1128,
-            "suKien": "Lên ngôi",
-            "moTa": "Lên ngôi sau khi Lý Nhân Tông qua đời"
-          },
-          {
-            "nam": 1138,
-            "suKien": "Qua đời sớm",
-            "moTa": "Qua đời khi mới 22 tuổi, để lại nhiều tiếc nuối"
+        "imageUrl": "assets/img/ly-than-tong-1.jpg",
+        "sketchfabId": "ly-than-tong-3d",
+        "thongTinChiTiet": {
+          "thanThe": "Lý Thần Tông được sinh vào tháng 6 năm Bính Thân (1116) tại hầu phủ ở kinh đô Thăng Long, ông là con trai của Sùng Hiền hầu và bà phu nhân họ Đỗ (không rõ tên). Dân gian truyền tụng ông là 'kiếp sau' của nhà sư Từ Đạo Hạnh.",
+          "kyLuc": [
+            "Lý Thần Tông là vị vua mắc căn bệnh kỳ lạ nhất: Theo sử chép thì năm 21 tuổi ông bị căn bệnh không thầy thuốc nào chẩn trị được, còn giai thoại dân gian nói vua hóa hổ, mình mẩy mọc đầy lông lá, tâm thần rối loạn, tiếng kêu đau đớn nghe như tiếng cọp gầm rú.",
+            "Vua duy nhất nhà Lý được kế vị ngai vàng không phải do vua cha truyền lại"
+          ],
+          "thanhTuuChiTiet": {
+            "nongNghiep": "Trong các triều đại trước ngụ binh ư nông đã được nghiên cứu như một ý tưởng và thực hiện ở một vài nơi, nhưng chưa thành chính sách cụ thể của quốc gia. Từ thực tiễn của đất nước và mối quan hệ giữa nhà binh với nhà nông, vua Lý Thần Tông đã quyết định thực hiện chính sách ngụ binh ư nông trong phạm vi cả nước, coi đó là chính sách của quốc gia trong việc kết hợp kinh tế với củng cố quốc phòng.",
+            "phatGiao": "Ông cũng rất tin đạo phật, Lý Thần Tông thể hiện sự quan tâm bằng việc mở rộng xây chùa, tô tượng, khánh thành bảo tháp được tiến hành thường xuyên."
           }
-        ]
+        }
       },
       {
+        "id": 6,
         "ten": "Lý Anh Tông",
         "tenThat": "Lý Thiên Tộ",
-        "niênHiệu": ["Thiệu Minh", "Đại Định", "Chính Long Bảo Ứng", "Thiên Cảm Chí Bảo"],
-        "ngaySinh": "04/1136",
+        "nienHieu": ["Thiệu Minh (1138-1139)", "Đại Định (1140-1162)", "Chính Long Bảo Ứng (1163-1173)", "Thiên Cảm Chí Bảo (1174-1175)"],
+        "ngaySinh": "1136",
         "ngayMat": "14/08/1175",
-        "thoiGianTriVi": "37 năm (1138-1175)",
+        "thoiGianTriVi": "37 năm (31/10/1138 - 14/08/1175)",
         "tuoiTho": 39,
         "noiSinh": "Thăng Long",
-        "thanThe": "Con trưởng của Lý Thần Tông và mẹ Lê Thái Hậu. Lên ngôi khi mới 3 tuổi, mẹ làm nhiếp chính. Bị Đỗ Anh Vũ chuyên quyền.",
+        "thanThe": "Lý Anh Tông là vị vua thứ sáu của triều đại nhà Lý trong lịch sử Việt Nam, trị vì từ năm 1138 tới năm 1175, tổng cộng 37 năm. Thời của Lý Anh Tông, ông là vị vua cho huy động một lực lượng đông nhất trong lịch sử để trấn áp tội phạm.",
         "thanhTuu": [
-          "Huy động lực lượng lớn trấn áp tội phạm",
-          "Đánh quân Chiêm Thành, Ngưu Hống",
-          "Ngăn Ai Lao xâm nhập biên cương",
-          "Đặt ra Xạ Đình cho quân võ luyện tập"
+          "Huy động lực lượng lớn nhất để trấn áp tội phạm",
+          "Đánh dẹp các đảng cướp với 10 vạn quân",
+          "Đích thân vi hành khắp các xứ",
+          "Đặt ra Xạ Đình cho quan võ luyện tập",
+          "Đánh quân Chiêm Thành, Ngưu Hống"
         ],
-        "suKienLon": [
-          {
-            "nam": 1138,
-            "suKien": "Lên ngôi khi 3 tuổi",
-            "moTa": "Lên ngôi khi mới 3 tuổi, mẹ làm nhiếp chính"
-          },
-          {
-            "nam": 1163,
-            "suKien": "Trấn áp tội phạm",
-            "moTa": "Sai Phí Công Tín đem 10 vạn quân đi đánh dẹp các đảng cướp"
-          },
-          {
-            "nam": 1175,
-            "suKien": "Qua đời",
-            "moTa": "Qua đời, truyền ngôi cho con thứ 6 là Lý Long Trát"
+        "imageUrl": "assets/img/ly-anh-tong-1.jpg",
+        "sketchfabId": "ly-anh-tong-3d",
+        "thongTinChiTiet": {
+          "thanThe": "Vua Anh Tông tên thật là Lý Thiên Tộ, là con trưởng của vua Lý Thần Tông và mẹ Lê Thái Hậu. Năm 1138, vua Thần Tông mất sớm, nên thái tử Thiên Tộ mới 3 tuổi đã lên ngôi, lấy hiệu là Anh Tông. Mẹ ông là Thái hậu họ Lê được tôn làm nhiếp chính.",
+          "thanhTuuChiTiet": {
+            "quanSu": "Năm 1158, Đỗ Anh Vũ chết, vua Anh Tông phong Tô Hiến Thành làm thái úy. Tô Hiến Thành giúp Anh Tông rất đắc lực; tiến hành đem quân đi tuần nơi biên giới, đánh quân Chiêm Thành, Ngưu Hống, ngăn Ai Lao xâm nhập biên cương phía tây.",
+            "chinhSach": "Vua Anh Tông còn đích thân vi hành khắp các xứ, biết sự đau khổ của dân gian cũng như đường đi xa gần. Nhà vua đặt ra Xạ Đình, sai các quan võ hàng ngày luyện tập binh pháp."
           }
-        ]
+        }
       },
       {
+        "id": 7,
         "ten": "Lý Cao Tông",
         "tenThat": "Lý Long Trát",
-        "niênHiệu": ["Trinh Phù", "Thiên Tư Gia Thụy", "Thiên Gia Bảo Hựu", "Trị Bình Long Ứng"],
+        "nienHieu": ["Trinh Phù (1176-1185)", "Thiên Tư Gia Thụy (1186-1201)", "Thiên Gia Bảo Hựu (1202-1204)", "Trị Bình Long Ứng (1205-1210)"],
         "ngaySinh": "06/07/1173",
         "ngayMat": "15/11/1210",
-        "thoiGianTriVi": "35 năm (1175-1210)",
+        "thoiGianTriVi": "35 năm (14/08/1175 - 15/11/1210)",
         "tuoiTho": 37,
         "noiSinh": "Thăng Long",
-        "thanThe": "Con trai thứ 6 của Lý Anh Tông, mẹ là Đỗ Thuỵ Châu. Lên ngôi khi mới 3 tuổi. Thời kỳ của ông đánh dấu sự suy tàn của nhà Lý.",
+        "thanThe": "Lý Cao Tông là vị vua thứ bảy của nhà Lý, cai trị từ năm 1175 đến năm 1210. Thời kỳ của ông đánh dấu sự suy tàn không thể vực dậy của triều đại nhà Lý hay còn gọi là Cao Tông Trung Suy (高宗中衰).",
         "thanhTuu": [
           "Xây dựng nhiều cung điện, lầu gác",
+          "Xây dựng điện Vĩnh Ninh, gác Kính Thiên",
           "Xây dựng hơn 100 hành cung",
-          "Duy trì quyền lực trong thời loạn lạc"
+          "Xây cung Nghênh Thiềm"
         ],
-        "suKienLon": [
-          {
-            "nam": 1175,
-            "suKien": "Lên ngôi khi 3 tuổi",
-            "moTa": "Lên ngôi khi mới 3 tuổi, bắt đầu thời kỳ suy tàn"
-          },
-          {
-            "nam": 1197,
-            "suKien": "Xây dựng hành cung",
-            "moTa": "Xây cung Nghênh Thiềm và hành cung hơn 100 nơi"
-          },
-          {
-            "nam": 1208,
-            "suKien": "Loạn Quách Bốc",
-            "moTa": "Có loạn Quách Bốc, vua chạy lên vùng Tam Nông"
-          },
-          {
-            "nam": 1210,
-            "suKien": "Qua đời",
-            "moTa": "Qua đời ở cung Thánh Thọ, thọ 38 tuổi"
+        "imageUrl": "assets/img/ly-cao-tong-1.jpg",
+        "sketchfabId": "ly-cao-tong-3d",
+        "thongTinChiTiet": {
+          "thanThe": "Vua Lý Cao Tông tên thật là Lý Long Trát (hay Lý Long Cán), là con trai thứ 6 của vua Lý Anh Tông, mẹ ông là Đỗ Thuỵ Châu. Ông sinh ngày 06 tháng 07 năm 1173 nhằm ngày 25-05 Quý Tỵ (1173) tại kinh đô Thăng Long, Hà Nội, Việt Nam.",
+          "kyLuc": [
+            "Lý Cao Tông là vị vua ưa thích phô trương nhất",
+            "Lên ngôi khi mới 3 tuổi",
+            "Thời kỳ đánh dấu sự suy tàn của nhà Lý"
+          ],
+          "thanhTuuChiTiet": {
+            "xayDung": "Lý Cao Tông là vị vua ưa thích phô trương nhất, ông sai xây dựng và sửa chữa nhiều cung điện, lầu gác sao cho thật to đẹp, lộng lẫy như điện Vĩnh Ninh, gác Kính Thiên… Ông còn cho xây dựng nhiều hành cung nhất; tháng 3 năm Đinh Tị (1197) vua cho 'xây cung Nghênh Thiềm và hành cung hơn 100 nơi' (Đại Việt sử lược)."
           }
-        ]
+        }
       },
       {
+        "id": 8,
         "ten": "Lý Huệ Tông",
         "tenThat": "Lý Sảm",
-        "niênHiệu": ["Kiến Gia"],
-        "ngaySinh": "07/1194",
+        "nienHieu": ["Kiến Gia (1210-1224)"],
+        "ngaySinh": "1194",
         "ngayMat": "03/09/1226",
-        "thoiGianTriVi": "14 năm (1210-1224)",
+        "thoiGianTriVi": "14 năm (15/11/1210 - 10/1224)",
         "tuoiTho": 32,
         "noiSinh": "Thăng Long",
-        "thanThe": "Con trưởng của Lý Cao Tông, mẹ là hoàng hậu họ Đàm. Được đánh giá là vị vua thăng trầm nhất, bệnh hiểm, điên loạn, không có con trai nối dõi.",
+        "thanThe": "Trong số 9 vị vua triều đại nhà Lý, Lý Huệ Tông được đánh giá là vị vua thăng trầm nhất: bệnh hiểm, điên loạn, không có con trai nối dõi và cuối cùng bị bức tử. Ông cũng được xem là vị vua có cuộc đời bất hạnh nhất trong các đời vua Việt Nam.",
         "thanhTuu": [
-          "Duy trì triều đình trong thời loạn lạc",
-          "Nhường ngôi cho con gái"
+          "Nhường ngôi cho con gái Lý Chiêu Hoàng",
+          "Trở thành Thái thượng hoàng",
+          "Đi tu ở chùa Bát Tháp"
         ],
-        "suKienLon": [
-          {
-            "nam": 1210,
-            "suKien": "Lên ngôi",
-            "moTa": "Lên ngôi trong thời kỳ loạn lạc"
-          },
-          {
-            "nam": 1212,
-            "suKien": "Đánh phản loạn thất bại",
-            "moTa": "Tự dẫn quân đánh phản loạn ở ngoại thành Thăng Long bị đại bại"
-          },
-          {
-            "nam": 1216,
-            "suKien": "Mắc bệnh trúng phong",
-            "moTa": "Mắc bệnh trúng phong, không thầy thuốc nào chữa được"
-          },
-          {
-            "nam": 1224,
-            "suKien": "Nhường ngôi",
-            "moTa": "Nhường ngôi cho con gái là Lý Chiêu Hoàng"
-          },
-          {
-            "nam": 1226,
-            "suKien": "Bị bức tử",
-            "moTa": "Bị bức tử, thọ 33 tuổi"
+        "imageUrl": "assets/img/ly-hue-tong-1.jpg",
+        "sketchfabId": "ly-hue-tong-3d",
+        "thongTinChiTiet": {
+          "thanThe": "Lý Huệ Tông là vị vua thứ tám của nhà Lý, cai trị từ năm 1211 đến năm 1224. Ông tên thật là Lý Sảm hay Lý Hạo Sảm, sinh tại kinh đô Thăng Long, Hà Nội, Việt Nam. Lý Sảm là con trưởng của Lý Cao Tông, mẹ là hoàng hậu họ Đàm, sinh tháng 7 năm Giáp Dần (1194).",
+          "kyLuc": [
+            "Vị vua thăng trầm nhất trong lịch sử Việt Nam",
+            "Vị vua có cuộc đời bất hạnh nhất",
+            "Bị cướp mất các vật dụng biểu tượng cho vương quyền nhiều lần nhất",
+            "Mắc bệnh trúng phong không chữa được"
+          ],
+          "thanhTuuChiTiet": {
+            "chinhSach": "Năm 1224, bệnh vua càng nặng hơn, dưới sức ép của Trần Thủ Độ, ông chính thức nhường ngôi lại cho con gái là công chúa Chiêu Thánh mới lên 8 tuổi, tức là Lý Chiêu Hoàng. Huệ Tông lên làm Thái thượng hoàng và đi tu ở chùa Bát Tháp, lấy pháp danh là Huệ Quang Đại sư."
           }
-        ]
+        }
       },
       {
+        "id": 9,
         "ten": "Lý Chiêu Hoàng",
         "tenThat": "Lý Phật Kim",
-        "niênHiệu": ["Thiên Chương Hữu Đạo"],
-        "ngaySinh": "09/1218",
-        "ngayMat": "03/1278",
-        "thoiGianTriVi": "1 năm (1224-1225)",
+        "nienHieu": ["Thiên Chương Hữu Đạo (1224-1225)"],
+        "ngaySinh": "1218",
+        "ngayMat": "1278",
+        "thoiGianTriVi": "1 năm (10/1224 - 10/01/1226)",
         "tuoiTho": 61,
         "noiSinh": "Thăng Long",
-        "thanThe": "Con gái của Lý Huệ Tông. Là nữ hoàng đầu tiên và duy nhất trong lịch sử phong kiến Việt Nam. Lên ngôi khi mới 6 tuổi.",
+        "thanThe": "Lý Chiêu Hoàng hay Chiêu Thánh Hoàng hậu là nữ hoàng của đế quốc Đại Việt, cũng là vị vua cuối cùng của triều đại nhà Lý, trị vì từ năm 1224 đến năm 1225. Bà là nữ hoàng đầu tiên và cũng là duy nhất trong lịch sử 10 triều đại phong kiến Việt Nam.",
         "thanhTuu": [
-          "Trở thành nữ hoàng đầu tiên Việt Nam",
-          "Nhường ngôi cho Trần Cảnh"
+          "Nữ hoàng đầu tiên và duy nhất trong lịch sử phong kiến Việt Nam",
+          "Vị vua cuối cùng của triều đại nhà Lý",
+          "Nhường ngôi cho Trần Cảnh, mở ra nhà Trần"
         ],
-        "suKienLon": [
-          {
-            "nam": 1224,
-            "suKien": "Lên ngôi nữ hoàng",
-            "moTa": "Lên ngôi khi mới 6 tuổi, trở thành nữ hoàng đầu tiên"
-          },
-          {
-            "nam": 1225,
-            "suKien": "Nhường ngôi cho Trần Cảnh",
-            "moTa": "Nhường ngôi cho Trần Cảnh, kết thúc triều Lý"
-          },
-          {
-            "nam": 1278,
-            "suKien": "Qua đời",
-            "moTa": "Qua đời ở Cổ Pháp, thọ 61 tuổi"
+        "imageUrl": "assets/img/ly-chieu-hoang-1.jpg",
+        "sketchfabId": "ly-chieu-hoang-3d",
+        "thongTinChiTiet": {
+          "thanThe": "Tháng 10 năm Giáp Thân (1224) Điện tiền chỉ huy sứ Trần Thủ Độ (anh họ Trần Thị Dung) - người nắm quyền lực lớn nhất trong triều đình thời bấy giờ - đã buộc vua xuống chiếu lập Chiêu Thánh làm Hoàng Thái tử, nhường ngôi cho cô công chúa mới 6 tuổi, niên hiệu là Thiên Chương Hữu Đạo.",
+          "kyLuc": [
+            "Nữ hoàng đầu tiên và duy nhất trong lịch sử 10 triều đại phong kiến Việt Nam",
+            "Lên ngôi khi mới 6 tuổi",
+            "Vị vua cuối cùng của triều đại nhà Lý",
+            "Không được thờ tại Đền Đô cùng 8 vị vua khác"
+          ],
+          "thanhTuuChiTiet": {
+            "chinhSach": "Tháng 11 năm Ất Dậu (1225), Lý Chiêu Hoàng xuống chiếu nhường ngôi cho Trần Cảnh. Một tháng sau, triều đình mở hội lớn ở điện Thiên An, Chiêu Hoàng ngự trên sập báu, các quan mặc triều phục vào chầu, lạy ở dưới sân. Chiêu Hoàng trút bỏ áo ngự mời Trần Cảnh lên ngôi hoàng đế và trở thành vị vua đầu tiên của nhà Trần."
           }
-        ]
+        }
       }
     ],
     "chinhTri": {
